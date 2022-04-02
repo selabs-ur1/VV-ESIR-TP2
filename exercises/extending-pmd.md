@@ -23,3 +23,10 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+JUGIEAU - BARTHELAT
+
+The deeply nested ifs are only detected if there are 3 or more ifs, 2 ifs do not trigger any warning. The ifs are detected even if there is a while in between.
+
+We tested the rule with the “Commons Lang” project and we found out that there are quite a few deeply nested if statements in the code.
+
+

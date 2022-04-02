@@ -1,0 +1,14 @@
+<ruleset name="myruleset"
+   	 xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
+   	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   	 xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 https://pmd.sourceforge.io/ruleset_2_0_0.xsd">
+    <rule name= "oui" ref="category/java/design.xml/AvoidDeeplyNestedIfStmts">
+    	<description>
+   	 Custom Ruleset
+    	</description>
+    	<properties>
+   	 <property name="problemDepth" value="3" />
+    	</properties>
+    </rule>
+</ruleset>
+
