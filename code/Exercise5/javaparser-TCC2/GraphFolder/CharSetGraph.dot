@@ -1,0 +1,17 @@
+strict graph ip_map {
+add--contains;
+add--getCharRanges;
+add--hashCode;
+add--equals;
+add--toString;
+contains--getCharRanges;
+contains--hashCode;
+contains--equals;
+contains--toString;
+getCharRanges--hashCode;
+getCharRanges--equals;
+getCharRanges--toString;
+hashCode--equals;
+hashCode--toString;
+equals--toString;
+}

@@ -1,0 +1,15 @@
+strict graph ip_map {
+getArch--is32Bit;
+getArch--is64Bit;
+isX86--isAarch64;
+isX86--isIA64;
+isX86--isPPC;
+isX86--getType;
+isAarch64--isIA64;
+isAarch64--isPPC;
+isAarch64--getType;
+isIA64--isPPC;
+isIA64--getType;
+isPPC--getType;
+is32Bit--is64Bit;
+}

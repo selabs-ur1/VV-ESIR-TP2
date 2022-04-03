@@ -1,0 +1,10 @@
+strict graph ip_map {
+acquirePermit--endOfPeriod;
+acquirePermit--getAcquireCount;
+getLimit--setLimit;
+getAcquireCount--endOfPeriod;
+getLastAcquiresPerPeriod--endOfPeriod;
+prepareAcquire--shutdown;
+endOfPeriod--getAverageCallsPerPeriod;
+shutdown--isShutdown;
+}

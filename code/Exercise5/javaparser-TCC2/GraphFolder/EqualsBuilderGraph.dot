@@ -1,0 +1,27 @@
+strict graph ip_map {
+reflectionAppend--reflectionEquals;
+reflectionAppend--setEquals;
+reflectionAppend--setExcludeFields;
+reflectionAppend--reset;
+reflectionAppend--appendSuper;
+reflectionAppend--isEquals;
+reflectionAppend--setTestTransients;
+reflectionAppend--append;
+reflectionEquals--setTestRecursive;
+reflectionEquals--setReflectUpToClass;
+reflectionEquals--setExcludeFields;
+reflectionEquals--setTestTransients;
+getRegistry--unregister;
+getRegistry--register;
+unregister--register;
+appendSuper--setEquals;
+appendSuper--reset;
+appendSuper--isEquals;
+appendSuper--append;
+setEquals--reset;
+setEquals--isEquals;
+setEquals--append;
+reset--isEquals;
+reset--append;
+isEquals--append;
+}

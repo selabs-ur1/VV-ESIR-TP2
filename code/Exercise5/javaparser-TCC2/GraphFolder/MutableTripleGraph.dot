@@ -1,0 +1,5 @@
+strict graph ip_map {
+getRight--setRight;
+setMiddle--getMiddle;
+setLeft--getLeft;
+}

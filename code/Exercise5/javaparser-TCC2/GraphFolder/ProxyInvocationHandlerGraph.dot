@@ -1,0 +1,20 @@
+strict graph ip_map {
+getListeners--writeObject;
+getListeners--removeListener;
+getListeners--initializeTransientFields;
+getListeners--addListener;
+getListeners--getListenerCount;
+getListeners--readObject;
+createProxy--fire;
+writeObject--removeListener;
+writeObject--initializeTransientFields;
+writeObject--addListener;
+writeObject--getListenerCount;
+writeObject--readObject;
+removeListener--addListener;
+removeListener--getListenerCount;
+removeListener--readObject;
+addListener--getListenerCount;
+addListener--readObject;
+getListenerCount--readObject;
+}

@@ -1,0 +1,16 @@
+strict graph ip_map {
+namingPattern--reset;
+namingPattern--getNamingPattern;
+priority--getPriority;
+priority--reset;
+getThreadCount--initializeThread;
+uncaughtExceptionHandler--reset;
+wrappedFactory--reset;
+wrappedFactory--getWrappedFactory;
+daemon--getDaemonFlag;
+daemon--reset;
+getDaemonFlag--reset;
+getPriority--reset;
+reset--getWrappedFactory;
+reset--getNamingPattern;
+}

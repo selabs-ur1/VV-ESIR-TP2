@@ -1,0 +1,12 @@
+strict graph ip_map {
+getValue--hashCode;
+getValue--setValue;
+getValue--equals;
+getValue--toString;
+hashCode--setValue;
+hashCode--equals;
+hashCode--toString;
+setValue--equals;
+setValue--toString;
+equals--toString;
+}

@@ -23,3 +23,24 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+To see if our rules would work, we used this class:
+
+``
+class Foo{
+    void foo(){
+        for(int i=0; i<5; i++){
+            if(true){
+                if(true){
+                    while(true){
+                        if(true){
+                            if(true){
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+``
+in XPath, // means the descendant, so if we make a rule //IfStatement//IfStatement//IfStatement, it will try to find an If statement descendant of the root, then an other If statement but this time descendant of the first If, and then a third one with the same method.

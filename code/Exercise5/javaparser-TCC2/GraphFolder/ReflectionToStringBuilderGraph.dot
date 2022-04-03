@@ -1,0 +1,11 @@
+strict graph ip_map {
+getUpToClass--setUpToClass;
+setAppendTransients--isAppendTransients;
+isAppendStatics--setAppendStatics;
+isExcludeNullValues--appendFieldsIn;
+isExcludeNullValues--setExcludeNullValues;
+appendFieldsIn--setExcludeNullValues;
+accept--setExcludeFieldNames;
+accept--getExcludeFieldNames;
+setExcludeFieldNames--getExcludeFieldNames;
+}

@@ -1,0 +1,22 @@
+strict graph ip_map {
+readArgumentIndex--insertFormats;
+readArgumentIndex--getFormat;
+readArgumentIndex--parseFormatDescription;
+readArgumentIndex--applyPattern;
+insertFormats--appendQuotedString;
+insertFormats--getFormat;
+insertFormats--parseFormatDescription;
+insertFormats--applyPattern;
+toPattern--hashCode;
+toPattern--equals;
+toPattern--applyPattern;
+parseFormatDescription--appendQuotedString;
+parseFormatDescription--applyPattern;
+hashCode--equals;
+hashCode--getFormat;
+hashCode--applyPattern;
+equals--getFormat;
+equals--applyPattern;
+appendQuotedString--applyPattern;
+getFormat--applyPattern;
+}

@@ -1,0 +1,16 @@
+strict graph ip_map {
+getDefaultStyle--setDefaultStyle;
+getStyle--appendSuper;
+getStyle--toString;
+getStyle--append;
+getStyle--appendToString;
+appendSuper--toString;
+appendSuper--getStringBuffer;
+appendSuper--append;
+appendSuper--appendToString;
+toString--append;
+toString--appendToString;
+getStringBuffer--append;
+getStringBuffer--appendToString;
+append--appendToString;
+}

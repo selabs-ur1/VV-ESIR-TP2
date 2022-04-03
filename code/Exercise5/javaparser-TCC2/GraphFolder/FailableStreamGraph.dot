@@ -1,0 +1,9 @@
+strict graph ip_map {
+instancesOf--stream;
+instancesOf--failableStream;
+instancesOf--map;
+failableStream--stream;
+failableStream--map;
+makeTerminated--assertNotTerminated;
+stream--map;
+}

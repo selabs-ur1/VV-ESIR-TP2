@@ -1,0 +1,12 @@
+strict graph ip_map {
+changeStateAndStartNewCheckInterval--performStateCheck;
+changeStateAndStartNewCheckInterval--updateCheckIntervalData;
+changeStateAndStartNewCheckInterval--close;
+changeStateAndStartNewCheckInterval--open;
+updateCheckIntervalData--performStateCheck;
+updateCheckIntervalData--close;
+updateCheckIntervalData--open;
+performStateCheck--close;
+performStateCheck--open;
+close--open;
+}

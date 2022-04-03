@@ -1,3 +1,4 @@
-# Code of your exercise
+# Code for the No-getter
 
-Put here all the code created for this exercise
+This project create a "TCCReport.txt" file in the root folder of the project.
+Each line of this file describes a private variable that does not have a getter by stating its package and class.

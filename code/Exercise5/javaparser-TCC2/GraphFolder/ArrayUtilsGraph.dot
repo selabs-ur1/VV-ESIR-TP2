@@ -1,0 +1,12 @@
+strict graph ip_map {
+indexesOf--lastIndexOf;
+indexesOf--contains;
+indexesOf--removeElement;
+indexesOf--indexOf;
+indexOf--lastIndexOf;
+indexOf--contains;
+indexOf--removeElement;
+lastIndexOf--contains;
+lastIndexOf--removeElement;
+contains--removeElement;
+}

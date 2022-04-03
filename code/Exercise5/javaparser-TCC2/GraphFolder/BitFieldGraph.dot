@@ -1,0 +1,18 @@
+strict graph ip_map {
+set--isSet;
+set--setValue;
+set--clear;
+set--getRawValue;
+set--isAllSet;
+isSet--setValue;
+isSet--clear;
+isSet--getRawValue;
+isSet--isAllSet;
+clear--setValue;
+clear--getRawValue;
+clear--isAllSet;
+getRawValue--setValue;
+getRawValue--isAllSet;
+getValue--setValue;
+setValue--isAllSet;
+}

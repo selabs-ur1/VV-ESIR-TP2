@@ -1,0 +1,16 @@
+strict graph ip_map {
+getObject--reentrantReadWriteLockVisitor;
+getObject--stampedLockVisitor;
+getObject--lockAcceptUnlock;
+getObject--lockApplyUnlock;
+getLock--lockAcceptUnlock;
+getLock--lockApplyUnlock;
+applyReadLocked--acceptReadLocked;
+reentrantReadWriteLockVisitor--stampedLockVisitor;
+reentrantReadWriteLockVisitor--lockAcceptUnlock;
+reentrantReadWriteLockVisitor--lockApplyUnlock;
+acceptWriteLocked--applyWriteLocked;
+stampedLockVisitor--lockAcceptUnlock;
+stampedLockVisitor--lockApplyUnlock;
+lockAcceptUnlock--lockApplyUnlock;
+}
