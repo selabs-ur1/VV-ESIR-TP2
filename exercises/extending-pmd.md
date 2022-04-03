@@ -23,3 +23,48 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+We have made a custom PMD rule using Xpath
+```xml
+<?xml version="1.0"?>
+<ruleset>
+	<rule name="ThreeNestedFor"
+		  language="java"
+		  message="At most 2 nested FOR loop"
+		  class="net.sourceforge.pmd.lang.rule.XPathRule">
+	   <description>
+
+	   </description>
+	   <priority>1</priority>
+	   <properties>
+		  <property name="version" value="2.0"/>
+		  <property name="xpath">
+		     <value>
+	<![CDATA[
+	//ForStatement/*/*/*/*/ForStatement/*/*/*/*/ForStatement
+	]]>
+		     </value>
+		  </property>
+	   </properties>
+	</rule>
+</ruleset>
+```
+
+Using it with PMD on Apache commons math gives us :
+
+```
+/commons-math-master/commons-math-legacy/src/test/java/org/apache/commons/math4/legacy/analysis/interpolation/TricubicInterpolatorTest.java:200 : ThreeNestedFor:	At most 2 nested FOR loop
+```
+
+If we check the <b>TricubicInterpolatorTest.java</b> file at line 200
+
+```java
+        for (int i = 0; i < xval.length; i++) {
+            for (int j = 0; j < yval.length; j++) {
+                for (int k = 0; k < zval.length; k++) {
+                    fval[i][j][k] = f.value(xval[i], yval[j], zval[k]);
+                }
+            }
+        }
+```
+
+We have successfully detected a 3 nested loop patern in a code base.

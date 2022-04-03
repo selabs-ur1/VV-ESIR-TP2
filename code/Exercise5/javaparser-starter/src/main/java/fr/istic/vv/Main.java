@@ -1,0 +1,37 @@
+package fr.istic.vv;
+
+import com.github.javaparser.utils.SourceRoot;
+
+import java.io.File;
+import java.io.IOException;
+
+public class Main {
+
+	public static void main(String[] args) throws IOException {
+		if (args.length == 0) {
+			System.err.println("Should provide the path to the source code");
+			System.exit(1);
+		}
+
+		File file = new File(args[0]);
+		if (!file.exists() || !file.isDirectory() || !file.canRead()) {
+			System.err.println("Provide a path to an existing readable directory");
+			System.exit(2);
+		}
+
+		SourceRoot root = new SourceRoot(file.toPath());
+
+		TCC_Calculator printerTCC = new TCC_Calculator();
+		//PublicElementsPrinter printer = new PublicElementsPrinter();
+		//PrivateElementsPrinter printerPrivate = new PrivateElementsPrinter();
+
+		root.parse("", (localPath, absolutePath, result) -> {
+			result.ifSuccessful(unit -> unit.accept(printerTCC, null));
+			return SourceRoot.Callback.Result.DONT_SAVE;
+		});
+
+		int[] hist = printerTCC.histogram(10);
+		printerTCC.printHist(hist,0.5);
+	}
+
+}
