@@ -1,0 +1,2756 @@
+In package : org.apache.commons.collections4.ArrayStack
+  In class or interface : ArrayStack
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.bag.AbstractBagDecorator
+  In class or interface : AbstractBagDecorator
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.bag.AbstractMapBag.BagIterator
+  In class or interface : BagIterator
+    The field parent has no getter
+
+In package : org.apache.commons.collections4.bag.AbstractMapBag.BagIterator
+  In class or interface : BagIterator
+    The field entryIterator has no getter
+
+In package : org.apache.commons.collections4.bag.AbstractMapBag.BagIterator
+  In class or interface : BagIterator
+    The field current has no getter
+
+In package : org.apache.commons.collections4.bag.AbstractMapBag.BagIterator
+  In class or interface : BagIterator
+    The field itemCount has no getter
+
+In package : org.apache.commons.collections4.bag.AbstractMapBag.BagIterator
+  In class or interface : BagIterator
+    The field mods has no getter
+
+In package : org.apache.commons.collections4.bag.AbstractMapBag.BagIterator
+  In class or interface : BagIterator
+    The field canRemove has no getter
+
+In package : org.apache.commons.collections4.bag.AbstractMapBag
+  In class or interface : AbstractMapBag
+    The field map has no getter
+
+In package : org.apache.commons.collections4.bag.AbstractMapBag
+  In class or interface : AbstractMapBag
+    The field size has no getter
+
+In package : org.apache.commons.collections4.bag.AbstractMapBag
+  In class or interface : AbstractMapBag
+    The field modCount has no getter
+
+In package : org.apache.commons.collections4.bag.AbstractMapBag
+  In class or interface : AbstractMapBag
+    The field uniqueSet has no getter
+
+In package : org.apache.commons.collections4.bag.AbstractSortedBagDecorator
+  In class or interface : AbstractSortedBagDecorator
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.bag.CollectionBag
+  In class or interface : CollectionBag
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.bag.CollectionSortedBag
+  In class or interface : CollectionSortedBag
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.bag.HashBag
+  In class or interface : HashBag
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.bag.PredicatedBag
+  In class or interface : PredicatedBag
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.bag.PredicatedSortedBag
+  In class or interface : PredicatedSortedBag
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.bag.SynchronizedBag.SynchronizedBagSet
+  In class or interface : SynchronizedBagSet
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.bag.SynchronizedBag
+  In class or interface : SynchronizedBag
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.bag.SynchronizedSortedBag
+  In class or interface : SynchronizedSortedBag
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.bag.TransformedBag
+  In class or interface : TransformedBag
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.bag.TransformedSortedBag
+  In class or interface : TransformedSortedBag
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.bag.TreeBag
+  In class or interface : TreeBag
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.bag.UnmodifiableBag
+  In class or interface : UnmodifiableBag
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.bag.UnmodifiableSortedBag
+  In class or interface : UnmodifiableSortedBag
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.bidimap.AbstractDualBidiMap.View
+  In class or interface : View
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.bidimap.AbstractDualBidiMap.KeySet
+  In class or interface : KeySet
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.bidimap.AbstractDualBidiMap.Values
+  In class or interface : Values
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.bidimap.AbstractDualBidiMap.EntrySet
+  In class or interface : EntrySet
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.bidimap.DualHashBidiMap
+  In class or interface : DualHashBidiMap
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.bidimap.DualLinkedHashBidiMap
+  In class or interface : DualLinkedHashBidiMap
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.bidimap.DualTreeBidiMap.BidiOrderedMapIterator
+  In class or interface : BidiOrderedMapIterator
+    The field parent has no getter
+
+In package : org.apache.commons.collections4.bidimap.DualTreeBidiMap.BidiOrderedMapIterator
+  In class or interface : BidiOrderedMapIterator
+    The field iterator has no getter
+
+In package : org.apache.commons.collections4.bidimap.DualTreeBidiMap.BidiOrderedMapIterator
+  In class or interface : BidiOrderedMapIterator
+    The field last has no getter
+
+In package : org.apache.commons.collections4.bidimap.DualTreeBidiMap
+  In class or interface : DualTreeBidiMap
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.bidimap.DualTreeBidiMap
+  In class or interface : DualTreeBidiMap
+    The field comparator has no getter
+
+In package : org.apache.commons.collections4.bidimap.DualTreeBidiMap
+  In class or interface : DualTreeBidiMap
+    The field valueComparator has no getter
+
+In package : org.apache.commons.collections4.bidimap.TreeBidiMap.ViewIterator
+  In class or interface : ViewIterator
+    The field orderType has no getter
+
+In package : org.apache.commons.collections4.bidimap.TreeBidiMap.ViewIterator
+  In class or interface : ViewIterator
+    The field nextNode has no getter
+
+In package : org.apache.commons.collections4.bidimap.TreeBidiMap.ViewIterator
+  In class or interface : ViewIterator
+    The field previousNode has no getter
+
+In package : org.apache.commons.collections4.bidimap.TreeBidiMap.ViewIterator
+  In class or interface : ViewIterator
+    The field expectedModifications has no getter
+
+In package : org.apache.commons.collections4.bidimap.TreeBidiMap.Node
+  In class or interface : Node
+    The field leftNode has no getter
+
+In package : org.apache.commons.collections4.bidimap.TreeBidiMap.Node
+  In class or interface : Node
+    The field rightNode has no getter
+
+In package : org.apache.commons.collections4.bidimap.TreeBidiMap.Node
+  In class or interface : Node
+    The field parentNode has no getter
+
+In package : org.apache.commons.collections4.bidimap.TreeBidiMap.Node
+  In class or interface : Node
+    The field blackColor has no getter
+
+In package : org.apache.commons.collections4.bidimap.TreeBidiMap.Node
+  In class or interface : Node
+    The field hashcodeValue has no getter
+
+In package : org.apache.commons.collections4.bidimap.TreeBidiMap.Node
+  In class or interface : Node
+    The field calculatedHashCode has no getter
+
+In package : org.apache.commons.collections4.bidimap.TreeBidiMap.Inverse
+  In class or interface : Inverse
+    The field inverseKeySet has no getter
+
+In package : org.apache.commons.collections4.bidimap.TreeBidiMap.Inverse
+  In class or interface : Inverse
+    The field inverseValuesSet has no getter
+
+In package : org.apache.commons.collections4.bidimap.TreeBidiMap.Inverse
+  In class or interface : Inverse
+    The field inverseEntrySet has no getter
+
+In package : org.apache.commons.collections4.bidimap.TreeBidiMap
+  In class or interface : TreeBidiMap
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.bidimap.TreeBidiMap
+  In class or interface : TreeBidiMap
+    The field rootNode has no getter
+
+In package : org.apache.commons.collections4.bidimap.TreeBidiMap
+  In class or interface : TreeBidiMap
+    The field nodeCount has no getter
+
+In package : org.apache.commons.collections4.bidimap.TreeBidiMap
+  In class or interface : TreeBidiMap
+    The field modifications has no getter
+
+In package : org.apache.commons.collections4.bidimap.TreeBidiMap
+  In class or interface : TreeBidiMap
+    The field keySet has no getter
+
+In package : org.apache.commons.collections4.bidimap.TreeBidiMap
+  In class or interface : TreeBidiMap
+    The field valuesSet has no getter
+
+In package : org.apache.commons.collections4.bidimap.TreeBidiMap
+  In class or interface : TreeBidiMap
+    The field entrySet has no getter
+
+In package : org.apache.commons.collections4.bidimap.TreeBidiMap
+  In class or interface : TreeBidiMap
+    The field inverse has no getter
+
+In package : org.apache.commons.collections4.bidimap.UnmodifiableBidiMap
+  In class or interface : UnmodifiableBidiMap
+    The field inverse has no getter
+
+In package : org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMap
+  In class or interface : UnmodifiableOrderedBidiMap
+    The field inverse has no getter
+
+In package : org.apache.commons.collections4.bidimap.UnmodifiableSortedBidiMap
+  In class or interface : UnmodifiableSortedBidiMap
+    The field inverse has no getter
+
+In package : org.apache.commons.collections4.bloomfilter.ArrayCountingBloomFilter.IndexIterator
+  In class or interface : IndexIterator
+    The field next has no getter
+
+In package : org.apache.commons.collections4.bloomfilter.ArrayCountingBloomFilter
+  In class or interface : ArrayCountingBloomFilter
+    The field counts has no getter
+
+In package : org.apache.commons.collections4.bloomfilter.ArrayCountingBloomFilter
+  In class or interface : ArrayCountingBloomFilter
+    The field state has no getter
+
+In package : org.apache.commons.collections4.bloomfilter.BitSetBloomFilter
+  In class or interface : BitSetBloomFilter
+    The field bitSet has no getter
+
+In package : org.apache.commons.collections4.bloomfilter.BloomFilterIndexer
+  In class or interface : BloomFilterIndexer
+    The field DIVIDE_BY_64 has no getter
+
+In package : org.apache.commons.collections4.bloomfilter.hasher.DynamicHasher.Builder
+  In class or interface : Builder
+    The field buffers has no getter
+
+In package : org.apache.commons.collections4.bloomfilter.hasher.DynamicHasher.Iterator
+  In class or interface : Iterator
+    The field m has no getter
+
+In package : org.apache.commons.collections4.bloomfilter.hasher.DynamicHasher.Iterator
+  In class or interface : Iterator
+    The field item has no getter
+
+In package : org.apache.commons.collections4.bloomfilter.hasher.DynamicHasher.Iterator
+  In class or interface : Iterator
+    The field nextItem has no getter
+
+In package : org.apache.commons.collections4.bloomfilter.hasher.DynamicHasher.Iterator
+  In class or interface : Iterator
+    The field functionCount has no getter
+
+In package : org.apache.commons.collections4.bloomfilter.hasher.DynamicHasher.NoValuesIterator
+  In class or interface : NoValuesIterator
+    The field INSTANCE has no getter
+
+In package : org.apache.commons.collections4.bloomfilter.hasher.DynamicHasher
+  In class or interface : DynamicHasher
+    The field buffers has no getter
+
+In package : org.apache.commons.collections4.bloomfilter.hasher.function.MD5Cyclic
+  In class or interface : MD5Cyclic
+    The field messageDigest has no getter
+
+In package : org.apache.commons.collections4.bloomfilter.hasher.function.MD5Cyclic
+  In class or interface : MD5Cyclic
+    The field result has no getter
+
+In package : org.apache.commons.collections4.bloomfilter.hasher.function.Murmur128x64Cyclic
+  In class or interface : Murmur128x64Cyclic
+    The field parts has no getter
+
+In package : org.apache.commons.collections4.bloomfilter.hasher.function.ObjectsHashIterative
+  In class or interface : ObjectsHashIterative
+    The field last has no getter
+
+In package : org.apache.commons.collections4.bloomfilter.hasher.Shape
+  In class or interface : Shape
+    The field LN_2 has no getter
+
+In package : org.apache.commons.collections4.bloomfilter.hasher.Shape
+  In class or interface : Shape
+    The field DENOMINATOR has no getter
+
+In package : org.apache.commons.collections4.bloomfilter.hasher.Shape
+  In class or interface : Shape
+    The field numberOfItems has no getter
+
+In package : org.apache.commons.collections4.bloomfilter.hasher.Shape
+  In class or interface : Shape
+    The field numberOfBits has no getter
+
+In package : org.apache.commons.collections4.bloomfilter.hasher.Shape
+  In class or interface : Shape
+    The field numberOfHashFunctions has no getter
+
+In package : org.apache.commons.collections4.bloomfilter.hasher.Shape
+  In class or interface : Shape
+    The field hashCode has no getter
+
+In package : org.apache.commons.collections4.bloomfilter.hasher.Shape
+  In class or interface : Shape
+    The field hashFunctionIdentity has no getter
+
+In package : org.apache.commons.collections4.bloomfilter.hasher.StaticHasher
+  In class or interface : StaticHasher
+    The field values has no getter
+
+In package : org.apache.commons.collections4.bloomfilter.HasherBloomFilter
+  In class or interface : HasherBloomFilter
+    The field EMPTY has no getter
+
+In package : org.apache.commons.collections4.collection.AbstractCollectionDecorator
+  In class or interface : AbstractCollectionDecorator
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.collection.AbstractCollectionDecorator
+  In class or interface : AbstractCollectionDecorator
+    The field collection has no getter
+
+In package : org.apache.commons.collections4.collection.CompositeCollection
+  In class or interface : CompositeCollection
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.collection.CompositeCollection
+  In class or interface : CompositeCollection
+    The field mutator has no getter
+
+In package : org.apache.commons.collections4.collection.CompositeCollection
+  In class or interface : CompositeCollection
+    The field all has no getter
+
+In package : org.apache.commons.collections4.collection.IndexedCollection
+  In class or interface : IndexedCollection
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.collection.IndexedCollection
+  In class or interface : IndexedCollection
+    The field keyTransformer has no getter
+
+In package : org.apache.commons.collections4.collection.IndexedCollection
+  In class or interface : IndexedCollection
+    The field uniqueIndex has no getter
+
+In package : org.apache.commons.collections4.collection.PredicatedCollection.Builder
+  In class or interface : Builder
+    The field predicate has no getter
+
+In package : org.apache.commons.collections4.collection.PredicatedCollection.Builder
+  In class or interface : Builder
+    The field accepted has no getter
+
+In package : org.apache.commons.collections4.collection.PredicatedCollection.Builder
+  In class or interface : Builder
+    The field rejected has no getter
+
+In package : org.apache.commons.collections4.collection.PredicatedCollection
+  In class or interface : PredicatedCollection
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.collection.SynchronizedCollection
+  In class or interface : SynchronizedCollection
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.collection.TransformedCollection
+  In class or interface : TransformedCollection
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.collection.UnmodifiableBoundedCollection
+  In class or interface : UnmodifiableBoundedCollection
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.collection.UnmodifiableCollection
+  In class or interface : UnmodifiableCollection
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.CollectionUtils.SetOperationCardinalityHelper
+  In class or interface : SetOperationCardinalityHelper
+    The field elements has no getter
+
+In package : org.apache.commons.collections4.CollectionUtils.SetOperationCardinalityHelper
+  In class or interface : SetOperationCardinalityHelper
+    The field newList has no getter
+
+In package : org.apache.commons.collections4.CollectionUtils.EquatorWrapper
+  In class or interface : EquatorWrapper
+    The field equator has no getter
+
+In package : org.apache.commons.collections4.comparators.BooleanComparator
+  In class or interface : BooleanComparator
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.comparators.BooleanComparator
+  In class or interface : BooleanComparator
+    The field TRUE_FIRST has no getter
+
+In package : org.apache.commons.collections4.comparators.BooleanComparator
+  In class or interface : BooleanComparator
+    The field FALSE_FIRST has no getter
+
+In package : org.apache.commons.collections4.comparators.BooleanComparator
+  In class or interface : BooleanComparator
+    The field trueFirst has no getter
+
+In package : org.apache.commons.collections4.comparators.ComparableComparator
+  In class or interface : ComparableComparator
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.comparators.ComparatorChain
+  In class or interface : ComparatorChain
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.comparators.ComparatorChain
+  In class or interface : ComparatorChain
+    The field comparatorChain has no getter
+
+In package : org.apache.commons.collections4.comparators.ComparatorChain
+  In class or interface : ComparatorChain
+    The field orderingBits has no getter
+
+In package : org.apache.commons.collections4.comparators.ComparatorChain
+  In class or interface : ComparatorChain
+    The field isLocked has no getter
+
+In package : org.apache.commons.collections4.comparators.FixedOrderComparator
+  In class or interface : FixedOrderComparator
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.comparators.FixedOrderComparator
+  In class or interface : FixedOrderComparator
+    The field counter has no getter
+
+In package : org.apache.commons.collections4.comparators.FixedOrderComparator
+  In class or interface : FixedOrderComparator
+    The field isLocked has no getter
+
+In package : org.apache.commons.collections4.comparators.FixedOrderComparator
+  In class or interface : FixedOrderComparator
+    The field unknownObjectBehavior has no getter
+
+In package : org.apache.commons.collections4.comparators.NullComparator
+  In class or interface : NullComparator
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.comparators.NullComparator
+  In class or interface : NullComparator
+    The field nonNullComparator has no getter
+
+In package : org.apache.commons.collections4.comparators.NullComparator
+  In class or interface : NullComparator
+    The field nullsAreHigh has no getter
+
+In package : org.apache.commons.collections4.comparators.ReverseComparator
+  In class or interface : ReverseComparator
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.comparators.TransformingComparator
+  In class or interface : TransformingComparator
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.comparators.TransformingComparator
+  In class or interface : TransformingComparator
+    The field decorated has no getter
+
+In package : org.apache.commons.collections4.comparators.TransformingComparator
+  In class or interface : TransformingComparator
+    The field transformer has no getter
+
+In package : org.apache.commons.collections4.ComparatorUtils
+  In class or interface : ComparatorUtils
+    The field EMPTY_COMPARATOR_ARRAY has no getter
+
+In package : org.apache.commons.collections4.FunctorException
+  In class or interface : FunctorException
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.functors.AbstractQuantifierPredicate
+  In class or interface : AbstractQuantifierPredicate
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.functors.AllPredicate
+  In class or interface : AllPredicate
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.functors.AndPredicate
+  In class or interface : AndPredicate
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.functors.AndPredicate
+  In class or interface : AndPredicate
+    The field iPredicate1 has no getter
+
+In package : org.apache.commons.collections4.functors.AndPredicate
+  In class or interface : AndPredicate
+    The field iPredicate2 has no getter
+
+In package : org.apache.commons.collections4.functors.AnyPredicate
+  In class or interface : AnyPredicate
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.functors.ChainedClosure
+  In class or interface : ChainedClosure
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.functors.ChainedClosure
+  In class or interface : ChainedClosure
+    The field iClosures has no getter
+
+In package : org.apache.commons.collections4.functors.ChainedTransformer
+  In class or interface : ChainedTransformer
+    The field EMPTY_TRANSFORMER_ARRAY has no getter
+
+In package : org.apache.commons.collections4.functors.ChainedTransformer
+  In class or interface : ChainedTransformer
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.functors.ChainedTransformer
+  In class or interface : ChainedTransformer
+    The field iTransformers has no getter
+
+In package : org.apache.commons.collections4.functors.ClosureTransformer
+  In class or interface : ClosureTransformer
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.functors.ClosureTransformer
+  In class or interface : ClosureTransformer
+    The field iClosure has no getter
+
+In package : org.apache.commons.collections4.functors.ComparatorPredicate
+  In class or interface : ComparatorPredicate
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.functors.ComparatorPredicate
+  In class or interface : ComparatorPredicate
+    The field criterion has no getter
+
+In package : org.apache.commons.collections4.functors.ConstantFactory
+  In class or interface : ConstantFactory
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.functors.ConstantFactory
+  In class or interface : ConstantFactory
+    The field iConstant has no getter
+
+In package : org.apache.commons.collections4.functors.ConstantTransformer
+  In class or interface : ConstantTransformer
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.functors.ConstantTransformer
+  In class or interface : ConstantTransformer
+    The field iConstant has no getter
+
+In package : org.apache.commons.collections4.functors.DefaultEquator
+  In class or interface : DefaultEquator
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.functors.EqualPredicate
+  In class or interface : EqualPredicate
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.functors.EqualPredicate
+  In class or interface : EqualPredicate
+    The field iValue has no getter
+
+In package : org.apache.commons.collections4.functors.EqualPredicate
+  In class or interface : EqualPredicate
+    The field equator has no getter
+
+In package : org.apache.commons.collections4.functors.ExceptionClosure
+  In class or interface : ExceptionClosure
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.functors.ExceptionFactory
+  In class or interface : ExceptionFactory
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.functors.ExceptionPredicate
+  In class or interface : ExceptionPredicate
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.functors.ExceptionTransformer
+  In class or interface : ExceptionTransformer
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.functors.FactoryTransformer
+  In class or interface : FactoryTransformer
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.functors.FactoryTransformer
+  In class or interface : FactoryTransformer
+    The field iFactory has no getter
+
+In package : org.apache.commons.collections4.functors.FalsePredicate
+  In class or interface : FalsePredicate
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.functors.ForClosure
+  In class or interface : ForClosure
+    The field iCount has no getter
+
+In package : org.apache.commons.collections4.functors.ForClosure
+  In class or interface : ForClosure
+    The field iClosure has no getter
+
+In package : org.apache.commons.collections4.functors.IdentityPredicate
+  In class or interface : IdentityPredicate
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.functors.IdentityPredicate
+  In class or interface : IdentityPredicate
+    The field iValue has no getter
+
+In package : org.apache.commons.collections4.functors.IfClosure
+  In class or interface : IfClosure
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.functors.IfClosure
+  In class or interface : IfClosure
+    The field iPredicate has no getter
+
+In package : org.apache.commons.collections4.functors.IfClosure
+  In class or interface : IfClosure
+    The field iTrueClosure has no getter
+
+In package : org.apache.commons.collections4.functors.IfClosure
+  In class or interface : IfClosure
+    The field iFalseClosure has no getter
+
+In package : org.apache.commons.collections4.functors.IfTransformer
+  In class or interface : IfTransformer
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.functors.IfTransformer
+  In class or interface : IfTransformer
+    The field iPredicate has no getter
+
+In package : org.apache.commons.collections4.functors.IfTransformer
+  In class or interface : IfTransformer
+    The field iTrueTransformer has no getter
+
+In package : org.apache.commons.collections4.functors.IfTransformer
+  In class or interface : IfTransformer
+    The field iFalseTransformer has no getter
+
+In package : org.apache.commons.collections4.functors.InstanceofPredicate
+  In class or interface : InstanceofPredicate
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.functors.InstanceofPredicate
+  In class or interface : InstanceofPredicate
+    The field iType has no getter
+
+In package : org.apache.commons.collections4.functors.InstantiateFactory
+  In class or interface : InstantiateFactory
+    The field iClassToInstantiate has no getter
+
+In package : org.apache.commons.collections4.functors.InstantiateFactory
+  In class or interface : InstantiateFactory
+    The field iParamTypes has no getter
+
+In package : org.apache.commons.collections4.functors.InstantiateFactory
+  In class or interface : InstantiateFactory
+    The field iArgs has no getter
+
+In package : org.apache.commons.collections4.functors.InstantiateFactory
+  In class or interface : InstantiateFactory
+    The field iConstructor has no getter
+
+In package : org.apache.commons.collections4.functors.InstantiateTransformer
+  In class or interface : InstantiateTransformer
+    The field NO_ARG_INSTANCE has no getter
+
+In package : org.apache.commons.collections4.functors.InstantiateTransformer
+  In class or interface : InstantiateTransformer
+    The field iParamTypes has no getter
+
+In package : org.apache.commons.collections4.functors.InstantiateTransformer
+  In class or interface : InstantiateTransformer
+    The field iArgs has no getter
+
+In package : org.apache.commons.collections4.functors.InvokerTransformer
+  In class or interface : InvokerTransformer
+    The field iMethodName has no getter
+
+In package : org.apache.commons.collections4.functors.InvokerTransformer
+  In class or interface : InvokerTransformer
+    The field iParamTypes has no getter
+
+In package : org.apache.commons.collections4.functors.InvokerTransformer
+  In class or interface : InvokerTransformer
+    The field iArgs has no getter
+
+In package : org.apache.commons.collections4.functors.MapTransformer
+  In class or interface : MapTransformer
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.functors.MapTransformer
+  In class or interface : MapTransformer
+    The field iMap has no getter
+
+In package : org.apache.commons.collections4.functors.NonePredicate
+  In class or interface : NonePredicate
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.functors.NOPClosure
+  In class or interface : NOPClosure
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.functors.NOPTransformer
+  In class or interface : NOPTransformer
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.functors.NotNullPredicate
+  In class or interface : NotNullPredicate
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.functors.NotPredicate
+  In class or interface : NotPredicate
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.functors.NotPredicate
+  In class or interface : NotPredicate
+    The field iPredicate has no getter
+
+In package : org.apache.commons.collections4.functors.NullIsExceptionPredicate
+  In class or interface : NullIsExceptionPredicate
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.functors.NullIsExceptionPredicate
+  In class or interface : NullIsExceptionPredicate
+    The field iPredicate has no getter
+
+In package : org.apache.commons.collections4.functors.NullIsFalsePredicate
+  In class or interface : NullIsFalsePredicate
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.functors.NullIsFalsePredicate
+  In class or interface : NullIsFalsePredicate
+    The field iPredicate has no getter
+
+In package : org.apache.commons.collections4.functors.NullIsTruePredicate
+  In class or interface : NullIsTruePredicate
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.functors.NullIsTruePredicate
+  In class or interface : NullIsTruePredicate
+    The field iPredicate has no getter
+
+In package : org.apache.commons.collections4.functors.NullPredicate
+  In class or interface : NullPredicate
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.functors.OnePredicate
+  In class or interface : OnePredicate
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.functors.OrPredicate
+  In class or interface : OrPredicate
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.functors.OrPredicate
+  In class or interface : OrPredicate
+    The field iPredicate1 has no getter
+
+In package : org.apache.commons.collections4.functors.OrPredicate
+  In class or interface : OrPredicate
+    The field iPredicate2 has no getter
+
+In package : org.apache.commons.collections4.functors.PredicateTransformer
+  In class or interface : PredicateTransformer
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.functors.PredicateTransformer
+  In class or interface : PredicateTransformer
+    The field iPredicate has no getter
+
+In package : org.apache.commons.collections4.functors.PrototypeFactory.PrototypeCloneFactory
+  In class or interface : PrototypeCloneFactory
+    The field iPrototype has no getter
+
+In package : org.apache.commons.collections4.functors.PrototypeFactory.PrototypeCloneFactory
+  In class or interface : PrototypeCloneFactory
+    The field iCloneMethod has no getter
+
+In package : org.apache.commons.collections4.functors.PrototypeFactory.PrototypeSerializationFactory
+  In class or interface : PrototypeSerializationFactory
+    The field iPrototype has no getter
+
+In package : org.apache.commons.collections4.functors.StringValueTransformer
+  In class or interface : StringValueTransformer
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.functors.StringValueTransformer
+  In class or interface : StringValueTransformer
+    The field INSTANCE has no getter
+
+In package : org.apache.commons.collections4.functors.SwitchClosure
+  In class or interface : SwitchClosure
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.functors.SwitchClosure
+  In class or interface : SwitchClosure
+    The field iPredicates has no getter
+
+In package : org.apache.commons.collections4.functors.SwitchClosure
+  In class or interface : SwitchClosure
+    The field iClosures has no getter
+
+In package : org.apache.commons.collections4.functors.SwitchClosure
+  In class or interface : SwitchClosure
+    The field iDefault has no getter
+
+In package : org.apache.commons.collections4.functors.SwitchTransformer
+  In class or interface : SwitchTransformer
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.functors.SwitchTransformer
+  In class or interface : SwitchTransformer
+    The field iPredicates has no getter
+
+In package : org.apache.commons.collections4.functors.SwitchTransformer
+  In class or interface : SwitchTransformer
+    The field iTransformers has no getter
+
+In package : org.apache.commons.collections4.functors.SwitchTransformer
+  In class or interface : SwitchTransformer
+    The field iDefault has no getter
+
+In package : org.apache.commons.collections4.functors.TransformedPredicate
+  In class or interface : TransformedPredicate
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.functors.TransformedPredicate
+  In class or interface : TransformedPredicate
+    The field iTransformer has no getter
+
+In package : org.apache.commons.collections4.functors.TransformedPredicate
+  In class or interface : TransformedPredicate
+    The field iPredicate has no getter
+
+In package : org.apache.commons.collections4.functors.TransformerClosure
+  In class or interface : TransformerClosure
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.functors.TransformerClosure
+  In class or interface : TransformerClosure
+    The field iTransformer has no getter
+
+In package : org.apache.commons.collections4.functors.TransformerPredicate
+  In class or interface : TransformerPredicate
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.functors.TransformerPredicate
+  In class or interface : TransformerPredicate
+    The field iTransformer has no getter
+
+In package : org.apache.commons.collections4.functors.TruePredicate
+  In class or interface : TruePredicate
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.functors.UniquePredicate
+  In class or interface : UniquePredicate
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.functors.UniquePredicate
+  In class or interface : UniquePredicate
+    The field iSet has no getter
+
+In package : org.apache.commons.collections4.functors.WhileClosure
+  In class or interface : WhileClosure
+    The field iPredicate has no getter
+
+In package : org.apache.commons.collections4.functors.WhileClosure
+  In class or interface : WhileClosure
+    The field iClosure has no getter
+
+In package : org.apache.commons.collections4.functors.WhileClosure
+  In class or interface : WhileClosure
+    The field iDoLoop has no getter
+
+In package : org.apache.commons.collections4.IterableUtils.UnmodifiableIterable
+  In class or interface : UnmodifiableIterable
+    The field unmodifiable has no getter
+
+In package : org.apache.commons.collections4.iterators.ArrayListIterator
+  In class or interface : ArrayListIterator
+    The field lastItemIndex has no getter
+
+In package : org.apache.commons.collections4.iterators.BoundedIterator
+  In class or interface : BoundedIterator
+    The field offset has no getter
+
+In package : org.apache.commons.collections4.iterators.BoundedIterator
+  In class or interface : BoundedIterator
+    The field max has no getter
+
+In package : org.apache.commons.collections4.iterators.CollatingIterator
+  In class or interface : CollatingIterator
+    The field values has no getter
+
+In package : org.apache.commons.collections4.iterators.CollatingIterator
+  In class or interface : CollatingIterator
+    The field valueSet has no getter
+
+In package : org.apache.commons.collections4.iterators.CollatingIterator
+  In class or interface : CollatingIterator
+    The field lastReturned has no getter
+
+In package : org.apache.commons.collections4.iterators.EntrySetMapIterator
+  In class or interface : EntrySetMapIterator
+    The field last has no getter
+
+In package : org.apache.commons.collections4.iterators.EntrySetMapIterator
+  In class or interface : EntrySetMapIterator
+    The field canRemove has no getter
+
+In package : org.apache.commons.collections4.iterators.EnumerationIterator
+  In class or interface : EnumerationIterator
+    The field last has no getter
+
+In package : org.apache.commons.collections4.iterators.FilterIterator
+  In class or interface : FilterIterator
+    The field nextObject has no getter
+
+In package : org.apache.commons.collections4.iterators.FilterIterator
+  In class or interface : FilterIterator
+    The field nextObjectSet has no getter
+
+In package : org.apache.commons.collections4.iterators.FilterListIterator
+  In class or interface : FilterListIterator
+    The field nextObject has no getter
+
+In package : org.apache.commons.collections4.iterators.FilterListIterator
+  In class or interface : FilterListIterator
+    The field nextObjectSet has no getter
+
+In package : org.apache.commons.collections4.iterators.FilterListIterator
+  In class or interface : FilterListIterator
+    The field previousObject has no getter
+
+In package : org.apache.commons.collections4.iterators.FilterListIterator
+  In class or interface : FilterListIterator
+    The field previousObjectSet has no getter
+
+In package : org.apache.commons.collections4.iterators.FilterListIterator
+  In class or interface : FilterListIterator
+    The field nextIndex has no getter
+
+In package : org.apache.commons.collections4.iterators.IteratorChain
+  In class or interface : IteratorChain
+    The field iteratorChain has no getter
+
+In package : org.apache.commons.collections4.iterators.IteratorChain
+  In class or interface : IteratorChain
+    The field currentIterator has no getter
+
+In package : org.apache.commons.collections4.iterators.IteratorChain
+  In class or interface : IteratorChain
+    The field lastUsedIterator has no getter
+
+In package : org.apache.commons.collections4.iterators.IteratorChain
+  In class or interface : IteratorChain
+    The field isLocked has no getter
+
+In package : org.apache.commons.collections4.iterators.IteratorIterable
+  In class or interface : IteratorIterable
+    The field typeSafeIterator has no getter
+
+In package : org.apache.commons.collections4.iterators.LazyIteratorChain
+  In class or interface : LazyIteratorChain
+    The field callCounter has no getter
+
+In package : org.apache.commons.collections4.iterators.LazyIteratorChain
+  In class or interface : LazyIteratorChain
+    The field chainExhausted has no getter
+
+In package : org.apache.commons.collections4.iterators.LazyIteratorChain
+  In class or interface : LazyIteratorChain
+    The field currentIterator has no getter
+
+In package : org.apache.commons.collections4.iterators.LazyIteratorChain
+  In class or interface : LazyIteratorChain
+    The field lastUsedIterator has no getter
+
+In package : org.apache.commons.collections4.iterators.ListIteratorWrapper
+  In class or interface : ListIteratorWrapper
+    The field UNSUPPORTED_OPERATION_MESSAGE has no getter
+
+In package : org.apache.commons.collections4.iterators.ListIteratorWrapper
+  In class or interface : ListIteratorWrapper
+    The field CANNOT_REMOVE_MESSAGE has no getter
+
+In package : org.apache.commons.collections4.iterators.ListIteratorWrapper
+  In class or interface : ListIteratorWrapper
+    The field currentIndex has no getter
+
+In package : org.apache.commons.collections4.iterators.ListIteratorWrapper
+  In class or interface : ListIteratorWrapper
+    The field wrappedIteratorIndex has no getter
+
+In package : org.apache.commons.collections4.iterators.ListIteratorWrapper
+  In class or interface : ListIteratorWrapper
+    The field removeState has no getter
+
+In package : org.apache.commons.collections4.iterators.NodeListIterator
+  In class or interface : NodeListIterator
+    The field nodeList has no getter
+
+In package : org.apache.commons.collections4.iterators.ObjectArrayListIterator
+  In class or interface : ObjectArrayListIterator
+    The field lastItemIndex has no getter
+
+In package : org.apache.commons.collections4.iterators.ObjectGraphIterator
+  In class or interface : ObjectGraphIterator
+    The field stack has no getter
+
+In package : org.apache.commons.collections4.iterators.ObjectGraphIterator
+  In class or interface : ObjectGraphIterator
+    The field root has no getter
+
+In package : org.apache.commons.collections4.iterators.ObjectGraphIterator
+  In class or interface : ObjectGraphIterator
+    The field hasNext has no getter
+
+In package : org.apache.commons.collections4.iterators.ObjectGraphIterator
+  In class or interface : ObjectGraphIterator
+    The field currentIterator has no getter
+
+In package : org.apache.commons.collections4.iterators.ObjectGraphIterator
+  In class or interface : ObjectGraphIterator
+    The field currentValue has no getter
+
+In package : org.apache.commons.collections4.iterators.ObjectGraphIterator
+  In class or interface : ObjectGraphIterator
+    The field lastUsedIterator has no getter
+
+In package : org.apache.commons.collections4.iterators.PeekingIterator
+  In class or interface : PeekingIterator
+    The field exhausted has no getter
+
+In package : org.apache.commons.collections4.iterators.PeekingIterator
+  In class or interface : PeekingIterator
+    The field slotFilled has no getter
+
+In package : org.apache.commons.collections4.iterators.PeekingIterator
+  In class or interface : PeekingIterator
+    The field slot has no getter
+
+In package : org.apache.commons.collections4.iterators.PermutationIterator
+  In class or interface : PermutationIterator
+    The field keys has no getter
+
+In package : org.apache.commons.collections4.iterators.PermutationIterator
+  In class or interface : PermutationIterator
+    The field objectMap has no getter
+
+In package : org.apache.commons.collections4.iterators.PermutationIterator
+  In class or interface : PermutationIterator
+    The field direction has no getter
+
+In package : org.apache.commons.collections4.iterators.PermutationIterator
+  In class or interface : PermutationIterator
+    The field nextPermutation has no getter
+
+In package : org.apache.commons.collections4.iterators.ReverseListIterator
+  In class or interface : ReverseListIterator
+    The field validForUpdate has no getter
+
+In package : org.apache.commons.collections4.iterators.SingletonIterator
+  In class or interface : SingletonIterator
+    The field removeAllowed has no getter
+
+In package : org.apache.commons.collections4.iterators.SingletonIterator
+  In class or interface : SingletonIterator
+    The field beforeFirst has no getter
+
+In package : org.apache.commons.collections4.iterators.SingletonIterator
+  In class or interface : SingletonIterator
+    The field removed has no getter
+
+In package : org.apache.commons.collections4.iterators.SingletonListIterator
+  In class or interface : SingletonListIterator
+    The field beforeFirst has no getter
+
+In package : org.apache.commons.collections4.iterators.SingletonListIterator
+  In class or interface : SingletonListIterator
+    The field nextCalled has no getter
+
+In package : org.apache.commons.collections4.iterators.SingletonListIterator
+  In class or interface : SingletonListIterator
+    The field removed has no getter
+
+In package : org.apache.commons.collections4.iterators.SkippingIterator
+  In class or interface : SkippingIterator
+    The field offset has no getter
+
+In package : org.apache.commons.collections4.iterators.ZippingIterator
+  In class or interface : ZippingIterator
+    The field nextIterator has no getter
+
+In package : org.apache.commons.collections4.iterators.ZippingIterator
+  In class or interface : ZippingIterator
+    The field lastReturned has no getter
+
+In package : org.apache.commons.collections4.IteratorUtils
+  In class or interface : IteratorUtils
+    The field DEFAULT_TOSTRING_DELIMITER has no getter
+
+In package : org.apache.commons.collections4.keyvalue.MultiKey
+  In class or interface : MultiKey
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.keyvalue.MultiKey
+  In class or interface : MultiKey
+    The field hashCode has no getter
+
+In package : org.apache.commons.collections4.keyvalue.TiedMapEntry
+  In class or interface : TiedMapEntry
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.list.AbstractListDecorator
+  In class or interface : AbstractListDecorator
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.list.AbstractSerializableListDecorator
+  In class or interface : AbstractSerializableListDecorator
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.list.CursorableLinkedList
+  In class or interface : CursorableLinkedList
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.list.CursorableLinkedList
+  In class or interface : CursorableLinkedList
+    The field cursors has no getter
+
+In package : org.apache.commons.collections4.list.FixedSizeList
+  In class or interface : FixedSizeList
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.list.GrowthList
+  In class or interface : GrowthList
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.list.LazyList
+  In class or interface : LazyList
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.list.NodeCachingLinkedList
+  In class or interface : NodeCachingLinkedList
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.list.NodeCachingLinkedList
+  In class or interface : NodeCachingLinkedList
+    The field DEFAULT_MAXIMUM_CACHE_SIZE has no getter
+
+In package : org.apache.commons.collections4.list.NodeCachingLinkedList
+  In class or interface : NodeCachingLinkedList
+    The field firstCachedNode has no getter
+
+In package : org.apache.commons.collections4.list.NodeCachingLinkedList
+  In class or interface : NodeCachingLinkedList
+    The field cacheSize has no getter
+
+In package : org.apache.commons.collections4.list.NodeCachingLinkedList
+  In class or interface : NodeCachingLinkedList
+    The field maximumCacheSize has no getter
+
+In package : org.apache.commons.collections4.list.PredicatedList
+  In class or interface : PredicatedList
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.list.SetUniqueList
+  In class or interface : SetUniqueList
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.list.TransformedList
+  In class or interface : TransformedList
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.list.TreeList.AVLNode
+  In class or interface : AVLNode
+    The field left has no getter
+
+In package : org.apache.commons.collections4.list.TreeList.AVLNode
+  In class or interface : AVLNode
+    The field leftIsPrevious has no getter
+
+In package : org.apache.commons.collections4.list.TreeList.AVLNode
+  In class or interface : AVLNode
+    The field right has no getter
+
+In package : org.apache.commons.collections4.list.TreeList.AVLNode
+  In class or interface : AVLNode
+    The field rightIsNext has no getter
+
+In package : org.apache.commons.collections4.list.TreeList.AVLNode
+  In class or interface : AVLNode
+    The field height has no getter
+
+In package : org.apache.commons.collections4.list.TreeList.AVLNode
+  In class or interface : AVLNode
+    The field relativePosition has no getter
+
+In package : org.apache.commons.collections4.list.TreeList.TreeListIterator
+  In class or interface : TreeListIterator
+    The field parent has no getter
+
+In package : org.apache.commons.collections4.list.TreeList.TreeListIterator
+  In class or interface : TreeListIterator
+    The field next has no getter
+
+In package : org.apache.commons.collections4.list.TreeList.TreeListIterator
+  In class or interface : TreeListIterator
+    The field nextIndex has no getter
+
+In package : org.apache.commons.collections4.list.TreeList.TreeListIterator
+  In class or interface : TreeListIterator
+    The field current has no getter
+
+In package : org.apache.commons.collections4.list.TreeList.TreeListIterator
+  In class or interface : TreeListIterator
+    The field currentIndex has no getter
+
+In package : org.apache.commons.collections4.list.TreeList.TreeListIterator
+  In class or interface : TreeListIterator
+    The field expectedModCount has no getter
+
+In package : org.apache.commons.collections4.list.TreeList
+  In class or interface : TreeList
+    The field root has no getter
+
+In package : org.apache.commons.collections4.list.TreeList
+  In class or interface : TreeList
+    The field size has no getter
+
+In package : org.apache.commons.collections4.list.UnmodifiableList
+  In class or interface : UnmodifiableList
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.ListUtils.CharSequenceAsList
+  In class or interface : CharSequenceAsList
+    The field sequence has no getter
+
+In package : org.apache.commons.collections4.ListUtils.LcsVisitor
+  In class or interface : LcsVisitor
+    The field sequence has no getter
+
+In package : org.apache.commons.collections4.ListUtils.Partition
+  In class or interface : Partition
+    The field size has no getter
+
+In package : org.apache.commons.collections4.map.AbstractHashedMap.EntrySet
+  In class or interface : EntrySet
+    The field parent has no getter
+
+In package : org.apache.commons.collections4.map.AbstractHashedMap.KeySet
+  In class or interface : KeySet
+    The field parent has no getter
+
+In package : org.apache.commons.collections4.map.AbstractHashedMap.Values
+  In class or interface : Values
+    The field parent has no getter
+
+In package : org.apache.commons.collections4.map.AbstractHashedMap.HashIterator
+  In class or interface : HashIterator
+    The field parent has no getter
+
+In package : org.apache.commons.collections4.map.AbstractHashedMap.HashIterator
+  In class or interface : HashIterator
+    The field hashIndex has no getter
+
+In package : org.apache.commons.collections4.map.AbstractHashedMap.HashIterator
+  In class or interface : HashIterator
+    The field next has no getter
+
+In package : org.apache.commons.collections4.map.AbstractHashedMap.HashIterator
+  In class or interface : HashIterator
+    The field expectedModCount has no getter
+
+In package : org.apache.commons.collections4.map.AbstractReferenceMap.ReferenceEntry
+  In class or interface : ReferenceEntry
+    The field parent has no getter
+
+In package : org.apache.commons.collections4.map.AbstractReferenceMap
+  In class or interface : AbstractReferenceMap
+    The field keyType has no getter
+
+In package : org.apache.commons.collections4.map.AbstractReferenceMap
+  In class or interface : AbstractReferenceMap
+    The field valueType has no getter
+
+In package : org.apache.commons.collections4.map.AbstractReferenceMap
+  In class or interface : AbstractReferenceMap
+    The field purgeValues has no getter
+
+In package : org.apache.commons.collections4.map.AbstractReferenceMap
+  In class or interface : AbstractReferenceMap
+    The field queue has no getter
+
+In package : org.apache.commons.collections4.map.CaseInsensitiveMap
+  In class or interface : CaseInsensitiveMap
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.map.CompositeMap
+  In class or interface : CompositeMap
+    The field EMPTY_MAP_ARRAY has no getter
+
+In package : org.apache.commons.collections4.map.CompositeMap
+  In class or interface : CompositeMap
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.map.CompositeMap
+  In class or interface : CompositeMap
+    The field composite has no getter
+
+In package : org.apache.commons.collections4.map.CompositeMap
+  In class or interface : CompositeMap
+    The field mutator has no getter
+
+In package : org.apache.commons.collections4.map.DefaultedMap
+  In class or interface : DefaultedMap
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.map.FixedSizeMap
+  In class or interface : FixedSizeMap
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.map.FixedSizeSortedMap
+  In class or interface : FixedSizeSortedMap
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.map.Flat3Map.FlatMapIterator
+  In class or interface : FlatMapIterator
+    The field parent has no getter
+
+In package : org.apache.commons.collections4.map.Flat3Map.FlatMapIterator
+  In class or interface : FlatMapIterator
+    The field nextIndex has no getter
+
+In package : org.apache.commons.collections4.map.Flat3Map.FlatMapIterator
+  In class or interface : FlatMapIterator
+    The field canRemove has no getter
+
+In package : org.apache.commons.collections4.map.Flat3Map.EntrySet
+  In class or interface : EntrySet
+    The field parent has no getter
+
+In package : org.apache.commons.collections4.map.Flat3Map.FlatMapEntry
+  In class or interface : FlatMapEntry
+    The field parent has no getter
+
+In package : org.apache.commons.collections4.map.Flat3Map.FlatMapEntry
+  In class or interface : FlatMapEntry
+    The field removed has no getter
+
+In package : org.apache.commons.collections4.map.Flat3Map.EntryIterator
+  In class or interface : EntryIterator
+    The field parent has no getter
+
+In package : org.apache.commons.collections4.map.Flat3Map.EntryIterator
+  In class or interface : EntryIterator
+    The field nextIndex has no getter
+
+In package : org.apache.commons.collections4.map.Flat3Map.EntryIterator
+  In class or interface : EntryIterator
+    The field currentEntry has no getter
+
+In package : org.apache.commons.collections4.map.Flat3Map.KeySet
+  In class or interface : KeySet
+    The field parent has no getter
+
+In package : org.apache.commons.collections4.map.Flat3Map.Values
+  In class or interface : Values
+    The field parent has no getter
+
+In package : org.apache.commons.collections4.map.Flat3Map
+  In class or interface : Flat3Map
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.map.Flat3Map
+  In class or interface : Flat3Map
+    The field size has no getter
+
+In package : org.apache.commons.collections4.map.Flat3Map
+  In class or interface : Flat3Map
+    The field hash1 has no getter
+
+In package : org.apache.commons.collections4.map.Flat3Map
+  In class or interface : Flat3Map
+    The field hash2 has no getter
+
+In package : org.apache.commons.collections4.map.Flat3Map
+  In class or interface : Flat3Map
+    The field hash3 has no getter
+
+In package : org.apache.commons.collections4.map.Flat3Map
+  In class or interface : Flat3Map
+    The field key1 has no getter
+
+In package : org.apache.commons.collections4.map.Flat3Map
+  In class or interface : Flat3Map
+    The field key2 has no getter
+
+In package : org.apache.commons.collections4.map.Flat3Map
+  In class or interface : Flat3Map
+    The field key3 has no getter
+
+In package : org.apache.commons.collections4.map.Flat3Map
+  In class or interface : Flat3Map
+    The field value1 has no getter
+
+In package : org.apache.commons.collections4.map.Flat3Map
+  In class or interface : Flat3Map
+    The field value2 has no getter
+
+In package : org.apache.commons.collections4.map.Flat3Map
+  In class or interface : Flat3Map
+    The field value3 has no getter
+
+In package : org.apache.commons.collections4.map.Flat3Map
+  In class or interface : Flat3Map
+    The field delegateMap has no getter
+
+In package : org.apache.commons.collections4.map.HashedMap
+  In class or interface : HashedMap
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.map.LazyMap
+  In class or interface : LazyMap
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.map.LazySortedMap
+  In class or interface : LazySortedMap
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.map.LinkedMap.LinkedMapList
+  In class or interface : LinkedMapList
+    The field parent has no getter
+
+In package : org.apache.commons.collections4.map.LinkedMap
+  In class or interface : LinkedMap
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.map.ListOrderedMap.ValuesView
+  In class or interface : ValuesView
+    The field parent has no getter
+
+In package : org.apache.commons.collections4.map.ListOrderedMap.KeySetView
+  In class or interface : KeySetView
+    The field parent has no getter
+
+In package : org.apache.commons.collections4.map.ListOrderedMap.EntrySetView
+  In class or interface : EntrySetView
+    The field parent has no getter
+
+In package : org.apache.commons.collections4.map.ListOrderedMap.EntrySetView
+  In class or interface : EntrySetView
+    The field insertOrder has no getter
+
+In package : org.apache.commons.collections4.map.ListOrderedMap.EntrySetView
+  In class or interface : EntrySetView
+    The field entrySet has no getter
+
+In package : org.apache.commons.collections4.map.ListOrderedMap.ListOrderedIterator
+  In class or interface : ListOrderedIterator
+    The field parent has no getter
+
+In package : org.apache.commons.collections4.map.ListOrderedMap.ListOrderedMapEntry
+  In class or interface : ListOrderedMapEntry
+    The field parent has no getter
+
+In package : org.apache.commons.collections4.map.ListOrderedMap.ListOrderedMapIterator
+  In class or interface : ListOrderedMapIterator
+    The field parent has no getter
+
+In package : org.apache.commons.collections4.map.ListOrderedMap.ListOrderedMapIterator
+  In class or interface : ListOrderedMapIterator
+    The field readable has no getter
+
+In package : org.apache.commons.collections4.map.ListOrderedMap
+  In class or interface : ListOrderedMap
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.map.ListOrderedMap
+  In class or interface : ListOrderedMap
+    The field insertOrder has no getter
+
+In package : org.apache.commons.collections4.map.LRUMap
+  In class or interface : LRUMap
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.map.LRUMap
+  In class or interface : LRUMap
+    The field maxSize has no getter
+
+In package : org.apache.commons.collections4.map.LRUMap
+  In class or interface : LRUMap
+    The field scanUntilRemovable has no getter
+
+In package : org.apache.commons.collections4.map.MultiKeyMap
+  In class or interface : MultiKeyMap
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.map.MultiValueMap.ValuesIterator
+  In class or interface : ValuesIterator
+    The field values has no getter
+
+In package : org.apache.commons.collections4.map.MultiValueMap.ReflectionFactory
+  In class or interface : ReflectionFactory
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.map.MultiValueMap.ReflectionFactory
+  In class or interface : ReflectionFactory
+    The field clazz has no getter
+
+In package : org.apache.commons.collections4.map.MultiValueMap
+  In class or interface : MultiValueMap
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.map.MultiValueMap
+  In class or interface : MultiValueMap
+    The field collectionFactory has no getter
+
+In package : org.apache.commons.collections4.map.MultiValueMap
+  In class or interface : MultiValueMap
+    The field valuesView has no getter
+
+In package : org.apache.commons.collections4.map.PassiveExpiringMap.ConstantTimeToLiveExpirationPolicy
+  In class or interface : ConstantTimeToLiveExpirationPolicy
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.map.PassiveExpiringMap.ConstantTimeToLiveExpirationPolicy
+  In class or interface : ConstantTimeToLiveExpirationPolicy
+    The field timeToLiveMillis has no getter
+
+In package : org.apache.commons.collections4.map.PassiveExpiringMap
+  In class or interface : PassiveExpiringMap
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.map.PassiveExpiringMap
+  In class or interface : PassiveExpiringMap
+    The field expirationMap has no getter
+
+In package : org.apache.commons.collections4.map.PassiveExpiringMap
+  In class or interface : PassiveExpiringMap
+    The field expiringPolicy has no getter
+
+In package : org.apache.commons.collections4.map.PredicatedMap
+  In class or interface : PredicatedMap
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.map.PredicatedSortedMap
+  In class or interface : PredicatedSortedMap
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.map.ReferenceIdentityMap
+  In class or interface : ReferenceIdentityMap
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.map.ReferenceMap
+  In class or interface : ReferenceMap
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.map.SingletonMap.SingletonMapIterator
+  In class or interface : SingletonMapIterator
+    The field parent has no getter
+
+In package : org.apache.commons.collections4.map.SingletonMap.SingletonMapIterator
+  In class or interface : SingletonMapIterator
+    The field hasNext has no getter
+
+In package : org.apache.commons.collections4.map.SingletonMap.SingletonMapIterator
+  In class or interface : SingletonMapIterator
+    The field canGetSet has no getter
+
+In package : org.apache.commons.collections4.map.SingletonMap.SingletonValues
+  In class or interface : SingletonValues
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.map.SingletonMap.SingletonValues
+  In class or interface : SingletonValues
+    The field parent has no getter
+
+In package : org.apache.commons.collections4.map.SingletonMap
+  In class or interface : SingletonMap
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.map.StaticBucketMap.BaseIterator
+  In class or interface : BaseIterator
+    The field current has no getter
+
+In package : org.apache.commons.collections4.map.StaticBucketMap.BaseIterator
+  In class or interface : BaseIterator
+    The field bucket has no getter
+
+In package : org.apache.commons.collections4.map.StaticBucketMap
+  In class or interface : StaticBucketMap
+    The field DEFAULT_BUCKETS has no getter
+
+In package : org.apache.commons.collections4.map.StaticBucketMap
+  In class or interface : StaticBucketMap
+    The field buckets has no getter
+
+In package : org.apache.commons.collections4.map.StaticBucketMap
+  In class or interface : StaticBucketMap
+    The field locks has no getter
+
+In package : org.apache.commons.collections4.map.TransformedMap
+  In class or interface : TransformedMap
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.map.TransformedSortedMap
+  In class or interface : TransformedSortedMap
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.map.UnmodifiableEntrySet
+  In class or interface : UnmodifiableEntrySet
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.map.UnmodifiableMap
+  In class or interface : UnmodifiableMap
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.map.UnmodifiableOrderedMap
+  In class or interface : UnmodifiableOrderedMap
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.map.UnmodifiableSortedMap
+  In class or interface : UnmodifiableSortedMap
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.MapUtils
+  In class or interface : MapUtils
+    The field INDENT_STRING has no getter
+
+In package : org.apache.commons.collections4.multimap.AbstractListValuedMap.ValuesListIterator
+  In class or interface : ValuesListIterator
+    The field values has no getter
+
+In package : org.apache.commons.collections4.multimap.AbstractMultiValuedMap.MultiValuedMapIterator
+  In class or interface : MultiValuedMapIterator
+    The field current has no getter
+
+In package : org.apache.commons.collections4.multimap.AbstractMultiValuedMap.ValuesIterator
+  In class or interface : ValuesIterator
+    The field values has no getter
+
+In package : org.apache.commons.collections4.multimap.AbstractMultiValuedMap
+  In class or interface : AbstractMultiValuedMap
+    The field valuesView has no getter
+
+In package : org.apache.commons.collections4.multimap.AbstractMultiValuedMap
+  In class or interface : AbstractMultiValuedMap
+    The field entryValuesView has no getter
+
+In package : org.apache.commons.collections4.multimap.AbstractMultiValuedMap
+  In class or interface : AbstractMultiValuedMap
+    The field keysMultiSetView has no getter
+
+In package : org.apache.commons.collections4.multimap.AbstractMultiValuedMap
+  In class or interface : AbstractMultiValuedMap
+    The field asMapView has no getter
+
+In package : org.apache.commons.collections4.multimap.AbstractMultiValuedMapDecorator
+  In class or interface : AbstractMultiValuedMapDecorator
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.multimap.ArrayListValuedHashMap
+  In class or interface : ArrayListValuedHashMap
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.multimap.ArrayListValuedHashMap
+  In class or interface : ArrayListValuedHashMap
+    The field DEFAULT_INITIAL_MAP_CAPACITY has no getter
+
+In package : org.apache.commons.collections4.multimap.ArrayListValuedHashMap
+  In class or interface : ArrayListValuedHashMap
+    The field DEFAULT_INITIAL_LIST_CAPACITY has no getter
+
+In package : org.apache.commons.collections4.multimap.ArrayListValuedHashMap
+  In class or interface : ArrayListValuedHashMap
+    The field initialListCapacity has no getter
+
+In package : org.apache.commons.collections4.multimap.HashSetValuedHashMap
+  In class or interface : HashSetValuedHashMap
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.multimap.HashSetValuedHashMap
+  In class or interface : HashSetValuedHashMap
+    The field DEFAULT_INITIAL_MAP_CAPACITY has no getter
+
+In package : org.apache.commons.collections4.multimap.HashSetValuedHashMap
+  In class or interface : HashSetValuedHashMap
+    The field DEFAULT_INITIAL_SET_CAPACITY has no getter
+
+In package : org.apache.commons.collections4.multimap.HashSetValuedHashMap
+  In class or interface : HashSetValuedHashMap
+    The field initialSetCapacity has no getter
+
+In package : org.apache.commons.collections4.multimap.TransformedMultiValuedMap
+  In class or interface : TransformedMultiValuedMap
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.multimap.TransformedMultiValuedMap
+  In class or interface : TransformedMultiValuedMap
+    The field keyTransformer has no getter
+
+In package : org.apache.commons.collections4.multimap.TransformedMultiValuedMap
+  In class or interface : TransformedMultiValuedMap
+    The field valueTransformer has no getter
+
+In package : org.apache.commons.collections4.multimap.UnmodifiableMultiValuedMap
+  In class or interface : UnmodifiableMultiValuedMap
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.multiset.AbstractMapMultiSet.MapBasedMultiSetIterator
+  In class or interface : MapBasedMultiSetIterator
+    The field parent has no getter
+
+In package : org.apache.commons.collections4.multiset.AbstractMapMultiSet.MapBasedMultiSetIterator
+  In class or interface : MapBasedMultiSetIterator
+    The field entryIterator has no getter
+
+In package : org.apache.commons.collections4.multiset.AbstractMapMultiSet.MapBasedMultiSetIterator
+  In class or interface : MapBasedMultiSetIterator
+    The field current has no getter
+
+In package : org.apache.commons.collections4.multiset.AbstractMapMultiSet.MapBasedMultiSetIterator
+  In class or interface : MapBasedMultiSetIterator
+    The field itemCount has no getter
+
+In package : org.apache.commons.collections4.multiset.AbstractMapMultiSet.MapBasedMultiSetIterator
+  In class or interface : MapBasedMultiSetIterator
+    The field mods has no getter
+
+In package : org.apache.commons.collections4.multiset.AbstractMapMultiSet.MapBasedMultiSetIterator
+  In class or interface : MapBasedMultiSetIterator
+    The field canRemove has no getter
+
+In package : org.apache.commons.collections4.multiset.AbstractMapMultiSet
+  In class or interface : AbstractMapMultiSet
+    The field size has no getter
+
+In package : org.apache.commons.collections4.multiset.AbstractMapMultiSet
+  In class or interface : AbstractMapMultiSet
+    The field modCount has no getter
+
+In package : org.apache.commons.collections4.multiset.AbstractMultiSet.MultiSetIterator
+  In class or interface : MultiSetIterator
+    The field parent has no getter
+
+In package : org.apache.commons.collections4.multiset.AbstractMultiSet.MultiSetIterator
+  In class or interface : MultiSetIterator
+    The field entryIterator has no getter
+
+In package : org.apache.commons.collections4.multiset.AbstractMultiSet.MultiSetIterator
+  In class or interface : MultiSetIterator
+    The field current has no getter
+
+In package : org.apache.commons.collections4.multiset.AbstractMultiSet.MultiSetIterator
+  In class or interface : MultiSetIterator
+    The field itemCount has no getter
+
+In package : org.apache.commons.collections4.multiset.AbstractMultiSet.MultiSetIterator
+  In class or interface : MultiSetIterator
+    The field canRemove has no getter
+
+In package : org.apache.commons.collections4.multiset.AbstractMultiSet.EntrySet
+  In class or interface : EntrySet
+    The field parent has no getter
+
+In package : org.apache.commons.collections4.multiset.AbstractMultiSet
+  In class or interface : AbstractMultiSet
+    The field uniqueSet has no getter
+
+In package : org.apache.commons.collections4.multiset.AbstractMultiSet
+  In class or interface : AbstractMultiSet
+    The field entrySet has no getter
+
+In package : org.apache.commons.collections4.multiset.AbstractMultiSetDecorator
+  In class or interface : AbstractMultiSetDecorator
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.multiset.HashMultiSet
+  In class or interface : HashMultiSet
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.multiset.PredicatedMultiSet
+  In class or interface : PredicatedMultiSet
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.multiset.SynchronizedMultiSet.SynchronizedSet
+  In class or interface : SynchronizedSet
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.multiset.SynchronizedMultiSet
+  In class or interface : SynchronizedMultiSet
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.multiset.UnmodifiableMultiSet
+  In class or interface : UnmodifiableMultiSet
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.properties.PropertiesFactory.EmptyProperties
+  In class or interface : EmptyProperties
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.properties.SortedProperties
+  In class or interface : SortedProperties
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.queue.AbstractQueueDecorator
+  In class or interface : AbstractQueueDecorator
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.queue.CircularFifoQueue
+  In class or interface : CircularFifoQueue
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.queue.CircularFifoQueue
+  In class or interface : CircularFifoQueue
+    The field elements has no getter
+
+In package : org.apache.commons.collections4.queue.CircularFifoQueue
+  In class or interface : CircularFifoQueue
+    The field full has no getter
+
+In package : org.apache.commons.collections4.queue.CircularFifoQueue
+  In class or interface : CircularFifoQueue
+    The field maxElements has no getter
+
+In package : org.apache.commons.collections4.queue.PredicatedQueue
+  In class or interface : PredicatedQueue
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.queue.SynchronizedQueue
+  In class or interface : SynchronizedQueue
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.queue.TransformedQueue
+  In class or interface : TransformedQueue
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.queue.UnmodifiableQueue
+  In class or interface : UnmodifiableQueue
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.sequence.EditScript
+  In class or interface : EditScript
+    The field commands has no getter
+
+In package : org.apache.commons.collections4.sequence.EditScript
+  In class or interface : EditScript
+    The field lcsLength has no getter
+
+In package : org.apache.commons.collections4.sequence.ReplacementsFinder
+  In class or interface : ReplacementsFinder
+    The field pendingInsertions has no getter
+
+In package : org.apache.commons.collections4.sequence.ReplacementsFinder
+  In class or interface : ReplacementsFinder
+    The field pendingDeletions has no getter
+
+In package : org.apache.commons.collections4.sequence.ReplacementsFinder
+  In class or interface : ReplacementsFinder
+    The field skipped has no getter
+
+In package : org.apache.commons.collections4.sequence.ReplacementsFinder
+  In class or interface : ReplacementsFinder
+    The field handler has no getter
+
+In package : org.apache.commons.collections4.sequence.SequencesComparator.Snake
+  In class or interface : Snake
+    The field diag has no getter
+
+In package : org.apache.commons.collections4.sequence.SequencesComparator
+  In class or interface : SequencesComparator
+    The field sequence1 has no getter
+
+In package : org.apache.commons.collections4.sequence.SequencesComparator
+  In class or interface : SequencesComparator
+    The field sequence2 has no getter
+
+In package : org.apache.commons.collections4.sequence.SequencesComparator
+  In class or interface : SequencesComparator
+    The field equator has no getter
+
+In package : org.apache.commons.collections4.sequence.SequencesComparator
+  In class or interface : SequencesComparator
+    The field vDown has no getter
+
+In package : org.apache.commons.collections4.sequence.SequencesComparator
+  In class or interface : SequencesComparator
+    The field vUp has no getter
+
+In package : org.apache.commons.collections4.set.AbstractNavigableSetDecorator
+  In class or interface : AbstractNavigableSetDecorator
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.set.AbstractSerializableSetDecorator
+  In class or interface : AbstractSerializableSetDecorator
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.set.AbstractSetDecorator
+  In class or interface : AbstractSetDecorator
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.set.AbstractSortedSetDecorator
+  In class or interface : AbstractSortedSetDecorator
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.set.CompositeSet
+  In class or interface : CompositeSet
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.set.CompositeSet
+  In class or interface : CompositeSet
+    The field mutator has no getter
+
+In package : org.apache.commons.collections4.set.CompositeSet
+  In class or interface : CompositeSet
+    The field all has no getter
+
+In package : org.apache.commons.collections4.set.ListOrderedSet
+  In class or interface : ListOrderedSet
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.set.ListOrderedSet
+  In class or interface : ListOrderedSet
+    The field setOrder has no getter
+
+In package : org.apache.commons.collections4.set.MapBackedSet
+  In class or interface : MapBackedSet
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.set.MapBackedSet
+  In class or interface : MapBackedSet
+    The field dummyValue has no getter
+
+In package : org.apache.commons.collections4.set.PredicatedNavigableSet
+  In class or interface : PredicatedNavigableSet
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.set.PredicatedSet
+  In class or interface : PredicatedSet
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.set.PredicatedSortedSet
+  In class or interface : PredicatedSortedSet
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.set.TransformedNavigableSet
+  In class or interface : TransformedNavigableSet
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.set.TransformedSet
+  In class or interface : TransformedSet
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.set.TransformedSortedSet
+  In class or interface : TransformedSortedSet
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.set.UnmodifiableNavigableSet
+  In class or interface : UnmodifiableNavigableSet
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.set.UnmodifiableSet
+  In class or interface : UnmodifiableSet
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.set.UnmodifiableSortedSet
+  In class or interface : UnmodifiableSortedSet
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.splitmap.TransformedSplitMap
+  In class or interface : TransformedSplitMap
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.splitmap.TransformedSplitMap
+  In class or interface : TransformedSplitMap
+    The field keyTransformer has no getter
+
+In package : org.apache.commons.collections4.splitmap.TransformedSplitMap
+  In class or interface : TransformedSplitMap
+    The field valueTransformer has no getter
+
+In package : org.apache.commons.collections4.SplitMapUtils.WrappedPut
+  In class or interface : WrappedPut
+    The field put has no getter
+
+In package : org.apache.commons.collections4.trie.AbstractBitwiseTrie.BasicEntry
+  In class or interface : BasicEntry
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.trie.AbstractBitwiseTrie
+  In class or interface : AbstractBitwiseTrie
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.trie.AbstractBitwiseTrie
+  In class or interface : AbstractBitwiseTrie
+    The field keyAnalyzer has no getter
+
+In package : org.apache.commons.collections4.trie.AbstractPatriciaTrie
+  In class or interface : AbstractPatriciaTrie
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.trie.AbstractPatriciaTrie
+  In class or interface : AbstractPatriciaTrie
+    The field root has no getter
+
+In package : org.apache.commons.collections4.trie.AbstractPatriciaTrie
+  In class or interface : AbstractPatriciaTrie
+    The field keySet has no getter
+
+In package : org.apache.commons.collections4.trie.AbstractPatriciaTrie
+  In class or interface : AbstractPatriciaTrie
+    The field entrySet has no getter
+
+In package : org.apache.commons.collections4.trie.AbstractPatriciaTrie
+  In class or interface : AbstractPatriciaTrie
+    The field size has no getter
+
+In package : org.apache.commons.collections4.trie.analyzer.StringKeyAnalyzer
+  In class or interface : StringKeyAnalyzer
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.trie.analyzer.StringKeyAnalyzer
+  In class or interface : StringKeyAnalyzer
+    The field MSB has no getter
+
+In package : org.apache.commons.collections4.trie.KeyAnalyzer
+  In class or interface : KeyAnalyzer
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.trie.PatriciaTrie
+  In class or interface : PatriciaTrie
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.trie.UnmodifiableTrie
+  In class or interface : UnmodifiableTrie
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.trie.UnmodifiableTrie
+  In class or interface : UnmodifiableTrie
+    The field delegate has no getter
+
+In package : org.apache.commons.collections4.bag.PredicatedSortedBagTest
+  In class or interface : PredicatedSortedBagTest
+    The field nullBag has no getter
+
+In package : org.apache.commons.collections4.bidimap.AbstractOrderedBidiMapDecoratorTest.TestOrderedBidiMap
+  In class or interface : TestOrderedBidiMap
+    The field inverse has no getter
+
+In package : org.apache.commons.collections4.bidimap.DualTreeBidiMap2Test.IntegerComparator
+  In class or interface : IntegerComparator
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.bloomfilter.ArrayCountingBloomFilterTest
+  In class or interface : ArrayCountingBloomFilterTest
+    The field converter has no getter
+
+In package : org.apache.commons.collections4.bloomfilter.DefaultBloomFilterMethodsTest.BF
+  In class or interface : BF
+    The field bitSet has no getter
+
+In package : org.apache.commons.collections4.bloomfilter.FixedIndexesTestHasher
+  In class or interface : FixedIndexesTestHasher
+    The field indexes has no getter
+
+In package : org.apache.commons.collections4.bloomfilter.hasher.DynamicHasherBuilderTest
+  In class or interface : DynamicHasherBuilderTest
+    The field builder has no getter
+
+In package : org.apache.commons.collections4.bloomfilter.hasher.DynamicHasherBuilderTest
+  In class or interface : DynamicHasherBuilderTest
+    The field testString has no getter
+
+In package : org.apache.commons.collections4.bloomfilter.hasher.DynamicHasherTest
+  In class or interface : DynamicHasherTest
+    The field builder has no getter
+
+In package : org.apache.commons.collections4.bloomfilter.hasher.DynamicHasherTest
+  In class or interface : DynamicHasherTest
+    The field testFunction has no getter
+
+In package : org.apache.commons.collections4.bloomfilter.hasher.ShapeTest
+  In class or interface : ShapeTest
+    The field testFunction has no getter
+
+In package : org.apache.commons.collections4.bloomfilter.hasher.StaticHasherTest
+  In class or interface : StaticHasherTest
+    The field testFunction has no getter
+
+In package : org.apache.commons.collections4.bloomfilter.hasher.StaticHasherTest
+  In class or interface : StaticHasherTest
+    The field testFunctionX has no getter
+
+In package : org.apache.commons.collections4.bloomfilter.SetOperationsTest
+  In class or interface : SetOperationsTest
+    The field testFunction has no getter
+
+In package : org.apache.commons.collections4.BulkTestSuiteMaker
+  In class or interface : BulkTestSuiteMaker
+    The field startingClass has no getter
+
+In package : org.apache.commons.collections4.BulkTestSuiteMaker
+  In class or interface : BulkTestSuiteMaker
+    The field ignored has no getter
+
+In package : org.apache.commons.collections4.BulkTestSuiteMaker
+  In class or interface : BulkTestSuiteMaker
+    The field result has no getter
+
+In package : org.apache.commons.collections4.BulkTestSuiteMaker
+  In class or interface : BulkTestSuiteMaker
+    The field prefix has no getter
+
+In package : org.apache.commons.collections4.ClosureUtilsTest
+  In class or interface : ClosureUtilsTest
+    The field cString has no getter
+
+In package : org.apache.commons.collections4.collection.IndexedCollectionTest.IntegerTransformer
+  In class or interface : IntegerTransformer
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.CollectionUtilsTest
+  In class or interface : CollectionUtilsTest
+    The field EQUALS_TWO has no getter
+
+In package : org.apache.commons.collections4.CollectionUtilsTest
+  In class or interface : CollectionUtilsTest
+    The field collectionA has no getter
+
+In package : org.apache.commons.collections4.CollectionUtilsTest
+  In class or interface : CollectionUtilsTest
+    The field collectionB has no getter
+
+In package : org.apache.commons.collections4.CollectionUtilsTest
+  In class or interface : CollectionUtilsTest
+    The field collectionC has no getter
+
+In package : org.apache.commons.collections4.CollectionUtilsTest
+  In class or interface : CollectionUtilsTest
+    The field collectionD has no getter
+
+In package : org.apache.commons.collections4.CollectionUtilsTest
+  In class or interface : CollectionUtilsTest
+    The field collectionE has no getter
+
+In package : org.apache.commons.collections4.CollectionUtilsTest
+  In class or interface : CollectionUtilsTest
+    The field collectionA2 has no getter
+
+In package : org.apache.commons.collections4.CollectionUtilsTest
+  In class or interface : CollectionUtilsTest
+    The field collectionB2 has no getter
+
+In package : org.apache.commons.collections4.CollectionUtilsTest
+  In class or interface : CollectionUtilsTest
+    The field collectionC2 has no getter
+
+In package : org.apache.commons.collections4.CollectionUtilsTest
+  In class or interface : CollectionUtilsTest
+    The field iterableA has no getter
+
+In package : org.apache.commons.collections4.CollectionUtilsTest
+  In class or interface : CollectionUtilsTest
+    The field iterableB has no getter
+
+In package : org.apache.commons.collections4.CollectionUtilsTest
+  In class or interface : CollectionUtilsTest
+    The field iterableC has no getter
+
+In package : org.apache.commons.collections4.CollectionUtilsTest
+  In class or interface : CollectionUtilsTest
+    The field iterableA2 has no getter
+
+In package : org.apache.commons.collections4.CollectionUtilsTest
+  In class or interface : CollectionUtilsTest
+    The field iterableB2 has no getter
+
+In package : org.apache.commons.collections4.CollectionUtilsTest
+  In class or interface : CollectionUtilsTest
+    The field emptyCollection has no getter
+
+In package : org.apache.commons.collections4.comparators.ComparatorChainTest.PseudoRow
+  In class or interface : PseudoRow
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.comparators.ComparatorChainTest.ColumnComparator
+  In class or interface : ColumnComparator
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.comparators.FixedOrderComparatorTest
+  In class or interface : FixedOrderComparatorTest
+    The field topCities has no getter
+
+In package : org.apache.commons.collections4.FactoryUtilsTest.Mock1
+  In class or interface : Mock1
+    The field iVal has no getter
+
+In package : org.apache.commons.collections4.FactoryUtilsTest.Mock2
+  In class or interface : Mock2
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.FactoryUtilsTest.Mock2
+  In class or interface : Mock2
+    The field iVal has no getter
+
+In package : org.apache.commons.collections4.FactoryUtilsTest.Mock3
+  In class or interface : Mock3
+    The field cCounter has no getter
+
+In package : org.apache.commons.collections4.FactoryUtilsTest.Mock3
+  In class or interface : Mock3
+    The field iVal has no getter
+
+In package : org.apache.commons.collections4.FluentIterableTest
+  In class or interface : FluentIterableTest
+    The field iterableA has no getter
+
+In package : org.apache.commons.collections4.FluentIterableTest
+  In class or interface : FluentIterableTest
+    The field iterableB has no getter
+
+In package : org.apache.commons.collections4.FluentIterableTest
+  In class or interface : FluentIterableTest
+    The field iterableEven has no getter
+
+In package : org.apache.commons.collections4.FluentIterableTest
+  In class or interface : FluentIterableTest
+    The field iterableOdd has no getter
+
+In package : org.apache.commons.collections4.FluentIterableTest
+  In class or interface : FluentIterableTest
+    The field emptyIterable has no getter
+
+In package : org.apache.commons.collections4.FluentIterableTest
+  In class or interface : FluentIterableTest
+    The field EVEN has no getter
+
+In package : org.apache.commons.collections4.functors.AbstractMockPredicateTest
+  In class or interface : AbstractMockPredicateTest
+    The field mockPredicatesToVerify has no getter
+
+In package : org.apache.commons.collections4.functors.AbstractMockPredicateTest
+  In class or interface : AbstractMockPredicateTest
+    The field testValue has no getter
+
+In package : org.apache.commons.collections4.functors.EqualPredicateTest
+  In class or interface : EqualPredicateTest
+    The field FALSE_OBJECT has no getter
+
+In package : org.apache.commons.collections4.functors.EqualPredicateTest
+  In class or interface : EqualPredicateTest
+    The field TRUE_OBJECT has no getter
+
+In package : org.apache.commons.collections4.IterableUtilsTest
+  In class or interface : IterableUtilsTest
+    The field iterableA has no getter
+
+In package : org.apache.commons.collections4.IterableUtilsTest
+  In class or interface : IterableUtilsTest
+    The field iterableB has no getter
+
+In package : org.apache.commons.collections4.IterableUtilsTest
+  In class or interface : IterableUtilsTest
+    The field emptyIterable has no getter
+
+In package : org.apache.commons.collections4.IterableUtilsTest
+  In class or interface : IterableUtilsTest
+    The field EQUALS_TWO has no getter
+
+In package : org.apache.commons.collections4.IterableUtilsTest
+  In class or interface : IterableUtilsTest
+    The field EVEN has no getter
+
+In package : org.apache.commons.collections4.iterators.BoundedIteratorTest
+  In class or interface : BoundedIteratorTest
+    The field testArray has no getter
+
+In package : org.apache.commons.collections4.iterators.BoundedIteratorTest
+  In class or interface : BoundedIteratorTest
+    The field testList has no getter
+
+In package : org.apache.commons.collections4.iterators.CollatingIteratorTest
+  In class or interface : CollatingIteratorTest
+    The field evens has no getter
+
+In package : org.apache.commons.collections4.iterators.CollatingIteratorTest
+  In class or interface : CollatingIteratorTest
+    The field odds has no getter
+
+In package : org.apache.commons.collections4.iterators.CollatingIteratorTest
+  In class or interface : CollatingIteratorTest
+    The field fib has no getter
+
+In package : org.apache.commons.collections4.iterators.FilterListIteratorTest
+  In class or interface : FilterListIteratorTest
+    The field odds has no getter
+
+In package : org.apache.commons.collections4.iterators.FilterListIteratorTest
+  In class or interface : FilterListIteratorTest
+    The field evens has no getter
+
+In package : org.apache.commons.collections4.iterators.FilterListIteratorTest
+  In class or interface : FilterListIteratorTest
+    The field threes has no getter
+
+In package : org.apache.commons.collections4.iterators.FilterListIteratorTest
+  In class or interface : FilterListIteratorTest
+    The field fours has no getter
+
+In package : org.apache.commons.collections4.iterators.FilterListIteratorTest
+  In class or interface : FilterListIteratorTest
+    The field sixes has no getter
+
+In package : org.apache.commons.collections4.iterators.FilterListIteratorTest
+  In class or interface : FilterListIteratorTest
+    The field truePred has no getter
+
+In package : org.apache.commons.collections4.iterators.FilterListIteratorTest
+  In class or interface : FilterListIteratorTest
+    The field falsePred has no getter
+
+In package : org.apache.commons.collections4.iterators.FilterListIteratorTest
+  In class or interface : FilterListIteratorTest
+    The field evenPred has no getter
+
+In package : org.apache.commons.collections4.iterators.FilterListIteratorTest
+  In class or interface : FilterListIteratorTest
+    The field oddPred has no getter
+
+In package : org.apache.commons.collections4.iterators.FilterListIteratorTest
+  In class or interface : FilterListIteratorTest
+    The field threePred has no getter
+
+In package : org.apache.commons.collections4.iterators.FilterListIteratorTest
+  In class or interface : FilterListIteratorTest
+    The field fourPred has no getter
+
+In package : org.apache.commons.collections4.iterators.FilterListIteratorTest
+  In class or interface : FilterListIteratorTest
+    The field random has no getter
+
+In package : org.apache.commons.collections4.iterators.NodeListIteratorTest
+  In class or interface : NodeListIteratorTest
+    The field nodes has no getter
+
+In package : org.apache.commons.collections4.iterators.NodeListIteratorTest
+  In class or interface : NodeListIteratorTest
+    The field createIteratorWithStandardConstr has no getter
+
+In package : org.apache.commons.collections4.iterators.PeekingIteratorTest
+  In class or interface : PeekingIteratorTest
+    The field testArray has no getter
+
+In package : org.apache.commons.collections4.iterators.PeekingIteratorTest
+  In class or interface : PeekingIteratorTest
+    The field testList has no getter
+
+In package : org.apache.commons.collections4.iterators.PushbackIteratorTest
+  In class or interface : PushbackIteratorTest
+    The field testArray has no getter
+
+In package : org.apache.commons.collections4.iterators.PushbackIteratorTest
+  In class or interface : PushbackIteratorTest
+    The field testList has no getter
+
+In package : org.apache.commons.collections4.iterators.SingletonIterator2Test
+  In class or interface : SingletonIterator2Test
+    The field testValue has no getter
+
+In package : org.apache.commons.collections4.iterators.SingletonIteratorTest
+  In class or interface : SingletonIteratorTest
+    The field testValue has no getter
+
+In package : org.apache.commons.collections4.iterators.SingletonListIteratorTest
+  In class or interface : SingletonListIteratorTest
+    The field testValue has no getter
+
+In package : org.apache.commons.collections4.iterators.SkippingIteratorTest
+  In class or interface : SkippingIteratorTest
+    The field testArray has no getter
+
+In package : org.apache.commons.collections4.iterators.SkippingIteratorTest
+  In class or interface : SkippingIteratorTest
+    The field testList has no getter
+
+In package : org.apache.commons.collections4.iterators.ZippingIteratorTest
+  In class or interface : ZippingIteratorTest
+    The field evens has no getter
+
+In package : org.apache.commons.collections4.iterators.ZippingIteratorTest
+  In class or interface : ZippingIteratorTest
+    The field odds has no getter
+
+In package : org.apache.commons.collections4.iterators.ZippingIteratorTest
+  In class or interface : ZippingIteratorTest
+    The field fib has no getter
+
+In package : org.apache.commons.collections4.IteratorUtilsTest
+  In class or interface : IteratorUtilsTest
+    The field collectionA has no getter
+
+In package : org.apache.commons.collections4.IteratorUtilsTest
+  In class or interface : IteratorUtilsTest
+    The field collectionEven has no getter
+
+In package : org.apache.commons.collections4.IteratorUtilsTest
+  In class or interface : IteratorUtilsTest
+    The field collectionOdd has no getter
+
+In package : org.apache.commons.collections4.IteratorUtilsTest
+  In class or interface : IteratorUtilsTest
+    The field emptyCollection has no getter
+
+In package : org.apache.commons.collections4.IteratorUtilsTest
+  In class or interface : IteratorUtilsTest
+    The field iterableA has no getter
+
+In package : org.apache.commons.collections4.junit.ObjectToStringComparator
+  In class or interface : ObjectToStringComparator
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.keyvalue.MultiKeyTest.DerivedMultiKey
+  In class or interface : DerivedMultiKey
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.keyvalue.MultiKeyTest.SystemHashCodeSimulatingKey
+  In class or interface : SystemHashCodeSimulatingKey
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.keyvalue.MultiKeyTest.SystemHashCodeSimulatingKey
+  In class or interface : SystemHashCodeSimulatingKey
+    The field hashCode has no getter
+
+In package : org.apache.commons.collections4.list.AbstractListTest.BulkTestSubList
+  In class or interface : BulkTestSubList
+    The field outer has no getter
+
+In package : org.apache.commons.collections4.list.SetUniqueListTest.SetUniqueList307
+  In class or interface : SetUniqueList307
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.ListUtilsTest
+  In class or interface : ListUtilsTest
+    The field EQUALS_TWO has no getter
+
+In package : org.apache.commons.collections4.ListUtilsTest
+  In class or interface : ListUtilsTest
+    The field fullArray has no getter
+
+In package : org.apache.commons.collections4.ListUtilsTest
+  In class or interface : ListUtilsTest
+    The field fullList has no getter
+
+In package : org.apache.commons.collections4.map.AbstractMapTest
+  In class or interface : AbstractMapTest
+    The field JDK12 has no getter
+
+In package : org.apache.commons.collections4.map.CompositeMapTest
+  In class or interface : CompositeMapTest
+    The field pass has no getter
+
+In package : org.apache.commons.collections4.map.EmptyMapMutator
+  In class or interface : EmptyMapMutator
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.map.Flat3MapTest
+  In class or interface : Flat3MapTest
+    The field ONE has no getter
+
+In package : org.apache.commons.collections4.map.Flat3MapTest
+  In class or interface : Flat3MapTest
+    The field TWO has no getter
+
+In package : org.apache.commons.collections4.map.Flat3MapTest
+  In class or interface : Flat3MapTest
+    The field THREE has no getter
+
+In package : org.apache.commons.collections4.map.Flat3MapTest
+  In class or interface : Flat3MapTest
+    The field TEN has no getter
+
+In package : org.apache.commons.collections4.map.Flat3MapTest
+  In class or interface : Flat3MapTest
+    The field TWENTY has no getter
+
+In package : org.apache.commons.collections4.map.Flat3MapTest
+  In class or interface : Flat3MapTest
+    The field THIRTY has no getter
+
+In package : org.apache.commons.collections4.map.IdentityMap
+  In class or interface : IdentityMap
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.map.LazyMapTest
+  In class or interface : LazyMapTest
+    The field oneFactory has no getter
+
+In package : org.apache.commons.collections4.map.LazySortedMapTest
+  In class or interface : LazySortedMapTest
+    The field oneFactory has no getter
+
+In package : org.apache.commons.collections4.map.LRUMapTest.MockLRUMapSubclass
+  In class or interface : MockLRUMapSubclass
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.map.LRUMapTest.MockLRUMapSubclassBlocksRemove
+  In class or interface : MockLRUMapSubclassBlocksRemove
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.map.LRUMapTest.MockLRUMapSubclassFirstBlocksRemove
+  In class or interface : MockLRUMapSubclassFirstBlocksRemove
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.map.LRUMapTest.SingleHashCode
+  In class or interface : SingleHashCode
+    The field code has no getter
+
+In package : org.apache.commons.collections4.map.PassiveExpiringMapTest.TestExpirationPolicy
+  In class or interface : TestExpirationPolicy
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.map.ReferenceIdentityMapTest
+  In class or interface : ReferenceIdentityMapTest
+    The field I1A has no getter
+
+In package : org.apache.commons.collections4.map.ReferenceIdentityMapTest
+  In class or interface : ReferenceIdentityMapTest
+    The field I1B has no getter
+
+In package : org.apache.commons.collections4.map.ReferenceIdentityMapTest
+  In class or interface : ReferenceIdentityMapTest
+    The field I2A has no getter
+
+In package : org.apache.commons.collections4.map.ReferenceIdentityMapTest
+  In class or interface : ReferenceIdentityMapTest
+    The field I2B has no getter
+
+In package : org.apache.commons.collections4.map.SingletonMapTest
+  In class or interface : SingletonMapTest
+    The field ONE has no getter
+
+In package : org.apache.commons.collections4.map.SingletonMapTest
+  In class or interface : SingletonMapTest
+    The field TWO has no getter
+
+In package : org.apache.commons.collections4.map.SingletonMapTest
+  In class or interface : SingletonMapTest
+    The field TEN has no getter
+
+In package : org.apache.commons.collections4.MapPerformance
+  In class or interface : MapPerformance
+    The field RUNS has no getter
+
+In package : org.apache.commons.collections4.MapUtilsTest
+  In class or interface : MapUtilsTest
+    The field THREE has no getter
+
+In package : org.apache.commons.collections4.MapUtilsTest
+  In class or interface : MapUtilsTest
+    The field TWO has no getter
+
+In package : org.apache.commons.collections4.MockTestCase
+  In class or interface : MockTestCase
+    The field mockObjects has no getter
+
+In package : org.apache.commons.collections4.MultiSetUtilsTest
+  In class or interface : MultiSetUtilsTest
+    The field fullArray has no getter
+
+In package : org.apache.commons.collections4.MultiSetUtilsTest
+  In class or interface : MultiSetUtilsTest
+    The field multiSet has no getter
+
+In package : org.apache.commons.collections4.properties.AbstractPropertiesFactoryTest
+  In class or interface : AbstractPropertiesFactoryTest
+    The field pathString has no getter
+
+In package : org.apache.commons.collections4.properties.AbstractPropertiesFactoryTest
+  In class or interface : AbstractPropertiesFactoryTest
+    The field fileExtension has no getter
+
+In package : org.apache.commons.collections4.sequence.SequencesComparatorTest
+  In class or interface : SequencesComparatorTest
+    The field before has no getter
+
+In package : org.apache.commons.collections4.sequence.SequencesComparatorTest
+  In class or interface : SequencesComparatorTest
+    The field after has no getter
+
+In package : org.apache.commons.collections4.set.AbstractNavigableSetTest.TestNavigableSetSubSet
+  In class or interface : TestNavigableSetSubSet
+    The field lowBound has no getter
+
+In package : org.apache.commons.collections4.set.AbstractNavigableSetTest.TestNavigableSetSubSet
+  In class or interface : TestNavigableSetSubSet
+    The field highBound has no getter
+
+In package : org.apache.commons.collections4.set.AbstractNavigableSetTest.TestNavigableSetSubSet
+  In class or interface : TestNavigableSetSubSet
+    The field fullElements has no getter
+
+In package : org.apache.commons.collections4.set.AbstractNavigableSetTest.TestNavigableSetSubSet
+  In class or interface : TestNavigableSetSubSet
+    The field otherElements has no getter
+
+In package : org.apache.commons.collections4.set.AbstractNavigableSetTest.TestNavigableSetSubSet
+  In class or interface : TestNavigableSetSubSet
+    The field m_Inclusive has no getter
+
+In package : org.apache.commons.collections4.set.AbstractSortedSetTest.TestSortedSetSubSet
+  In class or interface : TestSortedSetSubSet
+    The field m_Type has no getter
+
+In package : org.apache.commons.collections4.set.AbstractSortedSetTest.TestSortedSetSubSet
+  In class or interface : TestSortedSetSubSet
+    The field m_LowBound has no getter
+
+In package : org.apache.commons.collections4.set.AbstractSortedSetTest.TestSortedSetSubSet
+  In class or interface : TestSortedSetSubSet
+    The field m_HighBound has no getter
+
+In package : org.apache.commons.collections4.set.AbstractSortedSetTest.TestSortedSetSubSet
+  In class or interface : TestSortedSetSubSet
+    The field m_FullElements has no getter
+
+In package : org.apache.commons.collections4.set.AbstractSortedSetTest.TestSortedSetSubSet
+  In class or interface : TestSortedSetSubSet
+    The field m_OtherElements has no getter
+
+In package : org.apache.commons.collections4.set.EmptySetMutator
+  In class or interface : EmptySetMutator
+    The field serialVersionUID has no getter
+
+In package : org.apache.commons.collections4.set.EmptySetMutator
+  In class or interface : EmptySetMutator
+    The field contained has no getter
+
+In package : org.apache.commons.collections4.set.ListOrderedSet2Test
+  In class or interface : ListOrderedSet2Test
+    The field ZERO has no getter
+
+In package : org.apache.commons.collections4.set.ListOrderedSet2Test
+  In class or interface : ListOrderedSet2Test
+    The field ONE has no getter
+
+In package : org.apache.commons.collections4.set.ListOrderedSet2Test
+  In class or interface : ListOrderedSet2Test
+    The field TWO has no getter
+
+In package : org.apache.commons.collections4.set.ListOrderedSet2Test
+  In class or interface : ListOrderedSet2Test
+    The field THREE has no getter
+
+In package : org.apache.commons.collections4.set.ListOrderedSetTest
+  In class or interface : ListOrderedSetTest
+    The field ZERO has no getter
+
+In package : org.apache.commons.collections4.set.ListOrderedSetTest
+  In class or interface : ListOrderedSetTest
+    The field ONE has no getter
+
+In package : org.apache.commons.collections4.set.ListOrderedSetTest
+  In class or interface : ListOrderedSetTest
+    The field TWO has no getter
+
+In package : org.apache.commons.collections4.set.ListOrderedSetTest
+  In class or interface : ListOrderedSetTest
+    The field THREE has no getter
+
+In package : org.apache.commons.collections4.SetUtilsTest
+  In class or interface : SetUtilsTest
+    The field setA has no getter
+
+In package : org.apache.commons.collections4.SetUtilsTest
+  In class or interface : SetUtilsTest
+    The field setB has no getter
+
+In package : org.apache.commons.collections4.splitmap.TransformedSplitMapTest
+  In class or interface : TransformedSplitMapTest
+    The field intToString has no getter
+
+In package : org.apache.commons.collections4.splitmap.TransformedSplitMapTest
+  In class or interface : TransformedSplitMapTest
+    The field objectToClass has no getter
+
+In package : org.apache.commons.collections4.splitmap.TransformedSplitMapTest
+  In class or interface : TransformedSplitMapTest
+    The field stringToInt has no getter
+
+In package : org.apache.commons.collections4.SplitMapUtilsTest
+  In class or interface : SplitMapUtilsTest
+    The field backingMap has no getter
+
+In package : org.apache.commons.collections4.SplitMapUtilsTest
+  In class or interface : SplitMapUtilsTest
+    The field transformedMap has no getter
+
+In package : org.apache.commons.collections4.SplitMapUtilsTest
+  In class or interface : SplitMapUtilsTest
+    The field stringToInt has no getter
+
+In package : org.apache.commons.collections4.TransformerUtilsTest
+  In class or interface : TransformerUtilsTest
+    The field cObject has no getter
+
+In package : org.apache.commons.collections4.TransformerUtilsTest
+  In class or interface : TransformerUtilsTest
+    The field cString has no getter
+
+In package : org.apache.commons.collections4.TransformerUtilsTest
+  In class or interface : TransformerUtilsTest
+    The field cInteger has no getter
+

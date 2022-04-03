@@ -23,3 +23,34 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+Xpath answer : 
+
+```xpath
+(//IfStatement[count(..//IfStatement)>2])[last()]
+````
+
+The xml answer : 
+
+```xml
+<rule name="TP2_MDI"
+      language="java"
+      message="3 or more nested ''''if'''' statements"
+      class="net.sourceforge.pmd.lang.rule.XPathRule">
+   <description>
+
+   </description>
+   <priority>3</priority>
+   <properties>
+      <property name="version" value="2.0"/>
+      <property name="xpath">
+         <value>
+<![CDATA[
+(//IfStatement[count(..//IfStatement)>2])[last()]
+
+
+]]>
+         </value>
+      </property>
+   </properties>
+</rule>
+```
