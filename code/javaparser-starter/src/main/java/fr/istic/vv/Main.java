@@ -13,9 +13,14 @@ import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
+
 public class Main {
 
-    public static void main(String[] args) throws IOException {
+
+    public static void main(String[] args2) throws IOException {
+    	
+    	String[] args = {"src/main/java/fr/istic/vv/"};
+    	
         if(args.length == 0) {
             System.err.println("Should provide the path to the source code");
             System.exit(1);
@@ -28,12 +33,12 @@ public class Main {
         }
 
         SourceRoot root = new SourceRoot(file.toPath());
-        PublicElementsPrinter printer = new PublicElementsPrinter();
+        TCC printer = new TCC();
         root.parse("", (localPath, absolutePath, result) -> {
             result.ifSuccessful(unit -> unit.accept(printer, null));
             return SourceRoot.Callback.Result.DONT_SAVE;
         });
+
+        
     }
-
-
 }
