@@ -23,3 +23,7 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+Since the rule already exists we can extend it in the xml through:
+`<rule ref="category/vm/design.xml/AvoidDeeplyNestedIfStmts" />`
+
+We also tried to run this on the Apache Commons Math but we didn't get any new flags from pmd.
