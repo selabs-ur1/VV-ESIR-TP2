@@ -13,4 +13,4 @@ You can realize this lab by group of 1 or 2.
 
 ## Deliverable and evaluation
 
-We will mark this lab. You need to fork this repository and to submit a pull request with the answers written in the dedicated sections (deadline April 3rd 2022, 23:59).
+We will mark this lab. You need to fork this repository and to submit a pull request with the answers written in the dedicated sections (deadline March 18th 2022, 23:59).
