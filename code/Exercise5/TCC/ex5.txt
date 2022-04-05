@@ -1,0 +1,1164 @@
+Package : org.apache.commons.collections4.ResettableIterator : 
+	Class : ResettableIterator
+		- TCC : 0/0
+Package : org.apache.commons.collections4.multiset.UnmodifiableMultiSet : 
+	Class : UnmodifiableMultiSet
+		- TCC : 0/91
+Package : org.apache.commons.collections4.multiset.AbstractMultiSetDecorator : 
+	Class : AbstractMultiSetDecorator
+		- TCC : 0/36
+Package : org.apache.commons.collections4.multiset.SynchronizedMultiSet : 
+	Class : SynchronizedSet
+	Class : SynchronizedMultiSet
+		- TCC : 0/45
+		- TCC : 0/0
+Package : org.apache.commons.collections4.multiset.HashMultiSet : 
+	Class : HashMultiSet
+		- TCC : 0/1
+Package : org.apache.commons.collections4.multiset.AbstractMultiSet : 
+	Class : MultiSetIterator
+	Class : UniqueSet
+	Class : EntrySet
+	Class : AbstractEntry
+	Class : AbstractMultiSet
+		- TCC : 0/210
+Package : org.apache.commons.collections4.multiset.PredicatedMultiSet : 
+	Class : PredicatedMultiSet
+		- TCC : 0/45
+Package : org.apache.commons.collections4.multiset.AbstractMapMultiSet : 
+	Class : MapBasedMultiSetIterator
+	Class : MutableInteger
+	Class : UniqueSetIterator
+	Class : EntrySetIterator
+	Class : MultiSetEntry
+	Class : AbstractMapMultiSet
+		- TCC : 110/153
+Package : org.apache.commons.collections4.set.UnmodifiableSortedSet : 
+	Class : UnmodifiableSortedSet
+		- TCC : 0/91
+Package : org.apache.commons.collections4.set.PredicatedSortedSet : 
+	Class : PredicatedSortedSet
+		- TCC : 0/28
+Package : org.apache.commons.collections4.set.ListOrderedSet : 
+	Class : OrderedSetIterator
+	Class : ListOrderedSet
+		- TCC : 66/91
+Package : org.apache.commons.collections4.set.TransformedSet : 
+	Class : TransformedSet
+		- TCC : 0/6
+Package : org.apache.commons.collections4.set.AbstractSerializableSetDecorator : 
+	Class : AbstractSerializableSetDecorator
+		- TCC : 0/1
+Package : org.apache.commons.collections4.set.UnmodifiableNavigableSet : 
+	Class : UnmodifiableNavigableSet
+		- TCC : 0/153
+Package : org.apache.commons.collections4.set.AbstractNavigableSetDecorator : 
+	Class : AbstractNavigableSetDecorator
+		- TCC : 0/66
+		- TCC : 0/0
+Package : org.apache.commons.collections4.set.UnmodifiableSet : 
+	Class : UnmodifiableSet
+		- TCC : 0/36
+Package : org.apache.commons.collections4.set.TransformedNavigableSet : 
+	Class : TransformedNavigableSet
+		- TCC : 0/91
+Package : org.apache.commons.collections4.set.AbstractSetDecorator : 
+	Class : AbstractSetDecorator
+		- TCC : 0/3
+Package : org.apache.commons.collections4.set.TransformedSortedSet : 
+	Class : TransformedSortedSet
+		- TCC : 0/36
+Package : org.apache.commons.collections4.set.PredicatedNavigableSet : 
+	Class : PredicatedNavigableSet
+		- TCC : 0/78
+Package : org.apache.commons.collections4.set.CompositeSet : 
+Package : org.apache.commons.collections4.set.CompositeSet.SetMutator : 
+	Class : SetMutator
+	Class : CompositeSet
+		- TCC : 56/231
+Package : org.apache.commons.collections4.set.MapBackedSet : 
+	Class : MapBackedSet
+		- TCC : 120/120
+Package : org.apache.commons.collections4.set.AbstractSortedSetDecorator : 
+	Class : AbstractSortedSetDecorator
+		- TCC : 0/21
+Package : org.apache.commons.collections4.set.PredicatedSet : 
+	Class : PredicatedSet
+		- TCC : 0/6
+Package : org.apache.commons.collections4.BoundedCollection : 
+	Class : BoundedCollection
+		- TCC : 0/1
+Package : org.apache.commons.collections4.bidimap.UnmodifiableBidiMap : 
+	Class : UnmodifiableBidiMap
+		- TCC : 0/55
+Package : org.apache.commons.collections4.bidimap.TreeBidiMap : 
+	Class : View
+	Class : KeyView
+	Class : ValueView
+	Class : EntryView
+	Class : InverseEntryView
+	Class : ViewIterator
+	Class : ViewMapIterator
+	Class : InverseViewMapIterator
+	Class : ViewMapEntryIterator
+	Class : InverseViewMapEntryIterator
+	Class : Node
+	Class : Inverse
+	Class : TreeBidiMap
+		- TCC : 120/1953
+Package : org.apache.commons.collections4.bidimap.AbstractSortedBidiMapDecorator : 
+	Class : AbstractSortedBidiMapDecorator
+		- TCC : 0/21
+Package : org.apache.commons.collections4.bidimap.AbstractOrderedBidiMapDecorator : 
+	Class : AbstractOrderedBidiMapDecorator
+		- TCC : 0/21
+Package : org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMap : 
+	Class : UnmodifiableOrderedBidiMap
+		- TCC : 0/66
+		- TCC : 0/0
+Package : org.apache.commons.collections4.bidimap.AbstractBidiMapDecorator : 
+	Class : AbstractBidiMapDecorator
+		- TCC : 0/15
+Package : org.apache.commons.collections4.bidimap.AbstractDualBidiMap : 
+	Class : View
+	Class : KeySet
+	Class : KeySetIterator
+	Class : Values
+	Class : ValuesIterator
+	Class : EntrySet
+	Class : EntrySetIterator
+	Class : MapEntry
+	Class : BidiMapIterator
+	Class : AbstractDualBidiMap
+		- TCC : 77/253
+Package : org.apache.commons.collections4.bidimap.DualHashBidiMap : 
+	Class : DualHashBidiMap
+		- TCC : 0/3
+Package : org.apache.commons.collections4.bidimap.DualTreeBidiMap : 
+	Class : ViewMap
+	Class : BidiOrderedMapIterator
+	Class : DualTreeBidiMap
+		- TCC : 0/120
+Package : org.apache.commons.collections4.bidimap.UnmodifiableSortedBidiMap : 
+	Class : UnmodifiableSortedBidiMap
+		- TCC : 0/91
+Package : org.apache.commons.collections4.bidimap.DualLinkedHashBidiMap : 
+	Class : DualLinkedHashBidiMap
+		- TCC : 0/3
+Package : org.apache.commons.collections4.Get : 
+	Class : Get
+		- TCC : 0/36
+Package : org.apache.commons.collections4.Factory : 
+	Class : Factory
+		- TCC : 0/0
+Package : org.apache.commons.collections4.MultiMap : 
+	Class : MultiMap
+		- TCC : 0/21
+Package : org.apache.commons.collections4.Equator : 
+	Class : Equator
+		- TCC : 0/1
+Package : org.apache.commons.collections4.BoundedMap : 
+	Class : BoundedMap
+		- TCC : 0/1
+Package : org.apache.commons.collections4.CollectionUtils : 
+	Class : CardinalityHelper
+	Class : SetOperationCardinalityHelper
+	Class : EquatorWrapper
+	Class : CollectionUtils
+		- TCC : 0/1128
+Package : org.apache.commons.collections4.ResettableListIterator : 
+	Class : ResettableListIterator
+		- TCC : 0/0
+Package : org.apache.commons.collections4.BidiMap : 
+	Class : BidiMap
+		- TCC : 0/10
+Package : org.apache.commons.collections4.sequence.DeleteCommand : 
+	Class : DeleteCommand
+		- TCC : 0/0
+Package : org.apache.commons.collections4.sequence.CommandVisitor : 
+	Class : CommandVisitor
+		- TCC : 0/3
+Package : org.apache.commons.collections4.sequence.SequencesComparator : 
+	Class : Snake
+	Class : SequencesComparator
+		- TCC : 6/6
+		- TCC : 0/0
+Package : org.apache.commons.collections4.sequence.EditCommand : 
+	Class : EditCommand
+		- TCC : 0/1
+Package : org.apache.commons.collections4.sequence.ReplacementsFinder : 
+	Class : ReplacementsFinder
+		- TCC : 2/3
+Package : org.apache.commons.collections4.sequence.KeepCommand : 
+	Class : KeepCommand
+		- TCC : 0/0
+Package : org.apache.commons.collections4.sequence.ReplacementsHandler : 
+	Class : ReplacementsHandler
+		- TCC : 0/0
+Package : org.apache.commons.collections4.sequence.EditScript : 
+	Class : EditScript
+		- TCC : 2/6
+Package : org.apache.commons.collections4.sequence.InsertCommand : 
+	Class : InsertCommand
+		- TCC : 0/0
+Package : org.apache.commons.collections4.Bag : 
+	Class : Bag
+		- TCC : 0/36
+Package : org.apache.commons.collections4.properties.SortedPropertiesFactory : 
+	Class : SortedPropertiesFactory
+		- TCC : 0/0
+		- TCC : 0/0
+Package : org.apache.commons.collections4.properties.AbstractPropertiesFactory : 
+Package : org.apache.commons.collections4.properties.AbstractPropertiesFactory.PropertyFormat : 
+	Class : AbstractPropertiesFactory
+		- TCC : 0/3
+Package : org.apache.commons.collections4.properties.PropertiesFactory : 
+	Class : EmptyProperties
+	Class : PropertiesFactory
+		- TCC : 0/0
+Package : org.apache.commons.collections4.properties.SortedProperties : 
+	Class : SortedProperties
+		- TCC : 0/3
+Package : org.apache.commons.collections4.IterableUtils : 
+	Class : UnmodifiableIterable
+	Class : IterableUtils
+		- TCC : 0/465
+Package : org.apache.commons.collections4.Predicate : 
+	Class : Predicate
+		- TCC : 0/0
+Package : org.apache.commons.collections4.TransformerUtils : 
+	Class : TransformerUtils
+		- TCC : 0/91
+		- TCC : 0/0
+Package : org.apache.commons.collections4.bloomfilter.HasherBloomFilter : 
+	Class : HasherBloomFilter
+		- TCC : 10/10
+Package : org.apache.commons.collections4.bloomfilter.ArrayCountingBloomFilter : 
+	Class : IndexIterator
+	Class : ArrayCountingBloomFilter
+		- TCC : 40/120
+Package : org.apache.commons.collections4.bloomfilter.BloomFilter : 
+	Class : BloomFilter
+		- TCC : 0/36
+Package : org.apache.commons.collections4.bloomfilter.AbstractBloomFilter : 
+	Class : AbstractBloomFilter
+		- TCC : 6/45
+Package : org.apache.commons.collections4.bloomfilter.CountingBloomFilter : 
+	Class : BitCountConsumer
+	Class : CountingBloomFilter
+		- TCC : 0/15
+	Class : IndexFilters
+		- TCC : 0/0
+Package : org.apache.commons.collections4.bloomfilter.BloomFilterIndexer : 
+	Class : BloomFilterIndexer
+		- TCC : 0/3
+Package : org.apache.commons.collections4.bloomfilter.SetOperations : 
+	Class : SetOperations
+		- TCC : 0/36
+Package : org.apache.commons.collections4.bloomfilter.hasher.HashFunctionIdentity : 
+	Class : HashFunctionIdentity
+		- TCC : 0/21
+Package : org.apache.commons.collections4.bloomfilter.hasher.Shape : 
+	Class : Shape
+		- TCC : 40/105
+		- TCC : 0/0
+Package : org.apache.commons.collections4.bloomfilter.hasher.Hasher : 
+	Class : Builder
+	Class : Hasher
+		- TCC : 0/1
+Package : org.apache.commons.collections4.bloomfilter.hasher.HashFunction : 
+	Class : HashFunction
+		- TCC : 0/1
+Package : org.apache.commons.collections4.bloomfilter.hasher.HashFunctionIdentityImpl : 
+	Class : HashFunctionIdentityImpl
+		- TCC : 0/10
+Package : org.apache.commons.collections4.bloomfilter.hasher.function.ObjectsHashIterative : 
+	Class : ObjectsHashIterative
+		- TCC : 0/15
+		- TCC : 0/0
+	Class : Signatures
+		- TCC : 0/0
+Package : org.apache.commons.collections4.bloomfilter.hasher.function.Murmur32x86Iterative : 
+	Class : Murmur32x86Iterative
+		- TCC : 0/15
+Package : org.apache.commons.collections4.bloomfilter.hasher.function.Murmur128x64Cyclic : 
+	Class : Murmur128x64Cyclic
+		- TCC : 0/15
+Package : org.apache.commons.collections4.bloomfilter.hasher.function.MD5Cyclic : 
+	Class : MD5Cyclic
+		- TCC : 0/15
+Package : org.apache.commons.collections4.bloomfilter.hasher.HashFunctionValidator : 
+	Class : HashFunctionValidator
+		- TCC : 0/3
+Package : org.apache.commons.collections4.bloomfilter.hasher.DynamicHasher : 
+Package : org.apache.commons.collections4.bloomfilter.hasher.DynamicHasher.Builder : 
+	Class : Builder
+	Class : Iterator
+	Class : NoValuesIterator
+	Class : DynamicHasher
+		- TCC : 2/10
+Package : org.apache.commons.collections4.bloomfilter.hasher.StaticHasher : 
+	Class : StaticHasher
+		- TCC : 4/10
+Package : org.apache.commons.collections4.bloomfilter.BitSetBloomFilter : 
+	Class : BitSetBloomFilter
+		- TCC : 21/28
+Package : org.apache.commons.collections4.Transformer : 
+	Class : Transformer
+		- TCC : 0/0
+Package : org.apache.commons.collections4.PredicateUtils : 
+	Class : PredicateUtils
+		- TCC : 0/276
+Package : org.apache.commons.collections4.functors.StringValueTransformer : 
+	Class : StringValueTransformer
+		- TCC : 1/3
+Package : org.apache.commons.collections4.functors.NullPredicate : 
+	Class : NullPredicate
+		- TCC : 1/3
+Package : org.apache.commons.collections4.functors.NotPredicate : 
+	Class : NotPredicate
+		- TCC : 1/3
+Package : org.apache.commons.collections4.functors.TransformerPredicate : 
+	Class : TransformerPredicate
+		- TCC : 1/3
+Package : org.apache.commons.collections4.functors.IfTransformer : 
+	Class : IfTransformer
+		- TCC : 3/10
+Package : org.apache.commons.collections4.functors.ExceptionPredicate : 
+	Class : ExceptionPredicate
+		- TCC : 1/3
+Package : org.apache.commons.collections4.functors.FactoryTransformer : 
+	Class : FactoryTransformer
+		- TCC : 1/3
+Package : org.apache.commons.collections4.functors.InstantiateFactory : 
+	Class : InstantiateFactory
+		- TCC : 1/3
+		- TCC : 0/0
+Package : org.apache.commons.collections4.functors.ExceptionTransformer : 
+	Class : ExceptionTransformer
+		- TCC : 1/3
+Package : org.apache.commons.collections4.functors.OrPredicate : 
+	Class : OrPredicate
+		- TCC : 1/3
+Package : org.apache.commons.collections4.functors.AbstractQuantifierPredicate : 
+	Class : AbstractQuantifierPredicate
+		- TCC : 0/0
+Package : org.apache.commons.collections4.functors.InstanceofPredicate : 
+	Class : InstanceofPredicate
+		- TCC : 1/3
+Package : org.apache.commons.collections4.functors.ForClosure : 
+	Class : ForClosure
+		- TCC : 2/6
+Package : org.apache.commons.collections4.functors.NonePredicate : 
+	Class : NonePredicate
+		- TCC : 0/1
+Package : org.apache.commons.collections4.functors.IfClosure : 
+	Class : IfClosure
+		- TCC : 3/10
+Package : org.apache.commons.collections4.functors.SwitchTransformer : 
+	Class : SwitchTransformer
+		- TCC : 3/10
+Package : org.apache.commons.collections4.functors.UniquePredicate : 
+	Class : UniquePredicate
+		- TCC : 0/1
+Package : org.apache.commons.collections4.functors.AndPredicate : 
+	Class : AndPredicate
+		- TCC : 1/3
+Package : org.apache.commons.collections4.functors.ConstantFactory : 
+	Class : ConstantFactory
+		- TCC : 1/3
+Package : org.apache.commons.collections4.functors.ExceptionFactory : 
+	Class : ExceptionFactory
+		- TCC : 1/3
+Package : org.apache.commons.collections4.functors.SwitchClosure : 
+	Class : SwitchClosure
+		- TCC : 3/10
+Package : org.apache.commons.collections4.functors.InvokerTransformer : 
+	Class : InvokerTransformer
+		- TCC : 0/1
+Package : org.apache.commons.collections4.functors.NullIsExceptionPredicate : 
+	Class : NullIsExceptionPredicate
+		- TCC : 1/3
+Package : org.apache.commons.collections4.functors.ChainedTransformer : 
+	Class : ChainedTransformer
+		- TCC : 1/3
+Package : org.apache.commons.collections4.functors.ClosureTransformer : 
+	Class : ClosureTransformer
+		- TCC : 1/3
+Package : org.apache.commons.collections4.functors.PredicateTransformer : 
+	Class : PredicateTransformer
+		- TCC : 1/3
+Package : org.apache.commons.collections4.functors.ExceptionClosure : 
+	Class : ExceptionClosure
+		- TCC : 1/3
+Package : org.apache.commons.collections4.functors.TruePredicate : 
+	Class : TruePredicate
+		- TCC : 1/3
+Package : org.apache.commons.collections4.functors.NOPTransformer : 
+	Class : NOPTransformer
+		- TCC : 1/3
+Package : org.apache.commons.collections4.functors.ComparatorPredicate : 
+Package : org.apache.commons.collections4.functors.ComparatorPredicate.Criterion : 
+	Class : ComparatorPredicate
+		- TCC : 1/1
+Package : org.apache.commons.collections4.functors.MapTransformer : 
+	Class : MapTransformer
+		- TCC : 1/3
+Package : org.apache.commons.collections4.functors.PredicateDecorator : 
+	Class : PredicateDecorator
+		- TCC : 0/0
+Package : org.apache.commons.collections4.functors.OnePredicate : 
+	Class : OnePredicate
+		- TCC : 0/1
+Package : org.apache.commons.collections4.functors.NullIsFalsePredicate : 
+	Class : NullIsFalsePredicate
+		- TCC : 1/3
+Package : org.apache.commons.collections4.functors.PrototypeFactory : 
+	Class : PrototypeCloneFactory
+	Class : PrototypeSerializationFactory
+	Class : PrototypeFactory
+		- TCC : 0/0
+Package : org.apache.commons.collections4.functors.AllPredicate : 
+	Class : AllPredicate
+		- TCC : 0/1
+Package : org.apache.commons.collections4.functors.WhileClosure : 
+	Class : WhileClosure
+		- TCC : 3/10
+Package : org.apache.commons.collections4.functors.TransformedPredicate : 
+	Class : TransformedPredicate
+		- TCC : 2/6
+Package : org.apache.commons.collections4.functors.AnyPredicate : 
+	Class : AnyPredicate
+		- TCC : 0/1
+	Class : FunctorUtils
+		- TCC : 0/0
+Package : org.apache.commons.collections4.functors.CatchAndRethrowClosure : 
+	Class : CatchAndRethrowClosure
+		- TCC : 0/1
+Package : org.apache.commons.collections4.functors.CloneTransformer : 
+	Class : CloneTransformer
+		- TCC : 0/1
+Package : org.apache.commons.collections4.functors.NullIsTruePredicate : 
+	Class : NullIsTruePredicate
+		- TCC : 1/3
+Package : org.apache.commons.collections4.functors.NotNullPredicate : 
+	Class : NotNullPredicate
+		- TCC : 1/3
+Package : org.apache.commons.collections4.functors.ChainedClosure : 
+	Class : ChainedClosure
+		- TCC : 1/3
+Package : org.apache.commons.collections4.functors.ConstantTransformer : 
+	Class : ConstantTransformer
+		- TCC : 1/15
+Package : org.apache.commons.collections4.functors.EqualPredicate : 
+	Class : EqualPredicate
+		- TCC : 2/3
+Package : org.apache.commons.collections4.functors.FalsePredicate : 
+	Class : FalsePredicate
+		- TCC : 1/3
+Package : org.apache.commons.collections4.functors.TransformerClosure : 
+	Class : TransformerClosure
+		- TCC : 1/3
+Package : org.apache.commons.collections4.functors.IdentityPredicate : 
+	Class : IdentityPredicate
+		- TCC : 1/3
+Package : org.apache.commons.collections4.functors.NOPClosure : 
+	Class : NOPClosure
+		- TCC : 1/3
+Package : org.apache.commons.collections4.functors.DefaultEquator : 
+	Class : DefaultEquator
+		- TCC : 1/6
+Package : org.apache.commons.collections4.functors.InstantiateTransformer : 
+	Class : InstantiateTransformer
+		- TCC : 0/1
+		- TCC : 0/0
+Package : org.apache.commons.collections4.comparators.NullComparator : 
+	Class : NullComparator
+		- TCC : 3/3
+		- TCC : 0/0
+Package : org.apache.commons.collections4.comparators.FixedOrderComparator : 
+Package : org.apache.commons.collections4.comparators.FixedOrderComparator.UnknownObjectBehavior : 
+	Class : FixedOrderComparator
+		- TCC : 20/36
+Package : org.apache.commons.collections4.comparators.BooleanComparator : 
+	Class : BooleanComparator
+		- TCC : 12/21
+Package : org.apache.commons.collections4.comparators.ComparableComparator : 
+	Class : ComparableComparator
+		- TCC : 0/6
+Package : org.apache.commons.collections4.comparators.ReverseComparator : 
+	Class : ReverseComparator
+		- TCC : 3/3
+Package : org.apache.commons.collections4.comparators.TransformingComparator : 
+	Class : TransformingComparator
+		- TCC : 3/3
+Package : org.apache.commons.collections4.comparators.ComparatorChain : 
+	Class : ComparatorChain
+		- TCC : 35/55
+Package : org.apache.commons.collections4.ComparatorUtils : 
+	Class : ComparatorUtils
+		- TCC : 15/36
+Package : org.apache.commons.collections4.FunctorException : 
+	Class : FunctorException
+		- TCC : 0/0
+Package : org.apache.commons.collections4.trie.PatriciaTrie : 
+	Class : PatriciaTrie
+		- TCC : 0/0
+Package : org.apache.commons.collections4.trie.analyzer.StringKeyAnalyzer : 
+	Class : StringKeyAnalyzer
+		- TCC : 10/15
+		- TCC : 0/0
+		- TCC : 0/0
+Package : org.apache.commons.collections4.trie.KeyAnalyzer : 
+	Class : KeyAnalyzer
+		- TCC : 0/45
+Package : org.apache.commons.collections4.trie.UnmodifiableTrie : 
+	Class : UnmodifiableTrie
+		- TCC : 210/325
+Package : org.apache.commons.collections4.trie.AbstractBitwiseTrie : 
+	Class : BasicEntry
+	Class : AbstractBitwiseTrie
+		- TCC : 15/36
+	Class : AbstractPatriciaTrie
+		- TCC : 0/0
+Package : org.apache.commons.collections4.SplitMapUtils : 
+	Class : WrappedGet
+	Class : WrappedPut
+	Class : SplitMapUtils
+		- TCC : 0/1
+Package : org.apache.commons.collections4.MultiValuedMap : 
+	Class : MultiValuedMap
+		- TCC : 0/136
+Package : org.apache.commons.collections4.MapUtils : 
+	Class : MapUtils
+		- TCC : 0/1225
+Package : org.apache.commons.collections4.OrderedIterator : 
+	Class : OrderedIterator
+		- TCC : 0/1
+Package : org.apache.commons.collections4.OrderedBidiMap : 
+	Class : OrderedBidiMap
+		- TCC : 0/0
+	Class : ArrayUtils
+		- TCC : 0/0
+Package : org.apache.commons.collections4.FactoryUtils : 
+	Class : FactoryUtils
+		- TCC : 0/10
+Package : org.apache.commons.collections4.BagUtils : 
+	Class : BagUtils
+		- TCC : 0/55
+Package : org.apache.commons.collections4.MapIterator : 
+	Class : MapIterator
+		- TCC : 0/15
+Package : org.apache.commons.collections4.collection.TransformedCollection : 
+	Class : TransformedCollection
+		- TCC : 1/10
+Package : org.apache.commons.collections4.collection.UnmodifiableBoundedCollection : 
+	Class : UnmodifiableBoundedCollection
+		- TCC : 0/66
+Package : org.apache.commons.collections4.collection.IndexedCollection : 
+	Class : IndexedCollection
+		- TCC : 28/120
+		- TCC : 0/0
+Package : org.apache.commons.collections4.collection.PredicatedCollection : 
+Package : org.apache.commons.collections4.collection.PredicatedCollection.Builder : 
+	Class : Builder
+	Class : PredicatedCollection
+		- TCC : 37/66
+Package : org.apache.commons.collections4.collection.CompositeCollection : 
+Package : org.apache.commons.collections4.collection.CompositeCollection.CollectionMutator : 
+	Class : CollectionMutator
+	Class : CompositeCollection
+		- TCC : 67/171
+Package : org.apache.commons.collections4.collection.SynchronizedCollection : 
+	Class : SynchronizedCollection
+		- TCC : 105/153
+Package : org.apache.commons.collections4.collection.UnmodifiableCollection : 
+	Class : UnmodifiableCollection
+		- TCC : 0/36
+Package : org.apache.commons.collections4.collection.AbstractCollectionDecorator : 
+	Class : AbstractCollectionDecorator
+		- TCC : 1/120
+Package : org.apache.commons.collections4.MultiMapUtils : 
+	Class : MultiMapUtils
+		- TCC : 1/55
+Package : org.apache.commons.collections4.IterableGet : 
+	Class : IterableGet
+		- TCC : 0/0
+Package : org.apache.commons.collections4.MultiSetUtils : 
+	Class : MultiSetUtils
+		- TCC : 0/6
+Package : org.apache.commons.collections4.SortedBidiMap : 
+	Class : SortedBidiMap
+		- TCC : 0/1
+Package : org.apache.commons.collections4.multimap.AbstractListValuedMap : 
+	Class : WrappedList
+	Class : ValuesListIterator
+	Class : AbstractListValuedMap
+		- TCC : 0/10
+Package : org.apache.commons.collections4.multimap.AbstractMultiValuedMap : 
+	Class : WrappedCollection
+	Class : KeysMultiSet
+	Class : EntryValues
+	Class : MultiValuedMapEntry
+	Class : MultiValuedMapIterator
+	Class : Values
+	Class : ValuesIterator
+	Class : AsMap
+	Class : AbstractMultiValuedMap
+		- TCC : 10/325
+		- TCC : 0/0
+Package : org.apache.commons.collections4.multimap.HashSetValuedHashMap : 
+	Class : HashSetValuedHashMap
+		- TCC : 0/3
+Package : org.apache.commons.collections4.multimap.ArrayListValuedHashMap : 
+	Class : ArrayListValuedHashMap
+		- TCC : 0/6
+Package : org.apache.commons.collections4.multimap.AbstractSetValuedMap : 
+	Class : WrappedSet
+	Class : AbstractSetValuedMap
+		- TCC : 0/10
+Package : org.apache.commons.collections4.multimap.AbstractMultiValuedMapDecorator : 
+	Class : AbstractMultiValuedMapDecorator
+		- TCC : 1/210
+Package : org.apache.commons.collections4.multimap.TransformedMultiValuedMap : 
+	Class : TransformedMultiValuedMap
+		- TCC : 5/15
+Package : org.apache.commons.collections4.multimap.UnmodifiableMultiValuedMap : 
+	Class : UnmodifiableMultiValuedMap
+		- TCC : 0/78
+Package : org.apache.commons.collections4.EnumerationUtils : 
+	Class : EnumerationUtils
+		- TCC : 0/3
+Package : org.apache.commons.collections4.IterableSortedMap : 
+	Class : IterableSortedMap
+		- TCC : 0/0
+Package : org.apache.commons.collections4.iterators.SingletonIterator : 
+	Class : SingletonIterator
+		- TCC : 6/6
+Package : org.apache.commons.collections4.iterators.IteratorChain : 
+	Class : IteratorChain
+		- TCC : 12/36
+Package : org.apache.commons.collections4.iterators.PushbackIterator : 
+	Class : PushbackIterator
+		- TCC : 5/10
+Package : org.apache.commons.collections4.iterators.FilterListIterator : 
+	Class : FilterListIterator
+		- TCC : 35/136
+Package : org.apache.commons.collections4.iterators.UniqueFilterIterator : 
+	Class : UniqueFilterIterator
+		- TCC : 0/0
+Package : org.apache.commons.collections4.iterators.ZippingIterator : 
+	Class : ZippingIterator
+		- TCC : 2/3
+Package : org.apache.commons.collections4.iterators.ObjectArrayIterator : 
+	Class : ObjectArrayIterator
+		- TCC : 6/21
+Package : org.apache.commons.collections4.iterators.EmptyOrderedIterator : 
+	Class : EmptyOrderedIterator
+		- TCC : 0/0
+Package : org.apache.commons.collections4.iterators.UnmodifiableListIterator : 
+	Class : UnmodifiableListIterator
+		- TCC : 28/55
+Package : org.apache.commons.collections4.iterators.FilterIterator : 
+	Class : FilterIterator
+		- TCC : 20/28
+Package : org.apache.commons.collections4.iterators.PermutationIterator : 
+	Class : PermutationIterator
+		- TCC : 1/3
+Package : org.apache.commons.collections4.iterators.AbstractMapIteratorDecorator : 
+	Class : AbstractMapIteratorDecorator
+		- TCC : 21/21
+Package : org.apache.commons.collections4.iterators.AbstractEmptyMapIterator : 
+	Class : AbstractEmptyMapIterator
+		- TCC : 0/3
+Package : org.apache.commons.collections4.iterators.EnumerationIterator : 
+	Class : EnumerationIterator
+		- TCC : 7/10
+Package : org.apache.commons.collections4.iterators.ListIteratorWrapper : 
+	Class : ListIteratorWrapper
+		- TCC : 45/45
+Package : org.apache.commons.collections4.iterators.EmptyOrderedMapIterator : 
+	Class : EmptyOrderedMapIterator
+		- TCC : 0/0
+Package : org.apache.commons.collections4.iterators.CollatingIterator : 
+	Class : CollatingIterator
+		- TCC : 50/120
+		- TCC : 0/0
+Package : org.apache.commons.collections4.iterators.ReverseListIterator : 
+	Class : ReverseListIterator
+		- TCC : 45/45
+Package : org.apache.commons.collections4.iterators.UnmodifiableMapIterator : 
+	Class : UnmodifiableMapIterator
+		- TCC : 10/21
+Package : org.apache.commons.collections4.iterators.IteratorEnumeration : 
+	Class : IteratorEnumeration
+		- TCC : 6/6
+Package : org.apache.commons.collections4.iterators.IteratorIterable : 
+	Class : IteratorIterable
+		- TCC : 1/1
+Package : org.apache.commons.collections4.iterators.SingletonListIterator : 
+	Class : SingletonListIterator
+		- TCC : 32/45
+Package : org.apache.commons.collections4.iterators.AbstractListIteratorDecorator : 
+	Class : AbstractListIteratorDecorator
+		- TCC : 45/45
+Package : org.apache.commons.collections4.iterators.ArrayListIterator : 
+	Class : ArrayListIterator
+		- TCC : 6/28
+Package : org.apache.commons.collections4.iterators.BoundedIterator : 
+	Class : BoundedIterator
+		- TCC : 9/10
+Package : org.apache.commons.collections4.iterators.UnmodifiableIterator : 
+	Class : UnmodifiableIterator
+		- TCC : 3/6
+Package : org.apache.commons.collections4.iterators.ObjectArrayListIterator : 
+	Class : ObjectArrayListIterator
+		- TCC : 6/28
+Package : org.apache.commons.collections4.iterators.EmptyListIterator : 
+	Class : EmptyListIterator
+		- TCC : 0/1
+Package : org.apache.commons.collections4.iterators.UnmodifiableOrderedMapIterator : 
+	Class : UnmodifiableOrderedMapIterator
+		- TCC : 21/36
+Package : org.apache.commons.collections4.iterators.PeekingIterator : 
+	Class : PeekingIterator
+		- TCC : 17/21
+Package : org.apache.commons.collections4.iterators.NodeListIterator : 
+	Class : NodeListIterator
+		- TCC : 1/3
+Package : org.apache.commons.collections4.iterators.ObjectGraphIterator : 
+	Class : ObjectGraphIterator
+		- TCC : 11/15
+	Class : AbstractEmptyIterator
+		- TCC : 0/0
+Package : org.apache.commons.collections4.iterators.LoopingListIterator : 
+	Class : LoopingListIterator
+		- TCC : 46/66
+Package : org.apache.commons.collections4.iterators.EntrySetMapIterator : 
+	Class : EntrySetMapIterator
+		- TCC : 24/28
+Package : org.apache.commons.collections4.iterators.EmptyIterator : 
+	Class : EmptyIterator
+		- TCC : 0/1
+Package : org.apache.commons.collections4.iterators.LoopingIterator : 
+	Class : LoopingIterator
+		- TCC : 8/10
+Package : org.apache.commons.collections4.iterators.ArrayIterator : 
+	Class : ArrayIterator
+		- TCC : 6/28
+Package : org.apache.commons.collections4.iterators.AbstractIteratorDecorator : 
+	Class : AbstractIteratorDecorator
+		- TCC : 0/0
+Package : org.apache.commons.collections4.iterators.TransformIterator : 
+	Class : TransformIterator
+		- TCC : 13/28
+Package : org.apache.commons.collections4.iterators.EmptyMapIterator : 
+	Class : EmptyMapIterator
+		- TCC : 0/0
+Package : org.apache.commons.collections4.iterators.AbstractOrderedMapIteratorDecorator : 
+	Class : AbstractOrderedMapIteratorDecorator
+		- TCC : 36/36
+Package : org.apache.commons.collections4.iterators.AbstractUntypedIteratorDecorator : 
+	Class : AbstractUntypedIteratorDecorator
+		- TCC : 3/3
+Package : org.apache.commons.collections4.iterators.SkippingIterator : 
+	Class : SkippingIterator
+		- TCC : 3/3
+Package : org.apache.commons.collections4.iterators.LazyIteratorChain : 
+	Class : LazyIteratorChain
+		- TCC : 6/10
+Package : org.apache.commons.collections4.map.LazyMap : 
+	Class : LazyMap
+		- TCC : 1/6
+Package : org.apache.commons.collections4.map.CompositeMap : 
+Package : org.apache.commons.collections4.map.CompositeMap.MapMutator : 
+	Class : MapMutator
+	Class : CompositeMap
+		- TCC : 67/153
+Package : org.apache.commons.collections4.map.AbstractOrderedMapDecorator : 
+	Class : AbstractOrderedMapDecorator
+		- TCC : 0/15
+Package : org.apache.commons.collections4.map.FixedSizeMap : 
+	Class : FixedSizeMap
+		- TCC : 0/66
+Package : org.apache.commons.collections4.map.PassiveExpiringMap : 
+Package : org.apache.commons.collections4.map.PassiveExpiringMap.ConstantTimeToLiveExpirationPolicy : 
+	Class : ConstantTimeToLiveExpirationPolicy
+Package : org.apache.commons.collections4.map.PassiveExpiringMap.ExpirationPolicy : 
+	Class : ExpirationPolicy
+	Class : PassiveExpiringMap
+		- TCC : 10/190
+Package : org.apache.commons.collections4.map.UnmodifiableMap : 
+	Class : UnmodifiableMap
+		- TCC : 0/55
+Package : org.apache.commons.collections4.map.ReferenceIdentityMap : 
+	Class : ReferenceIdentityMap
+		- TCC : 0/15
+Package : org.apache.commons.collections4.map.AbstractIterableMap : 
+	Class : AbstractIterableMap
+		- TCC : 0/0
+Package : org.apache.commons.collections4.map.MultiKeyMap : 
+	Class : MultiKeyMap
+		- TCC : 0/105
+Package : org.apache.commons.collections4.map.StaticBucketMap : 
+	Class : Node
+	Class : Lock
+	Class : BaseIterator
+	Class : EntryIterator
+	Class : ValueIterator
+	Class : KeyIterator
+	Class : EntrySet
+	Class : KeySet
+	Class : Values
+	Class : StaticBucketMap
+		- TCC : 45/120
+Package : org.apache.commons.collections4.map.AbstractHashedMap : 
+	Class : HashMapIterator
+	Class : EntrySet
+	Class : EntrySetIterator
+	Class : KeySet
+	Class : KeySetIterator
+	Class : Values
+	Class : ValuesIterator
+	Class : HashEntry
+	Class : HashIterator
+	Class : AbstractHashedMap
+		- TCC : 169/1035
+		- TCC : 0/0
+Package : org.apache.commons.collections4.map.LinkedMap : 
+	Class : LinkedMapList
+	Class : LinkedMap
+		- TCC : 0/28
+Package : org.apache.commons.collections4.map.CaseInsensitiveMap : 
+	Class : CaseInsensitiveMap
+		- TCC : 0/6
+Package : org.apache.commons.collections4.map.ListOrderedMap : 
+	Class : ValuesView
+	Class : KeySetView
+	Class : EntrySetView
+	Class : ListOrderedIterator
+	Class : ListOrderedMapEntry
+	Class : ListOrderedMapIterator
+	Class : ListOrderedMap
+		- TCC : 78/253
+Package : org.apache.commons.collections4.map.LRUMap : 
+	Class : LRUMap
+		- TCC : 16/91
+Package : org.apache.commons.collections4.map.FixedSizeSortedMap : 
+	Class : FixedSizeSortedMap
+		- TCC : 0/120
+Package : org.apache.commons.collections4.map.MultiValueMap : 
+	Class : Values
+	Class : ValuesIterator
+	Class : ReflectionFactory
+	Class : MultiValueMap
+		- TCC : 1/105
+Package : org.apache.commons.collections4.map.LazySortedMap : 
+	Class : LazySortedMap
+		- TCC : 0/28
+Package : org.apache.commons.collections4.map.Flat3Map : 
+	Class : FlatMapIterator
+	Class : EntrySet
+	Class : FlatMapEntry
+	Class : EntryIterator
+	Class : EntrySetIterator
+	Class : KeySet
+	Class : KeySetIterator
+	Class : Values
+	Class : ValuesIterator
+	Class : Flat3Map
+		- TCC : 153/210
+Package : org.apache.commons.collections4.map.EntrySetToMapIteratorAdapter : 
+	Class : EntrySetToMapIteratorAdapter
+		- TCC : 8/28
+Package : org.apache.commons.collections4.map.UnmodifiableEntrySet : 
+	Class : UnmodifiableEntrySetIterator
+	Class : UnmodifiableEntry
+	Class : UnmodifiableEntrySet
+		- TCC : 0/45
+Package : org.apache.commons.collections4.map.TransformedMap : 
+	Class : TransformedMap
+		- TCC : 12/55
+Package : org.apache.commons.collections4.map.HashedMap : 
+	Class : HashedMap
+		- TCC : 0/3
+Package : org.apache.commons.collections4.map.SingletonMap : 
+	Class : SingletonMapIterator
+	Class : SingletonValues
+	Class : SingletonMap
+		- TCC : 29/378
+Package : org.apache.commons.collections4.map.ReferenceMap : 
+	Class : ReferenceMap
+		- TCC : 0/1
+Package : org.apache.commons.collections4.map.AbstractReferenceMap : 
+Package : org.apache.commons.collections4.map.AbstractReferenceMap.ReferenceStrength : 
+	Class : ReferenceEntrySet
+	Class : ReferenceKeySet
+	Class : ReferenceValues
+	Class : ReferenceEntry
+	Class : ReferenceBaseIterator
+	Class : ReferenceEntrySetIterator
+	Class : ReferenceKeySetIterator
+	Class : ReferenceValuesIterator
+	Class : ReferenceMapIterator
+	Class : SoftRef
+	Class : WeakRef
+	Class : AbstractReferenceMap
+		- TCC : 9/378
+Package : org.apache.commons.collections4.map.TransformedSortedMap : 
+	Class : TransformedSortedMap
+		- TCC : 0/36
+Package : org.apache.commons.collections4.map.DefaultedMap : 
+	Class : DefaultedMap
+		- TCC : 0/6
+Package : org.apache.commons.collections4.map.AbstractLinkedMap : 
+	Class : LinkMapIterator
+	Class : EntrySetIterator
+	Class : KeySetIterator
+	Class : ValuesIterator
+	Class : LinkEntry
+	Class : LinkIterator
+	Class : AbstractLinkedMap
+		- TCC : 36/136
+Package : org.apache.commons.collections4.map.UnmodifiableOrderedMap : 
+	Class : UnmodifiableOrderedMap
+		- TCC : 0/55
+Package : org.apache.commons.collections4.map.AbstractSortedMapDecorator : 
+	Class : SortedMapIterator
+	Class : AbstractSortedMapDecorator
+		- TCC : 0/45
+Package : org.apache.commons.collections4.map.UnmodifiableSortedMap : 
+	Class : UnmodifiableSortedMap
+		- TCC : 0/120
+Package : org.apache.commons.collections4.map.PredicatedSortedMap : 
+	Class : PredicatedSortedMap
+		- TCC : 0/28
+Package : org.apache.commons.collections4.map.PredicatedMap : 
+	Class : PredicatedMap
+		- TCC : 6/28
+Package : org.apache.commons.collections4.map.AbstractMapDecorator : 
+	Class : AbstractMapDecorator
+		- TCC : 0/120
+	Class : AbstractInputCheckedMapDecorator
+		- TCC : 0/0
+Package : org.apache.commons.collections4.SetUtils : 
+Package : org.apache.commons.collections4.SetUtils.SetView : 
+	Class : SetView
+	Class : SetUtils
+		- TCC : 0/378
+Package : org.apache.commons.collections4.ClosureUtils : 
+	Class : ClosureUtils
+		- TCC : 0/55
+Package : org.apache.commons.collections4.SortedBag : 
+	Class : SortedBag
+		- TCC : 0/3
+Package : org.apache.commons.collections4.Unmodifiable : 
+	Class : Unmodifiable
+		- TCC : 0/0
+Package : org.apache.commons.collections4.OrderedMap : 
+	Class : OrderedMap
+		- TCC : 0/10
+Package : org.apache.commons.collections4.bag.AbstractMapBag : 
+	Class : BagIterator
+	Class : MutableInteger
+	Class : AbstractMapBag
+		- TCC : 83/190
+Package : org.apache.commons.collections4.bag.TransformedBag : 
+	Class : TransformedBag
+		- TCC : 0/36
+Package : org.apache.commons.collections4.bag.TransformedSortedBag : 
+	Class : TransformedSortedBag
+		- TCC : 0/15
+		- TCC : 0/0
+Package : org.apache.commons.collections4.bag.AbstractSortedBagDecorator : 
+	Class : AbstractSortedBagDecorator
+		- TCC : 0/6
+Package : org.apache.commons.collections4.bag.PredicatedSortedBag : 
+	Class : PredicatedSortedBag
+		- TCC : 0/10
+Package : org.apache.commons.collections4.bag.SynchronizedBag : 
+	Class : SynchronizedBagSet
+	Class : SynchronizedBag
+		- TCC : 0/28
+Package : org.apache.commons.collections4.bag.TreeBag : 
+	Class : TreeBag
+		- TCC : 0/21
+Package : org.apache.commons.collections4.bag.AbstractBagDecorator : 
+	Class : AbstractBagDecorator
+		- TCC : 0/21
+Package : org.apache.commons.collections4.bag.UnmodifiableBag : 
+	Class : UnmodifiableBag
+		- TCC : 0/66
+Package : org.apache.commons.collections4.bag.CollectionSortedBag : 
+	Class : CollectionSortedBag
+		- TCC : 0/36
+Package : org.apache.commons.collections4.bag.SynchronizedSortedBag : 
+	Class : SynchronizedSortedBag
+		- TCC : 0/10
+Package : org.apache.commons.collections4.bag.HashBag : 
+	Class : HashBag
+		- TCC : 0/1
+Package : org.apache.commons.collections4.bag.PredicatedBag : 
+	Class : PredicatedBag
+		- TCC : 0/28
+Package : org.apache.commons.collections4.bag.UnmodifiableSortedBag : 
+	Class : UnmodifiableSortedBag
+		- TCC : 0/66
+Package : org.apache.commons.collections4.bag.CollectionBag : 
+	Class : CollectionBag
+		- TCC : 0/36
+Package : org.apache.commons.collections4.ListUtils : 
+	Class : CharSequenceAsList
+	Class : LcsVisitor
+	Class : Partition
+	Class : ListUtils
+		- TCC : 0/253
+Package : org.apache.commons.collections4.QueueUtils : 
+	Class : QueueUtils
+		- TCC : 0/10
+Package : org.apache.commons.collections4.Closure : 
+	Class : Closure
+		- TCC : 0/0
+Package : org.apache.commons.collections4.FluentIterable : 
+	Class : FluentIterable
+		- TCC : 253/351
+		- TCC : 0/0
+Package : org.apache.commons.collections4.splitmap.AbstractIterableGetMapDecorator : 
+	Class : AbstractIterableGetMapDecorator
+		- TCC : 0/91
+Package : org.apache.commons.collections4.splitmap.TransformedSplitMap : 
+	Class : TransformedSplitMap
+		- TCC : 4/45
+Package : org.apache.commons.collections4.IteratorUtils : 
+	Class : IteratorUtils
+		- TCC : 0/1035
+Package : org.apache.commons.collections4.IterableMap : 
+	Class : IterableMap
+		- TCC : 0/0
+Package : org.apache.commons.collections4.queue.TransformedQueue : 
+	Class : TransformedQueue
+		- TCC : 0/28
+Package : org.apache.commons.collections4.queue.AbstractQueueDecorator : 
+	Class : AbstractQueueDecorator
+		- TCC : 0/15
+Package : org.apache.commons.collections4.queue.SynchronizedQueue : 
+	Class : SynchronizedQueue
+		- TCC : 0/36
+Package : org.apache.commons.collections4.queue.UnmodifiableQueue : 
+	Class : UnmodifiableQueue
+		- TCC : 0/78
+		- TCC : 0/0
+Package : org.apache.commons.collections4.queue.PredicatedQueue : 
+	Class : PredicatedQueue
+		- TCC : 0/21
+Package : org.apache.commons.collections4.queue.CircularFifoQueue : 
+	Class : CircularFifoQueue
+		- TCC : 58/153
+Package : org.apache.commons.collections4.keyvalue.AbstractMapEntryDecorator : 
+	Class : AbstractMapEntryDecorator
+		- TCC : 21/21
+Package : org.apache.commons.collections4.keyvalue.AbstractKeyValue : 
+	Class : AbstractKeyValue
+		- TCC : 2/10
+Package : org.apache.commons.collections4.keyvalue.AbstractMapEntry : 
+	Class : AbstractMapEntry
+		- TCC : 0/3
+		- TCC : 0/0
+Package : org.apache.commons.collections4.keyvalue.MultiKey : 
+	Class : MultiKey
+		- TCC : 22/55
+Package : org.apache.commons.collections4.keyvalue.DefaultKeyValue : 
+	Class : DefaultKeyValue
+		- TCC : 0/10
+Package : org.apache.commons.collections4.keyvalue.TiedMapEntry : 
+	Class : TiedMapEntry
+		- TCC : 6/15
+Package : org.apache.commons.collections4.keyvalue.UnmodifiableMapEntry : 
+	Class : UnmodifiableMapEntry
+		- TCC : 0/0
+Package : org.apache.commons.collections4.keyvalue.DefaultMapEntry : 
+	Class : DefaultMapEntry
+		- TCC : 0/0
+Package : org.apache.commons.collections4.KeyValue : 
+	Class : KeyValue
+		- TCC : 0/1
+Package : org.apache.commons.collections4.Put : 
+	Class : Put
+		- TCC : 0/3
+Package : org.apache.commons.collections4.ArrayStack : 
+	Class : ArrayStack
+		- TCC : 0/10
+Package : org.apache.commons.collections4.Trie : 
+	Class : Trie
+		- TCC : 0/0
+Package : org.apache.commons.collections4.TrieUtils : 
+	Class : TrieUtils
+		- TCC : 0/0
+Package : org.apache.commons.collections4.SetValuedMap : 
+	Class : SetValuedMap
+		- TCC : 0/1
+Package : org.apache.commons.collections4.OrderedMapIterator : 
+	Class : OrderedMapIterator
+		- TCC : 0/1
+Package : org.apache.commons.collections4.ListValuedMap : 
+	Class : ListValuedMap
+		- TCC : 0/1
+Package : org.apache.commons.collections4.MultiSet : 
+	Class : Entry
+	Class : MultiSet
+		- TCC : 0/78
+Package : org.apache.commons.collections4.list.SetUniqueList : 
+	Class : SetListIterator
+	Class : SetListListIterator
+	Class : SetUniqueList
+		- TCC : 91/120
+Package : org.apache.commons.collections4.list.AbstractLinkedList : 
+	Class : Node
+	Class : LinkedListIterator
+	Class : LinkedSubListIterator
+	Class : LinkedSubList
+	Class : AbstractLinkedList
+		- TCC : 100/861
+Package : org.apache.commons.collections4.list.TreeList : 
+	Class : AVLNode
+	Class : TreeListIterator
+	Class : TreeList
+		- TCC : 32/78
+		- TCC : 0/0
+Package : org.apache.commons.collections4.list.UnmodifiableList : 
+	Class : UnmodifiableList
+		- TCC : 0/66
+Package : org.apache.commons.collections4.list.CursorableLinkedList : 
+Package : org.apache.commons.collections4.list.CursorableLinkedList.Cursor : 
+	Class : Cursor
+	Class : SubCursor
+	Class : CursorableLinkedList
+		- TCC : 20/276
+Package : org.apache.commons.collections4.list.NodeCachingLinkedList : 
+	Class : NodeCachingLinkedList
+		- TCC : 17/55
+Package : org.apache.commons.collections4.list.FixedSizeList : 
+	Class : FixedSizeListIterator
+	Class : FixedSizeList
+		- TCC : 0/153
+Package : org.apache.commons.collections4.list.GrowthList : 
+	Class : GrowthList
+		- TCC : 0/6
+Package : org.apache.commons.collections4.list.LazyList : 
+	Class : LazyList
+		- TCC : 3/6
+Package : org.apache.commons.collections4.list.AbstractListDecorator : 
+	Class : AbstractListDecorator
+		- TCC : 0/66
+Package : org.apache.commons.collections4.list.PredicatedList : 
+	Class : PredicatedListIterator
+	Class : PredicatedList
+		- TCC : 0/78
+Package : org.apache.commons.collections4.list.AbstractSerializableListDecorator : 
+	Class : AbstractSerializableListDecorator
+		- TCC : 0/1
+Package : org.apache.commons.collections4.list.TransformedList : 
+	Class : TransformedListIterator
+	Class : TransformedList
+		- TCC : 0/91
+
