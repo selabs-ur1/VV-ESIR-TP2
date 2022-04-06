@@ -23,3 +23,45 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+### Rule defined
+
+The complete code of the rule definition and the test results can be found in the project source codes.
+
+```
+    <!-- RULES -->
+    <!-- RULE OF THE EXERCICE 3 ADDED BY US -->
+    <rule name=""
+      language="java"
+      message=""
+      class="net.sourceforge.pmd.lang.rule.XPathRule"
+    >
+        <description>
+
+        </description>
+        <priority>3</priority>
+        <properties>
+            <property name="New property" type="String" value="TODO" description="TODO"/>
+            <property name="version" value="2.0"/>
+            <property name="xpath">
+                <value>
+                    <![CDATA[
+                        //IfStatement//IfStatement//IfStatement
+                    ]]>
+                </value>
+            </property>
+        </properties>
+    </rule>
+ ```
+
+### Test results
+
+We tested on the commons-cli-master project and found an if nested in the following class:
+**\src\main\java\org\apache\commons\cli\DefaultParser.java**, line **436**.
+
+
+We also found false positives like on the following line:
+**\src\main\java\org\apache\commons\cli\CommandLine.java**, line **210**.
+
+There is an else if of level 2 which has been signaled by our rule.
+
+ 
