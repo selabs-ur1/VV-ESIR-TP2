@@ -1,0 +1,19 @@
+<rule name="NestingIf"
+      language="java"
+      message="If imbriqué"
+      class="net.sourceforge.pmd.lang.rule.XPathRule">
+   <description>
+You have If&apos;s in other If&apos;s
+   </description>
+   <priority>3</priority>
+   <properties>
+      <property name="version" value="2.0"/>
+      <property name="xpath">
+         <value>
+<![CDATA[
+//Block//IfStatement//IfStatement//IfStatement
+]]>
+         </value>
+      </property>
+   </properties>
+</rule>

@@ -23,3 +23,8 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+After injecting this in my rules set and execute:
+pmd.bat -d .\commons-collections\ -R D:\Documents\ESIR2\VV\TP2\myRule.xml/IfEmbedding
+
+I could see lot of IfStatement embedding in the collection of Apache.
+You can see the result in a .html in the package 'Exercice 3'.

@@ -4,3 +4,18 @@ Explain under which circumstances *Tight Class Cohesion* (TCC) and *Loose Class 
 
 ## Answer
 
+TCC and LCC produce the same value when every method are linked to all other method.
+And it's not possible for TCC to give greater value than LCC, we can see the demonstration:
+
+TCC and LCC definitions
+
+NP= maximum number of possible connections = N * (N-1)/2 where N is the number of methods
+
+NDC = number of direct connections (nmb of edges in the connection graph)
+
+NID = number of indirect connections
+
+Tight class cohesion TCC = NDC/NP
+Loose class cohesion LCC=(NDC+NIC)/NP
+
+We can see TCC can never be over of LCC.
