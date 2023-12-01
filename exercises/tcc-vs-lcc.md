@@ -7,3 +7,26 @@ A refresher on TCC and LCC is available in the [course notes](https://oscarlvp.g
 ## Answer
 
 TCC et LCC produisent le même resultat lorsque tous les noeuds sont déconnectés (toutes les méthodes utilisent des variables différentes) ou bien que tous les noeuds sont connectés entre eux (toutes les méthodes manipulent les mêmes variables).
+
+```java
+public class Example {
+    public String data1;
+    public String data2;
+
+    public Exameple(String data1, String data2) {
+        this.data1 = data1;
+        this.data2 = data2;
+    }
+
+    public void set(String data1, String data2) {
+        this.data1 = data1;
+        this.data2 = data2;
+    }
+
+    public String toString() {
+        return this.data1+ this.data2;
+    }
+}
+```
+
+Non LCC ne peut pas être inférieur à TCC car TCC compte les connexions directes tandis que LCC compte aussi les connexions indirectes, donc on a toujours LCC >= TCC.
