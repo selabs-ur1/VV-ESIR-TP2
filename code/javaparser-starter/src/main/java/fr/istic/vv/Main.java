@@ -15,17 +15,21 @@ import java.nio.file.Paths;
 
 public class Main {
 
+    private static String path = "code/Exercise3";
+
     public static void main(String[] args) throws IOException {
+        /*/
         if(args.length == 0) {
             System.err.println("Should provide the path to the source code");
             System.exit(1);
         }
-
-        File file = new File(args[0]);
+        */
+        File file = new File(path);
         if(!file.exists() || !file.isDirectory() || !file.canRead()) {
             System.err.println("Provide a path to an existing readable directory");
             System.exit(2);
         }
+        
 
         SourceRoot root = new SourceRoot(file.toPath());
         PublicElementsPrinter printer = new PublicElementsPrinter();
