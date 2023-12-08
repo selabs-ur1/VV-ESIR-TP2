@@ -1,7 +1,5 @@
 # Code of your exercise
 
-règle pour vérifier qu'il n'y ai pas 3 if imbriqués peut importe en ignorant les blocks.
-
 <?xml version="1.0" encoding="UTF-8"?>
 <ruleset name="ruleIf"
 	xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"

@@ -1,5 +1,7 @@
 package fr.istic.vv;
 
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
@@ -25,8 +27,8 @@ public class PublicElementsPrinter extends VoidVisitorWithDefaults<Void> {
 
     public void visitTypeDeclaration(TypeDeclaration<?> declaration, Void arg) {
         if(!declaration.isPublic()) return;
-        System.out.println(declaration.getFullyQualifiedName().orElse("[Anonymous]"));
 
+        //parcours tous les attributs
         for(FieldDeclaration field : declaration.getFields()){
             addPrivateField(field);
         }
@@ -40,6 +42,23 @@ public class PublicElementsPrinter extends VoidVisitorWithDefaults<Void> {
             if (member instanceof TypeDeclaration)
                 member.accept(this, arg);
         }
+
+        try {
+            FileWriter writer = new FileWriter("./code/javaparser-starter/src/main/java/fr/istic/vv/report.txt");
+            writer.flush();
+            if (privateAttribut.isEmpty()){
+                writer.write("Aucun problemes dans votre code, continuez comme ca !\r\n");
+            }
+            else{
+                writer.write("oh oh, il semblerait que les attributs suivants n'aient pas de getters :\r\n");
+                for (String s : privateAttribut){
+                    writer.write("-" + s + "\r\n");
+                }
+            }
+            writer.close();
+        } catch (IOException e) {
+        }
+        System.out.println(privateAttribut.toString());
     }
 
     @Override
@@ -55,15 +74,28 @@ public class PublicElementsPrinter extends VoidVisitorWithDefaults<Void> {
     @Override
     public void visit(MethodDeclaration declaration, Void arg) {
         if(!declaration.isPublic()) return;
-        System.out.println("  " + declaration.getDeclarationAsString(true, true));
+        String functionName = declaration.getNameAsString();
+        if (privateAttribut.indexOf(functionName) != -1){
+            privateAttribut.remove(privateAttribut.indexOf(functionName));
+        }
     }
 
+    /**
+     * Recupere la declaration d'une variable, si cette derniere est privee alors elle sera traitee.
+     * @param declaration
+     * La declaration complete d'une variable
+     */
     public void addPrivateField(FieldDeclaration declaration) {
         if(declaration.isPublic()) return;
         getVariableName(declaration.toString());
         //System.out.println("  " + declaration.toString());
     }
 
+    /**
+     * Recupere la declaration d'une variable et ajoute le nom de cette derniere dans la liste privateAttribut.
+     * @param declaration
+     * La declaration complete de la variable.
+     */
     public void getVariableName (String declaration){
 
         String tmp = "";
@@ -76,9 +108,8 @@ public class PublicElementsPrinter extends VoidVisitorWithDefaults<Void> {
         }
 
         String firstLetter = (tmp.charAt(0) + "").toUpperCase();
-        tmp = "get" + firstLetter + tmp.substring(1) + "()";
+        tmp = "get" + firstLetter + tmp.substring(1);
 
-        System.out.println(tmp);
         privateAttribut.add(tmp);
         
     }
