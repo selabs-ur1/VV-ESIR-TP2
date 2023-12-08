@@ -23,3 +23,4 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+On définit dans pmd designer notre règle où l'on peut directement tester la règle sur du code dans l'éditeur. On peut ainsi ajuster la règle et vérifier en direct qu'elle corresponde bien à nos attentes. Le fichier de la règle xml générée se trouve [ici](/code/Exercise3/rule.xml). On peut inclure la règle dans un ruleset afin de pouvoir analyser un projet.
