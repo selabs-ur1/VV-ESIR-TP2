@@ -23,3 +23,30 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+Voici la définition de notre règle :
+
+```xml
+<rule name="ifRule"
+      language="java"
+      message="Avoid using three or more nested if statements."
+      class="net.sourceforge.pmd.lang.rule.XPathRule">
+   <description>
+      Detect the use of three or more nested if statements in Java programs
+   </description>
+   <priority>3</priority>
+   <properties>
+      <property name="version" value="2.0"/>
+      <property name="xpath">
+         <value>
+<![CDATA[
+//IfStatement//IfStatement//IfStatement
+]]>
+         </value>
+      </property>
+   </properties>
+</rule>
+
+```
+
+Après ajout de notre règle dans un ruleset, nous l'avons testé sur le projet [Apache Commons Collections](https://github.com/apache/commons-collections). Notre règle a relevé 77 occurences de trois blocs `if` imbriqués dans ce projet.
+

@@ -6,3 +6,34 @@ A refresher on TCC and LCC is available in the [course notes](https://oscarlvp.g
 
 ## Answer
 
+Rappelons :
+
+$ TCC = \frac{NbDePairesDirectementConnectées}{NbTotalDePaires} $
+
+$ LCC = \frac{NbDePairesConnectées}{NbTotalDePaires} $
+
+Pour que $ TCC $ et $ LCC $ soient égaux, il ne doit pas y avoir de paires indirectement connectées.
+
+```java
+class Example {
+    int a;
+
+    int A() {
+        a = 1;
+        return a;
+    }
+
+    int B() {
+        a = 2;
+        return a;
+    }
+}
+```
+
+Dans cet exemple, on a bien $ TCC = \frac{1}{1} $ et $ LCC = \frac{1}{1} $.
+
+LCC ne peut pas être inférieur à TCC pour une classe quelconque car on a :
+
+$ LCC = \frac{NbDePairesDirectementConnectées}{NbTotalDePaires} + \frac{NbDePairesIndirectementConnectées}{NbTotalDePaires} = TCC + \frac{NbDePairesIndirectementConnectées}{NbTotalDePaires} $
+
+D'où $ LCC \geq TCC $
