@@ -1,0 +1,22 @@
+Class : Person
+Methode : String getName()
+Cyclomantic Complexity : 1
+
+Class : Person
+Methode : boolean isAdult()
+Cyclomantic Complexity : 1
+
+Class : Person2
+Methode : String getName()
+Cyclomantic Complexity : 1
+
+Class : Person2
+Methode : boolean isAdult()
+Cyclomantic Complexity : 1
+
+Histograme : 
+Person2 boolean isAdult(): -
+Person2 String getName() : -
+Person String getName()  : -
+Person boolean isAdult() : -
+
