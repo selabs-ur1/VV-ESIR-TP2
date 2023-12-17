@@ -9,25 +9,46 @@ import com.github.javaparser.ast.visitor.VoidVisitorAdapter;
 import com.github.javaparser.utils.SourceRoot;
 
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
 public class Main {
 
-    private static String path = "code/Exercise3";
 
     public static void main(String[] args) throws IOException {
-        /*/
+
         if(args.length == 0) {
             System.err.println("Should provide the path to the source code");
             System.exit(1);
         }
-        */
-        File file = new File(path);
+
+        File file = new File(args[0]);
         if(!file.exists() || !file.isDirectory() || !file.canRead()) {
             System.err.println("Provide a path to an existing readable directory");
             System.exit(2);
+        }
+
+        //create the file
+        try {
+            File myObj = new File("Rapport_noGetter.txt");
+            if (myObj.createNewFile()) {
+              System.out.println("File created: " + myObj.getName());
+            } else {
+              System.out.println("File already exists.");
+            }
+          } catch (IOException e) {
+            System.out.println("An error occurred.");
+            e.printStackTrace();
+          }
+        //empty the file
+        try {
+            FileWriter myWriter = new FileWriter("Rapport_noGetter.txt");
+            myWriter.write("");
+            myWriter.close();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
         
 
