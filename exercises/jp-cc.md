@@ -15,4 +15,4 @@ You may use [javaparser-starter](../code/javaparser-starter) as a starting point
 ![hist](./histogram_javaparser.png)
 
 
-On peut voir que le projet javaParser et le visiteur à une complexité bien plus élevé qu'un petit projet avec 2 class Person
+On peut voir que le projet javaParser et le visiteur à une complexité bien plus élevé qu'un petit projet avec 2 classes Person.

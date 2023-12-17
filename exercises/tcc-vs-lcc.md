@@ -6,7 +6,7 @@ A refresher on TCC and LCC is available in the [course notes](https://oscarlvp.g
 
 ## Answer
 
-TCC et LCC produisent le même resultat lorsque tous les noeuds sont déconnectés (toutes les méthodes utilisent des variables différentes) ou bien que tous les noeuds sont connectés entre eux (toutes les méthodes manipulent les mêmes variables).
+TCC et LCC produisent le même résultat lorsque tous les nœuds sont déconnectés (toutes les méthodes utilisent des variables différentes) ou bien que tous les nœuds sont connectés entre eux (toutes les méthodes manipulent les mêmes variables).
 
 ```java
 public class Example {
