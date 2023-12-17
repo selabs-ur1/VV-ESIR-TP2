@@ -7,3 +7,12 @@ Your application should also produce a histogram showing the distribution of CC 
 Include in this repository the code of your application. Remove all unnecessary files like compiled binaries. Do include the reports and plots you obtained from different projects. See the [instructions](../sujet.md) for suggestions on the projects to use.
 
 You may use [javaparser-starter](../code/javaparser-starter) as a starting point.
+
+## Answer
+
+![hist](./histogram_personne.png)
+
+![hist](./histogram_javaparser.png)
+
+
+On peut voir que le projet javaParser et le visiteur à une complexité bien plus élevé qu'un petit projet avec 2 classes Person.

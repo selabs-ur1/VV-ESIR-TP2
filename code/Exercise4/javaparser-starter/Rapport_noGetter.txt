@@ -1,0 +1,7 @@
+Class : Person
+Field : age
+
+Class : Person2
+Field : age
+Field : Birthday
+
