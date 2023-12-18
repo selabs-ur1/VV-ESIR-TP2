@@ -23,3 +23,33 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+Notre règle XPath '//IfStatement//IfStatement//IfStatement' permet de sélectionner les IfStatement possèdant 2 ancêtres.
+
+~~~xml
+<rule name="Three_IF"
+      language="java"
+      message="Avoid using three if imbricated"
+      class="net.sourceforge.pmd.lang.rule.XPathRule">
+   <description>
+
+   </description>
+   <priority>3</priority>
+   <properties>
+      <property name="version" value="3.1"/>
+      <property name="xpath">
+         <value>
+<![CDATA[
+//IfStatement//IfStatement//IfStatement
+]]>
+         </value>
+      </property>
+   </properties>
+</rule>
+~~~
+
+Après avoir lancé la commande pmd check avec notre ruleset contenant notre règle et le fichier a analysé, nous obtenons ceci:  
+~~~shell
+C:\Users\Axel\OneDrive\Documents\commons-math\commons-math-legacy-core\src\main\java\org\apache\commons\math4\legacy\core\dfp\DfpMath.java:605:        Three_IF:       Avoid using three if imbricated
+C:\Users\Axel\OneDrive\Documents\commons-math\commons-math-legacy-core\src\main\java\org\apache\commons\math4\legacy\core\dfp\DfpMath.java:613:        Three_IF:       Avoid using three if imbricated
+~~~
+La règle est bien appliquée au fichier Java et renvoie le nom de la règle, le message de violation et la ligne où l'erreur a été detectée.
