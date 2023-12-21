@@ -1,0 +1,3 @@
+oh oh, il semblerait que les attributs suivants n'aient pas de getters :
+-getAge
+-getAdult
