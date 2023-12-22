@@ -1,0 +1,84 @@
+Class, Methods, Cyclomatic Complexity, Parameters
+org.apache.commons.math4.userguide.LowDiscrepancyGeneratorComparison, public static List<Vector2D> makeCircle(int samples, final RandomVectorGenerator generator), 3, int/RandomVectorGenerator/
+org.apache.commons.math4.userguide.LowDiscrepancyGeneratorComparison, public static List<Vector2D> makeRandom(int samples, RandomVectorGenerator generator), 2, int/RandomVectorGenerator/
+org.apache.commons.math4.userguide.LowDiscrepancyGeneratorComparison, public static List<Vector2D> normalize(final List<Vector2D> input), 2, List<Vector2D>/
+org.apache.commons.math4.userguide.LowDiscrepancyGeneratorComparison, public static void main(String[] args), 1, String[]/
+org.apache.commons.math4.userguide.LowDiscrepancyGeneratorComparison, org.apache.commons.math4.userguide.LowDiscrepancyGeneratorComparison.Display, 1, none
+org.apache.commons.math4.userguide.LowDiscrepancyGeneratorComparison.Plot, protected void paintComponent(Graphics g), 1, Graphics/
+org.apache.commons.math4.userguide.LowDiscrepancyGeneratorComparison.Plot, public Dimension getPreferredSize(), 1, none
+org.apache.commons.math4.userguide.LowDiscrepancyGeneratorComparison.Plot, private Vector2D transform(Vector2D point, int width, int height), 1, Vector2D/int/int/
+org.apache.commons.math4.userguide.genetics.ImageEvolutionExample, public static void main(String[] args) throws Exception, 1, String[]/
+org.apache.commons.math4.userguide.genetics.ImageEvolutionExample, private static BufferedImage resizeImage(BufferedImage originalImage, int width, int height, int type) throws IOException, 1, BufferedImage/int/int/int/
+org.apache.commons.math4.userguide.genetics.ImageEvolutionExample, private static Population getInitialPopulation(), 2, none
+org.apache.commons.math4.userguide.genetics.ImageEvolutionExample, org.apache.commons.math4.userguide.genetics.ImageEvolutionExample.Display, 2, 1/public boolean isAlive()/1/public void stopRequest()/2/public void startEvolution()/org.apache.commons.math4.userguide.genetics.ImageEvolutionExample.Display.ImagePainter/
+org.apache.commons.math4.userguide.genetics.Polygon, public static Polygon randomPolygon(int length), 2, int/
+org.apache.commons.math4.userguide.genetics.Polygon, public Polygon mutate(float mutationRate, float mutationAmount), 5, float/float/
+org.apache.commons.math4.userguide.genetics.Polygon, public void draw(Graphics2D g, int width, int height), 2, Graphics2D/int/int/
+org.apache.commons.math4.userguide.genetics.RandomPolygonMutation, public Chromosome mutate(Chromosome chromosome), 2, Chromosome/
+org.apache.commons.math4.userguide.genetics.HelloWorldExample, public static void main(String[] args), 3, String[]/
+org.apache.commons.math4.userguide.genetics.HelloWorldExample, private static List<Character> randomRepresentation(int length), 1, int/
+org.apache.commons.math4.userguide.genetics.HelloWorldExample, private static List<Character> asList(String str), 1, String/
+org.apache.commons.math4.userguide.genetics.HelloWorldExample, private static Population getInitialPopulation(), 2, none
+org.apache.commons.math4.userguide.genetics.HelloWorldExample, org.apache.commons.math4.userguide.genetics.HelloWorldExample.StringChromosome, 2, 2/public double fitness()/2/protected void checkValidity(List<Character> repr) throws InvalidRepresentationException/1/public List<Character> getStringRepresentation()/1/public StringChromosome newFixedLengthChromosome(List<Character> repr)/1/public String toString()/
+org.apache.commons.math4.userguide.genetics.HelloWorldExample.RandomCharacterMutation, public Chromosome mutate(Chromosome original), 2, Chromosome/
+org.apache.commons.math4.userguide.genetics.PolygonChromosome, public static void setRefImage(BufferedImage ref), 1, BufferedImage/
+org.apache.commons.math4.userguide.genetics.PolygonChromosome, public static void setTestImage(BufferedImage image), 1, BufferedImage/
+org.apache.commons.math4.userguide.genetics.PolygonChromosome, protected void checkValidity(List<Polygon> chromosomeRepresentation) throws InvalidRepresentationException, 1, List<Polygon>/
+org.apache.commons.math4.userguide.genetics.PolygonChromosome, public AbstractListChromosome<Polygon> newFixedLengthChromosome(List<Polygon> chromosomeRepresentation), 1, List<Polygon>/
+org.apache.commons.math4.userguide.genetics.PolygonChromosome, public List<Polygon> getPolygonRepresentation(), 1, none
+org.apache.commons.math4.userguide.genetics.PolygonChromosome, public double fitness(), 4, none
+org.apache.commons.math4.userguide.genetics.PolygonChromosome, public void draw(Graphics2D g, int width, int height), 1, Graphics2D/int/int/
+org.apache.commons.math4.userguide.genetics.PolygonChromosome, public String toString(), 1, none
+org.apache.commons.math4.userguide.genetics.PolygonChromosome, public static Chromosome randomChromosome(int polygonLength, int polygonCount), 2, int/int/
+org.apache.commons.math4.userguide.FastMathTestPerformance, public static void main(String[] args), 1, String[]/
+org.apache.commons.math4.userguide.FastMathTestPerformance, private static void report(String name, long strictMathTime, long fastMathTime, long mathTime), 1, String/long/long/long/
+org.apache.commons.math4.userguide.FastMathTestPerformance, private static void assertTrue(boolean condition), 2, boolean/
+org.apache.commons.math4.userguide.FastMathTestPerformance, private static void testLog(), 4, none
+org.apache.commons.math4.userguide.FastMathTestPerformance, private static void testLog10(), 4, none
+org.apache.commons.math4.userguide.FastMathTestPerformance, private static void testLog1p(), 4, none
+org.apache.commons.math4.userguide.FastMathTestPerformance, private static void testPow(), 4, none
+org.apache.commons.math4.userguide.FastMathTestPerformance, private static void testExp(), 4, none
+org.apache.commons.math4.userguide.FastMathTestPerformance, private static void testSin(), 4, none
+org.apache.commons.math4.userguide.FastMathTestPerformance, private static void testAsin(), 4, none
+org.apache.commons.math4.userguide.FastMathTestPerformance, private static void testCos(), 4, none
+org.apache.commons.math4.userguide.FastMathTestPerformance, private static void testAcos(), 4, none
+org.apache.commons.math4.userguide.FastMathTestPerformance, private static void testTan(), 4, none
+org.apache.commons.math4.userguide.FastMathTestPerformance, private static void testAtan(), 4, none
+org.apache.commons.math4.userguide.FastMathTestPerformance, private static void testAtan2(), 7, none
+org.apache.commons.math4.userguide.FastMathTestPerformance, private static void testHypot(), 7, none
+org.apache.commons.math4.userguide.FastMathTestPerformance, private static void testIEEEremainder(), 7, none
+org.apache.commons.math4.userguide.FastMathTestPerformance, private static void testCbrt(), 4, none
+org.apache.commons.math4.userguide.FastMathTestPerformance, private static void testSqrt(), 4, none
+org.apache.commons.math4.userguide.FastMathTestPerformance, private static void testCosh(), 4, none
+org.apache.commons.math4.userguide.FastMathTestPerformance, private static void testSinh(), 4, none
+org.apache.commons.math4.userguide.FastMathTestPerformance, private static void testTanh(), 4, none
+org.apache.commons.math4.userguide.FastMathTestPerformance, private static void testExpm1(), 4, none
+org.apache.commons.math4.userguide.FastMathTestPerformance, private static void testAbs(), 4, none
+org.apache.commons.math4.userguide.FastMathTestPerformance, private static void testSimpleBenchmark(), 1, none
+org.apache.commons.math4.userguide.ExampleUtils, public static void showExampleFrame(final ExampleFrame frame), 2, ExampleFrame/
+org.apache.commons.math4.userguide.ExampleUtils, private static BufferedImage getScreenShot(Component component), 1, Component/
+org.apache.commons.math4.userguide.ExampleUtils, public static BufferedImage resizeImage(BufferedImage originalImage, int width, int height, int type) throws IOException, 1, BufferedImage/int/int/int/
+org.apache.commons.math4.userguide.ExampleUtils, org.apache.commons.math4.userguide.ExampleUtils.ExampleFrame, 1, 1/public Component getMainPanel()/
+org.apache.commons.math4.userguide.ClusterAlgorithmComparison, public static List<Vector2D> makeCircles(int samples, boolean shuffle, double noise, double factor, UniformRandomProvider rng), 4, int/boolean/double/double/UniformRandomProvider/
+org.apache.commons.math4.userguide.ClusterAlgorithmComparison, public static List<Vector2D> makeMoons(int samples, boolean shuffle, double noise, UniformRandomProvider rng), 4, int/boolean/double/UniformRandomProvider/
+org.apache.commons.math4.userguide.ClusterAlgorithmComparison, public static List<Vector2D> makeBlobs(int samples, int centers, double clusterStd, double min, double max, boolean shuffle, UniformRandomProvider rng), 6, int/int/double/double/double/boolean/UniformRandomProvider/
+org.apache.commons.math4.userguide.ClusterAlgorithmComparison, public static List<Vector2D> makeRandom(int samples), 2, int/
+org.apache.commons.math4.userguide.ClusterAlgorithmComparison, public static Vector2D generateNoiseVector(ContinuousDistribution.Sampler distribution), 1, ContinuousDistribution.Sampler/
+org.apache.commons.math4.userguide.ClusterAlgorithmComparison, public static List<DoublePoint> normalize(final List<Vector2D> input, double minX, double maxX, double minY, double maxY), 1, List<Vector2D>/double/double/double/double/
+org.apache.commons.math4.userguide.ClusterAlgorithmComparison, public static void main(String[] args), 1, String[]/
+org.apache.commons.math4.userguide.ClusterAlgorithmComparison, org.apache.commons.math4.userguide.ClusterAlgorithmComparison.Display, 1, none
+org.apache.commons.math4.userguide.ClusterAlgorithmComparison.ClusterPlot, protected void paintComponent(Graphics g), 1, Graphics/
+org.apache.commons.math4.userguide.ClusterAlgorithmComparison.ClusterPlot, public Dimension getPreferredSize(), 1, none
+org.apache.commons.math4.userguide.ClusterAlgorithmComparison.ClusterPlot, private Clusterable transform(Clusterable point, int width, int height), 1, Clusterable/int/int/
+org.apache.commons.math4.userguide.filter.ConstantVoltageExample, public static void constantVoltageTest(Chart chart1, Chart chart2), 2, Chart/Chart/
+org.apache.commons.math4.userguide.filter.ConstantVoltageExample, public static Chart createChart(String title, int width, int height, LegendPosition position, boolean legendVisible), 1, String/int/int/LegendPosition/boolean/
+org.apache.commons.math4.userguide.filter.ConstantVoltageExample, public static JComponent createComponent(), 1, none
+org.apache.commons.math4.userguide.filter.ConstantVoltageExample, public static void main(String[] args), 1, String[]/
+org.apache.commons.math4.userguide.filter.ConstantVoltageExample, org.apache.commons.math4.userguide.filter.ConstantVoltageExample.VoltMeter, 1, 1/public double getVoltage()/1/public double getMeasuredVoltage()/1/public void step()/
+org.apache.commons.math4.userguide.filter.ConstantVoltageExample.Display, public Component getMainPanel(), 1, none
+org.apache.commons.math4.userguide.filter.CannonballExample, public static void cannonballTest(Chart chart), 2, Chart/
+org.apache.commons.math4.userguide.filter.CannonballExample, public static Chart createChart(String title, LegendPosition position), 1, String/LegendPosition/
+org.apache.commons.math4.userguide.filter.CannonballExample, public static JComponent createComponent(), 1, none
+org.apache.commons.math4.userguide.filter.CannonballExample, public static void main(String[] args), 1, String[]/
+org.apache.commons.math4.userguide.filter.CannonballExample, org.apache.commons.math4.userguide.filter.CannonballExample.Cannonball, 1, 1/public double getX()/1/public double getY()/1/public double getMeasuredX()/1/public double getMeasuredY()/1/public double getXVelocity()/1/public double getYVelocity()/4/public void step()/
+org.apache.commons.math4.userguide.filter.CannonballExample.Display, public Component getMainPanel(), 1, none

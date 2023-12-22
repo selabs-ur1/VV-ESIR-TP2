@@ -6,3 +6,13 @@ You can use the default [rule base](https://github.com/pmd/pmd/blob/master/pmd-j
 
 ## Answer
 
+We chose to test PMD on the Apache Commons Collections project. We used the default rule base. 
+
+For example we found :
+- A true positive error : *When doing a String.toLowerCase()/toUpperCase() call, use a Locale*; issue at line 51 in *commons-collections-master/src/test/java/org/apache/commons/collections4/collection/TransformedCollectionTest.java*. Using this method without specifying an argument implicitly uses Locale::getDefault(). The problem being that the default local depends on the JVM.
+It could be patched by adding the Locale as an argument to the method call.
+An example could be : originalText.toLowerCase(Locale.US);
+
+
+- A false negative
+One instance of the *Avoid using implementation types like 'ArrayList'; use the interface instead* problem was identified at line 389 in *commons-collections-master/src/main/java/org/apache/commons/collections4/CollectionUtils.java*. In this case, the method requires the use of ArrayList instead of List due to a specific process that can only be performed with ArrayList on this particular List.

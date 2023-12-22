@@ -22,4 +22,10 @@ You can find more information on extending PMD in the following link: https://pm
 Use your rule with different projects and describe you findings below. See the [instructions](../sujet.md) for suggestions on the projects to use.
 
 ## Answer
+To recognize 3 nested if or more, we can recognize when a if statement has more than one if statement as a parent.
 
+We tried it on the Apache Commons Collections project and found a lot of errors (the log report is in the exercice3 folder). It implies that they are many nested if in the project.
+
+```xml
+//IfStatement[count(ancestor::IfStatement) > 1]
+```
