@@ -1,0 +1,185 @@
+packageAndClass;method;types;cc
+org.apache.commons.math4.core.jdkmath.AccurateMathLiteralArrays;loadExpIntA;;1
+org.apache.commons.math4.core.jdkmath.AccurateMathLiteralArrays;loadExpIntB;;1
+org.apache.commons.math4.core.jdkmath.AccurateMathLiteralArrays;loadExpFracA;;1
+org.apache.commons.math4.core.jdkmath.AccurateMathLiteralArrays;loadExpFracB;;1
+org.apache.commons.math4.core.jdkmath.AccurateMathLiteralArrays;loadLnMant;;1
+org.apache.commons.math4.core.jdkmath.AccurateMathCalc;buildSinCosTables;double[] double[] double[] double[] int double[] double[];5
+org.apache.commons.math4.core.jdkmath.AccurateMathCalc;slowCos;double double[];5
+org.apache.commons.math4.core.jdkmath.AccurateMathCalc;slowSin;double double[];5
+org.apache.commons.math4.core.jdkmath.AccurateMathCalc;slowexp;double double[];3
+org.apache.commons.math4.core.jdkmath.AccurateMathCalc;split;double double[];2
+org.apache.commons.math4.core.jdkmath.AccurateMathCalc;resplit;double[];2
+org.apache.commons.math4.core.jdkmath.AccurateMathCalc;splitMult;double[] double[] double[];1
+org.apache.commons.math4.core.jdkmath.AccurateMathCalc;splitAdd;double[] double[] double[];1
+org.apache.commons.math4.core.jdkmath.AccurateMathCalc;splitReciprocal;double[] double[];4
+org.apache.commons.math4.core.jdkmath.AccurateMathCalc;quadMult;double[] double[] double[];1
+org.apache.commons.math4.core.jdkmath.AccurateMathCalc;expint;int double[];4
+org.apache.commons.math4.core.jdkmath.AccurateMathCalc;slowLog;double;2
+org.apache.commons.math4.core.jdkmath.AccurateMathCalc;printarray;PrintStream String int double[][];1
+org.apache.commons.math4.core.jdkmath.AccurateMathCalc;printarray;PrintStream String int double[];1
+org.apache.commons.math4.core.jdkmath.AccurateMathCalc;format;double;2
+org.apache.commons.math4.core.jdkmath.AccurateMathCalc;checkLen;int int;2
+org.apache.commons.math4.core.jdkmath.JdkMath;abs;int;1
+org.apache.commons.math4.core.jdkmath.JdkMath;abs;long;1
+org.apache.commons.math4.core.jdkmath.JdkMath;abs;float;1
+org.apache.commons.math4.core.jdkmath.JdkMath;abs;double;1
+org.apache.commons.math4.core.jdkmath.JdkMath;acos;double;1
+org.apache.commons.math4.core.jdkmath.JdkMath;acosh;double;1
+org.apache.commons.math4.core.jdkmath.JdkMath;addExact;int int;1
+org.apache.commons.math4.core.jdkmath.JdkMath;addExact;long long;1
+org.apache.commons.math4.core.jdkmath.JdkMath;asin;double;1
+org.apache.commons.math4.core.jdkmath.JdkMath;asinh;double;1
+org.apache.commons.math4.core.jdkmath.JdkMath;atan;double;1
+org.apache.commons.math4.core.jdkmath.JdkMath;atan2;double double;1
+org.apache.commons.math4.core.jdkmath.JdkMath;atanh;double;1
+org.apache.commons.math4.core.jdkmath.JdkMath;cbrt;double;1
+org.apache.commons.math4.core.jdkmath.JdkMath;ceil;double;1
+org.apache.commons.math4.core.jdkmath.JdkMath;copySign;float float;1
+org.apache.commons.math4.core.jdkmath.JdkMath;copySign;double double;1
+org.apache.commons.math4.core.jdkmath.JdkMath;cos;double;1
+org.apache.commons.math4.core.jdkmath.JdkMath;cosh;double;1
+org.apache.commons.math4.core.jdkmath.JdkMath;decrementExact;int;1
+org.apache.commons.math4.core.jdkmath.JdkMath;decrementExact;long;1
+org.apache.commons.math4.core.jdkmath.JdkMath;exp;double;1
+org.apache.commons.math4.core.jdkmath.JdkMath;expm1;double;1
+org.apache.commons.math4.core.jdkmath.JdkMath;floor;double;1
+org.apache.commons.math4.core.jdkmath.JdkMath;floorDiv;int int;1
+org.apache.commons.math4.core.jdkmath.JdkMath;floorDiv;long long;1
+org.apache.commons.math4.core.jdkmath.JdkMath;floorMod;int int;1
+org.apache.commons.math4.core.jdkmath.JdkMath;floorMod;long long;1
+org.apache.commons.math4.core.jdkmath.JdkMath;getExponent;float;1
+org.apache.commons.math4.core.jdkmath.JdkMath;getExponent;double;1
+org.apache.commons.math4.core.jdkmath.JdkMath;hypot;double double;1
+org.apache.commons.math4.core.jdkmath.JdkMath;IEEEremainder;double double;1
+org.apache.commons.math4.core.jdkmath.JdkMath;incrementExact;int;1
+org.apache.commons.math4.core.jdkmath.JdkMath;incrementExact;long;1
+org.apache.commons.math4.core.jdkmath.JdkMath;log;double;1
+org.apache.commons.math4.core.jdkmath.JdkMath;log10;double;1
+org.apache.commons.math4.core.jdkmath.JdkMath;log1p;double;1
+org.apache.commons.math4.core.jdkmath.JdkMath;max;int int;1
+org.apache.commons.math4.core.jdkmath.JdkMath;max;long long;1
+org.apache.commons.math4.core.jdkmath.JdkMath;max;float float;1
+org.apache.commons.math4.core.jdkmath.JdkMath;max;double double;1
+org.apache.commons.math4.core.jdkmath.JdkMath;min;int int;1
+org.apache.commons.math4.core.jdkmath.JdkMath;min;long long;1
+org.apache.commons.math4.core.jdkmath.JdkMath;min;float float;1
+org.apache.commons.math4.core.jdkmath.JdkMath;min;double double;1
+org.apache.commons.math4.core.jdkmath.JdkMath;multiplyExact;int int;1
+org.apache.commons.math4.core.jdkmath.JdkMath;multiplyExact;long long;1
+org.apache.commons.math4.core.jdkmath.JdkMath;negateExact;int;1
+org.apache.commons.math4.core.jdkmath.JdkMath;negateExact;long;1
+org.apache.commons.math4.core.jdkmath.JdkMath;nextAfter;double double;1
+org.apache.commons.math4.core.jdkmath.JdkMath;nextAfter;float double;1
+org.apache.commons.math4.core.jdkmath.JdkMath;nextDown;double;1
+org.apache.commons.math4.core.jdkmath.JdkMath;nextDown;float;1
+org.apache.commons.math4.core.jdkmath.JdkMath;nextUp;double;1
+org.apache.commons.math4.core.jdkmath.JdkMath;nextUp;float;1
+org.apache.commons.math4.core.jdkmath.JdkMath;pow;double double;1
+org.apache.commons.math4.core.jdkmath.JdkMath;random;;1
+org.apache.commons.math4.core.jdkmath.JdkMath;rint;double;1
+org.apache.commons.math4.core.jdkmath.JdkMath;round;float;1
+org.apache.commons.math4.core.jdkmath.JdkMath;round;double;1
+org.apache.commons.math4.core.jdkmath.JdkMath;scalb;double int;1
+org.apache.commons.math4.core.jdkmath.JdkMath;scalb;float int;1
+org.apache.commons.math4.core.jdkmath.JdkMath;signum;double;1
+org.apache.commons.math4.core.jdkmath.JdkMath;signum;float;1
+org.apache.commons.math4.core.jdkmath.JdkMath;sin;double;1
+org.apache.commons.math4.core.jdkmath.JdkMath;sinh;double;1
+org.apache.commons.math4.core.jdkmath.JdkMath;sqrt;double;1
+org.apache.commons.math4.core.jdkmath.JdkMath;subtractExact;int int;1
+org.apache.commons.math4.core.jdkmath.JdkMath;subtractExact;long long;1
+org.apache.commons.math4.core.jdkmath.JdkMath;tan;double;1
+org.apache.commons.math4.core.jdkmath.JdkMath;tanh;double;1
+org.apache.commons.math4.core.jdkmath.JdkMath;toDegrees;double;1
+org.apache.commons.math4.core.jdkmath.JdkMath;toIntExact;long;1
+org.apache.commons.math4.core.jdkmath.JdkMath;toRadians;double;1
+org.apache.commons.math4.core.jdkmath.JdkMath;ulp;double;1
+org.apache.commons.math4.core.jdkmath.JdkMath;ulp;float;1
+org.apache.commons.math4.core.jdkmath.AccurateMath;doubleHighPart;double;2
+org.apache.commons.math4.core.jdkmath.AccurateMath;cosh;double;7
+org.apache.commons.math4.core.jdkmath.AccurateMath;sinh;double;10
+org.apache.commons.math4.core.jdkmath.AccurateMath;tanh;double;8
+org.apache.commons.math4.core.jdkmath.AccurateMath;acosh;double;1
+org.apache.commons.math4.core.jdkmath.AccurateMath;asinh;double;6
+org.apache.commons.math4.core.jdkmath.AccurateMath;atanh;double;6
+org.apache.commons.math4.core.jdkmath.AccurateMath;signum;double;1
+org.apache.commons.math4.core.jdkmath.AccurateMath;signum;float;1
+org.apache.commons.math4.core.jdkmath.AccurateMath;nextUp;double;1
+org.apache.commons.math4.core.jdkmath.AccurateMath;nextUp;float;1
+org.apache.commons.math4.core.jdkmath.AccurateMath;nextDown;double;1
+org.apache.commons.math4.core.jdkmath.AccurateMath;nextDown;float;1
+org.apache.commons.math4.core.jdkmath.AccurateMath;exp;double;1
+org.apache.commons.math4.core.jdkmath.AccurateMath;exp;double double double[];13
+org.apache.commons.math4.core.jdkmath.AccurateMath;expm1;double;1
+org.apache.commons.math4.core.jdkmath.AccurateMath;expm1;double double[];7
+org.apache.commons.math4.core.jdkmath.AccurateMath;log;double;1
+org.apache.commons.math4.core.jdkmath.AccurateMath;log;double double[];15
+org.apache.commons.math4.core.jdkmath.AccurateMath;log1p;double;5
+org.apache.commons.math4.core.jdkmath.AccurateMath;log10;double;2
+org.apache.commons.math4.core.jdkmath.AccurateMath;log;double double;1
+org.apache.commons.math4.core.jdkmath.AccurateMath;pow;double double;15
+org.apache.commons.math4.core.jdkmath.AccurateMath;pow;double int;1
+org.apache.commons.math4.core.jdkmath.AccurateMath;pow;double long;3
+org.apache.commons.math4.core.jdkmath.AccurateMath;polySine;double;1
+org.apache.commons.math4.core.jdkmath.AccurateMath;polyCosine;double;1
+org.apache.commons.math4.core.jdkmath.AccurateMath;sinQ;double double;2
+org.apache.commons.math4.core.jdkmath.AccurateMath;cosQ;double double;1
+org.apache.commons.math4.core.jdkmath.AccurateMath;tanQ;double double boolean;4
+org.apache.commons.math4.core.jdkmath.AccurateMath;reducePayneHanek;double double[];9
+org.apache.commons.math4.core.jdkmath.AccurateMath;sin;double;9
+org.apache.commons.math4.core.jdkmath.AccurateMath;cos;double;6
+org.apache.commons.math4.core.jdkmath.AccurateMath;tan;double;10
+org.apache.commons.math4.core.jdkmath.AccurateMath;atan;double;1
+org.apache.commons.math4.core.jdkmath.AccurateMath;atan;double double boolean;8
+org.apache.commons.math4.core.jdkmath.AccurateMath;atan2;double double;17
+org.apache.commons.math4.core.jdkmath.AccurateMath;asin;double;6
+org.apache.commons.math4.core.jdkmath.AccurateMath;acos;double;7
+org.apache.commons.math4.core.jdkmath.AccurateMath;cbrt;double;5
+org.apache.commons.math4.core.jdkmath.AccurateMath;toRadians;double;3
+org.apache.commons.math4.core.jdkmath.AccurateMath;toDegrees;double;2
+org.apache.commons.math4.core.jdkmath.AccurateMath;abs;int;1
+org.apache.commons.math4.core.jdkmath.AccurateMath;abs;long;1
+org.apache.commons.math4.core.jdkmath.AccurateMath;abs;float;1
+org.apache.commons.math4.core.jdkmath.AccurateMath;abs;double;1
+org.apache.commons.math4.core.jdkmath.AccurateMath;ulp;double;2
+org.apache.commons.math4.core.jdkmath.AccurateMath;ulp;float;2
+org.apache.commons.math4.core.jdkmath.AccurateMath;scalb;double int;13
+org.apache.commons.math4.core.jdkmath.AccurateMath;scalb;float int;13
+org.apache.commons.math4.core.jdkmath.AccurateMath;nextAfter;double double;6
+org.apache.commons.math4.core.jdkmath.AccurateMath;nextAfter;float double;6
+org.apache.commons.math4.core.jdkmath.AccurateMath;floor;double;5
+org.apache.commons.math4.core.jdkmath.AccurateMath;ceil;double;4
+org.apache.commons.math4.core.jdkmath.AccurateMath;rint;double;4
+org.apache.commons.math4.core.jdkmath.AccurateMath;round;double;3
+org.apache.commons.math4.core.jdkmath.AccurateMath;round;float;3
+org.apache.commons.math4.core.jdkmath.AccurateMath;min;int int;1
+org.apache.commons.math4.core.jdkmath.AccurateMath;min;long long;1
+org.apache.commons.math4.core.jdkmath.AccurateMath;min;float float;5
+org.apache.commons.math4.core.jdkmath.AccurateMath;min;double double;5
+org.apache.commons.math4.core.jdkmath.AccurateMath;max;int int;1
+org.apache.commons.math4.core.jdkmath.AccurateMath;max;long long;1
+org.apache.commons.math4.core.jdkmath.AccurateMath;max;float float;5
+org.apache.commons.math4.core.jdkmath.AccurateMath;max;double double;5
+org.apache.commons.math4.core.jdkmath.AccurateMath;hypot;double double;5
+org.apache.commons.math4.core.jdkmath.AccurateMath;IEEEremainder;double double;3
+org.apache.commons.math4.core.jdkmath.AccurateMath;toIntExact;long;2
+org.apache.commons.math4.core.jdkmath.AccurateMath;incrementExact;int;2
+org.apache.commons.math4.core.jdkmath.AccurateMath;incrementExact;long;2
+org.apache.commons.math4.core.jdkmath.AccurateMath;decrementExact;int;2
+org.apache.commons.math4.core.jdkmath.AccurateMath;decrementExact;long;2
+org.apache.commons.math4.core.jdkmath.AccurateMath;addExact;int int;2
+org.apache.commons.math4.core.jdkmath.AccurateMath;addExact;long long;2
+org.apache.commons.math4.core.jdkmath.AccurateMath;subtractExact;int int;2
+org.apache.commons.math4.core.jdkmath.AccurateMath;subtractExact;long long;2
+org.apache.commons.math4.core.jdkmath.AccurateMath;multiplyExact;int int;2
+org.apache.commons.math4.core.jdkmath.AccurateMath;multiplyExact;long long;2
+org.apache.commons.math4.core.jdkmath.AccurateMath;floorDiv;int int;3
+org.apache.commons.math4.core.jdkmath.AccurateMath;floorDiv;long long;3
+org.apache.commons.math4.core.jdkmath.AccurateMath;floorMod;int int;3
+org.apache.commons.math4.core.jdkmath.AccurateMath;floorMod;long long;3
+org.apache.commons.math4.core.jdkmath.AccurateMath;copySign;double double;2
+org.apache.commons.math4.core.jdkmath.AccurateMath;copySign;float float;2
+org.apache.commons.math4.core.jdkmath.AccurateMath;getExponent;double;1
+org.apache.commons.math4.core.jdkmath.AccurateMath;getExponent;float;1
+org.apache.commons.math4.core.jdkmath.AccurateMath;main;String[];1
