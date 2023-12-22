@@ -6,3 +6,34 @@ You can use the default [rule base](https://github.com/pmd/pmd/blob/master/pmd-j
 
 ## Answer
 
+Nous avons choisi le projet Java Apache Commons Collections sur lequel nous avons lancé une analyse avec PMD sur sa source. De cette analyse est ressortie une liste de potentiels problèmes. On a sélectionné de cette liste un True positive et un False positive.
+
+True positive : 
+.\src\main\java\org\apache\commons\collections4\map\AbstractHashedMap.java:316: MethodNamingConventions:        The instance method name '_putAll' doesn't match '[a-z][a-zA-Z0-9]*'
+
+Le problème détecté par PMD, désigne un non-respect des coding guidelines. Ainsi, si l'on rend à l'emplacement de la méthode, on observe bien ce nom respect des coding guidelines.
+
+![](../code/Images/Ex2_Im1.png)
+
+
+Pour que cette fonction respecte les coding guidelines de Java, on modifie le nom de la méthode et on applique le changement à tous les endroits où elle est appelée.
+
+![](../code/Images/Ex2_Im2.png)
+
+False positive : 
+
+.\src\main\java\org\apache\commons\collections4\MapUtils.java:1219:     UnnecessaryFullyQualifiedName:  Unnecessary qualifier 'MapUtils': 'isEmpty' is already in scope
+
+Le potentiel problème ressorti par PMD indique une utilisation qui n'est pas nécessaire du qualifieur MapUtils. Lorsque l'on se rend à l'emplacement, on observe le code suivant : 
+
+![](../code/Images/Ex2_Im3.png)
+
+C'est un Faux positif, car l'utilisation du qualifieur MapUtils montre et précise que la méthode “isEmpty()” utilisée provient de la classe “MapUtils”. Il est préférable de faire cela car cette méthode a été déclarée dans plusieurs autres classes telles que : 
+FluentIterable
+CollectionUtils
+IteratorUtils
+IterableUtils
+etc
+
+
+

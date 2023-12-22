@@ -23,3 +23,14 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+Afin d'éviter le code complexity, nous écrivons une nouvelle règle en utilisant XPATH. Cette règle doit permettre de repérer l'utilisation de 3 if imbriqués. Pour définir cette règle, nous avons utilisé pmd designer qui permet de réaliser des tests directement sur la règle que nous écrivons. Une fois la règle écrite (IfStatement//IfStatement//IfStatement), nous avons généré un [fichier](../code/Exercise3/rule3If.xml) xml cette dernière. 
+
+Pour tester cette nouvelle règle, nous avons fait une analyse avec PMD sur le projet Apache Commons Collections, ce qui nous a donné le résultat suivant :
+
+![](../code/Images/Ex3_1.png)
+
+Afin de vérifier qu'il détectait réellement des triples if imbriqués, nous sommes allés voir les emplacements indiqués.
+
+![](../code/Images/Ex3_2.png)
+
+On observe que notre règle détecte bien des triples if imbriqués.

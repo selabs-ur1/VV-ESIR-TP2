@@ -7,3 +7,15 @@ Your application should also produce a histogram showing the distribution of CC 
 Include in this repository the code of your application. Remove all unnecessary files like compiled binaries. Do include the reports and plots you obtained from different projects. See the [instructions](../sujet.md) for suggestions on the projects to use.
 
 You may use [javaparser-starter](../code/javaparser-starter) as a starting point.
+
+## Histogramme
+
+Une fois le programme réaliser, on peut le tester sur différents projets. Ainsi, on le testera sur les répertoires functors et iterators de Java Apache Commons Collections et sur le projet . On a ainsi obtenu le résultat suivant pour le répertoire functors : 
+
+![](../code/Images/Histo1.png)
+
+Ainsi que le résultat suivant pour le répertoire iterators : 
+
+![](../code/Images/Histo2.png)
+
+On observe que ces 2 répertoires ont des méthodes avec des compléxités cyclomatiques similaires même si le répertoire iterators a moins de méthodes.
