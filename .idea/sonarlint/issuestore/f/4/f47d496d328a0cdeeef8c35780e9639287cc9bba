@@ -1,0 +1,16 @@
+
+?
+java:S1643Ÿ"Use a StringBuilder instead.(ò¶ÉÀúÿÿÿÿ8Ş÷¹É1
+?
+java:S1643¡"Use a StringBuilder instead.(ì‚›ùøÿÿÿÿ8Ş÷¹É1
+:
+java:S1643¥"Use a StringBuilder instead.(ğ É³8Ş÷¹É1
+x
+java:S1104"VMake indexClass a static final constant or non-public and provide accessors if needed.(ˆª²şÿÿÿÿ8Ş÷¹É1
+z
+java:S1104"XMake indexPackage a static final constant or non-public and provide accessors if needed.(í²ñ¥ùÿÿÿÿ8Ş÷¹É1
+L	java:S1060"+Replace this use of System.out by a logger.(°¶®´ùÿÿÿÿ8¶ø¹É1
+G	java:S106~"+Replace this use of System.out by a logger.(œÇÚİ8Äø¹É1
+H	java:S106‰"+Replace this use of System.out by a logger.(Òñ¼ë8Åø¹É1
+Y	java:S125"<This block of commented-out lines of code should be removed.(†‚‘„8Æø¹É1
+M	java:S106•"+Replace this use of System.out by a logger.(ßåµæùÿÿÿÿ8Èø¹É1

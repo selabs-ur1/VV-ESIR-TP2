@@ -9,6 +9,7 @@ import com.github.javaparser.ast.visitor.VoidVisitorAdapter;
 import com.github.javaparser.utils.SourceRoot;
 
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -27,12 +28,19 @@ public class Main {
             System.exit(2);
         }
 
+        System.out.println("File : "+file.getName());
+
         SourceRoot root = new SourceRoot(file.toPath());
         PublicElementsPrinter printer = new PublicElementsPrinter();
         root.parse("", (localPath, absolutePath, result) -> {
+            printer.setFileName(localPath.toString());
             result.ifSuccessful(unit -> unit.accept(printer, null));
             return SourceRoot.Callback.Result.DONT_SAVE;
         });
+
+        FileWriter fw = new FileWriter("report.txt");
+        fw.write(printer.getFieldsWithoutGetter());
+        fw.close();
     }
 
 

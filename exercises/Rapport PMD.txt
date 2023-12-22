@@ -1,0 +1,408 @@
+ ->  ArrayStack.java:56:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  BagUtils.java:36:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+ ->  ClosureUtils.java:61:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+ ->  CollectionUtils.java:57:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+ ->  CollectionUtils.java:389:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+ ->  CollectionUtils.java:603:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'CollectionUtils': 'isSubCollection' is already in scope
+ ->  CollectionUtils.java:1459:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'ex' on all code paths
+ ->  CollectionUtils.java:1523:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'ex' on all code paths
+ ->  CollectionUtils.java:1576:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'ex' on all code paths
+ ->  CollectionUtils.java:1783:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+ ->  CollectionUtils.java:1924:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'CollectionUtils': 'removeCount' is already in scope
+ ->  ComparatorUtils.java:42:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+ ->  EnumerationUtils.java:32:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+ ->  FactoryUtils.java:44:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+ ->  FunctorException.java:34:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  IterableUtils.java:51:	UseUtilityClass:	This utility class has a non-private constructor
+ ->  IterableUtils.java:310:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'IterableUtils': 'isEmpty' is already in scope
+ ->  IteratorUtils.java:74:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+ ->  ListUtils.java:44:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+ ->  ListUtils.java:70:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+ ->  ListUtils.java:273:	LooseCoupling:	Avoid using implementation types like 'HashSet'; use the interface instead
+ ->  ListUtils.java:314:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  ListUtils.java:636:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+ ->  ListUtils.java:724:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+ ->  MapUtils.java:81:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+ ->  MapUtils.java:877:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+ ->  MapUtils.java:1219:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'MapUtils': 'isEmpty' is already in scope
+ ->  MultiMapUtils.java:44:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+ ->  MultiMapUtils.java:111:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+ ->  MultiMapUtils.java:134:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+ ->  MultiMapUtils.java:154:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+ ->  MultiSetUtils.java:29:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+ ->  PredicateUtils.java:71:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+ ->  PredicateUtils.java:348:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'PredicateUtils': 'onePredicate' is already in scope
+ ->  PredicateUtils.java:398:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'PredicateUtils': 'nonePredicate' is already in scope
+ ->  QueueUtils.java:32:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+ ->  SetUtils.java:49:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+ ->  SetUtils.java:124:	LooseCoupling:	Avoid using implementation types like 'SetView'; use the interface instead
+ ->  SetUtils.java:159:	LooseCoupling:	Avoid using implementation types like 'SetView'; use the interface instead
+ ->  SetUtils.java:163:	LooseCoupling:	Avoid using implementation types like 'SetView'; use the interface instead
+ ->  SetUtils.java:164:	LooseCoupling:	Avoid using implementation types like 'SetView'; use the interface instead
+ ->  SetUtils.java:255:	LooseCoupling:	Avoid using implementation types like 'HashSet'; use the interface instead
+ ->  SetUtils.java:257:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+ ->  SetUtils.java:275:	LooseCoupling:	Avoid using implementation types like 'SetView'; use the interface instead
+ ->  SetUtils.java:323:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  SetUtils.java:564:	LooseCoupling:	Avoid using implementation types like 'SetView'; use the interface instead
+ ->  SetUtils.java:568:	LooseCoupling:	Avoid using implementation types like 'SetView'; use the interface instead
+ ->  SetUtils.java:619:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+ ->  SplitMapUtils.java:39:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+ ->  SplitMapUtils.java:75:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition} || {elseBranch};`
+ ->  SplitMapUtils.java:167:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition} || {elseBranch};`
+ ->  TransformerUtils.java:72:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+ ->  TransformerUtils.java:384:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'TransformerUtils': 'switchTransformer' is already in scope
+ ->  TrieUtils.java:26:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+ ->  bag\AbstractBagDecorator.java:43:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  bag\AbstractMapBag.java:60:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  bag\AbstractMapBag.java:418:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
+ ->  bag\AbstractSortedBagDecorator.java:42:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  bidimap\AbstractDualBidiMap.java:86:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  bidimap\AbstractDualBidiMap.java:728:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  bidimap\AbstractDualBidiMap.java:816:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  bidimap\TreeBidiMap.java:631:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  bidimap\TreeBidiMap.java:666:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  bidimap\TreeBidiMap.java:862:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  bidimap\TreeBidiMap.java:890:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  bidimap\TreeBidiMap.java:912:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  bidimap\TreeBidiMap.java:992:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  bidimap\TreeBidiMap.java:1020:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  bidimap\TreeBidiMap.java:1046:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  bidimap\TreeBidiMap.java:1135:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  bidimap\TreeBidiMap.java:1137:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  bidimap\TreeBidiMap.java:1140:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  bidimap\TreeBidiMap.java:1165:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  bidimap\TreeBidiMap.java:1210:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  bidimap\TreeBidiMap.java:1212:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  bidimap\TreeBidiMap.java:1348:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  bidimap\TreeBidiMap.java:1412:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  bidimap\TreeBidiMap.java:1414:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  bidimap\TreeBidiMap.java:2009:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  bidimap\TreeBidiMap.java:2014:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  bloomfilter\ArrayCountingBloomFilter.java:198:	AssignmentInOperand:	Avoid assignments in operands
+ ->  bloomfilter\ArrayCountingBloomFilter.java:209:	AssignmentInOperand:	Avoid assignments in operands
+ ->  bloomfilter\ArrayCountingBloomFilter.java:223:	UnusedPrivateMethod:	Avoid unused private methods such as 'add(int, int)'.
+ ->  bloomfilter\ArrayCountingBloomFilter.java:242:	UnusedPrivateMethod:	Avoid unused private methods such as 'subtract(int, int)'.
+ ->  bloomfilter\BitMap.java:27:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+ ->  bloomfilter\CellProducer.java:93:	LooseCoupling:	Avoid using implementation types like 'TreeMap'; use the interface instead
+ ->  bloomfilter\CountingBloomFilter.java:293:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'e' on all code paths
+ ->  bloomfilter\IndexFilter.java:75:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} && {thenBranch};`
+ ->  bloomfilter\IndexUtils.java:43:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'IndexUtils': 'MAX_ARRAY_SIZE' is already in scope because it is declared in an enclosing type
+ ->  bloomfilter\SparseBloomFilter.java:34:	LooseCoupling:	Avoid using implementation types like 'TreeSet'; use the interface instead
+ ->  bloomfilter\SparseBloomFilter.java:76:	UnusedPrivateMethod:	Avoid unused private methods such as 'add(int)'.
+ ->  collection\AbstractCollectionDecorator.java:72:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  collection\CompositeCollection.java:57:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  collection\CompositeCollection.java:169:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+ ->  collection\CompositeCollection.java:472:	LooseCoupling:	Avoid using implementation types like 'CompositeCollection'; use the interface instead
+ ->  collection\CompositeCollection.java:486:	LooseCoupling:	Avoid using implementation types like 'CompositeCollection'; use the interface instead
+ ->  collection\CompositeCollection.java:502:	LooseCoupling:	Avoid using implementation types like 'CompositeCollection'; use the interface instead
+ ->  collection\SynchronizedCollection.java:63:	LooseCoupling:	Avoid using implementation types like 'SynchronizedCollection'; use the interface instead
+ ->  comparators\ComparableComparator.java:74:	UnnecessaryConstructor:	Avoid unnecessary constructors - the compiler will generate these for you
+ ->  comparators\ComparableComparator.java:74:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  comparators\FixedOrderComparator.java:82:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  comparators\NullComparator.java:133:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  functors\AllPredicate.java:19:	UnnecessaryImport:	Unused static import 'org.apache.commons.collections4.functors.FunctorUtils.coerce'
+ ->  functors\AllPredicate.java:20:	UnnecessaryImport:	Unused static import 'org.apache.commons.collections4.functors.FunctorUtils.validate'
+ ->  functors\AllPredicate.java:21:	UnnecessaryImport:	Unused static import 'org.apache.commons.collections4.functors.TruePredicate.truePredicate'
+ ->  functors\CatchAndRethrowClosure.java:63:	AvoidCatchingThrowable:	A catch statement should never catch throwable since it includes errors.
+ ->  functors\CloneTransformer.java:35:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+ ->  functors\DefaultEquator.java:30:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+ ->  functors\DefaultEquator.java:51:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'DefaultEquator': 'INSTANCE' is already in scope because it is declared in an enclosing type
+ ->  functors\FunctorUtils.java:50:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+ ->  functors\FunctorUtils.java:117:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+ ->  functors\FunctorUtils.java:160:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+ ->  functors\IdentityPredicate.java:70:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  functors\InstantiateFactory.java:110:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'ex' on all code paths
+ ->  functors\InstantiateTransformer.java:118:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'ex' on all code paths
+ ->  functors\InvokerTransformer.java:130:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'ex' on all code paths
+ ->  functors\InvokerTransformer.java:133:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'ex' on all code paths
+ ->  functors\NOPTransformer.java:28:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+ ->  functors\NullIsFalsePredicate.java:68:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
+ ->  functors\NullIsTruePredicate.java:68:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition} || {elseBranch};`
+ ->  functors\PrototypeFactory.java:43:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+ ->  functors\PrototypeFactory.java:100:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+ ->  functors\PrototypeFactory.java:122:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'ex' on all code paths
+ ->  functors\PrototypeFactory.java:153:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+ ->  functors\UniquePredicate.java:54:	UnnecessaryConstructor:	Avoid unnecessary constructors - the compiler will generate these for you
+ ->  functors\UniquePredicate.java:54:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  iterators\AbstractEmptyIterator.java:31:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  iterators\AbstractEmptyMapIterator.java:31:	UnnecessaryConstructor:	Avoid unnecessary constructors - the compiler will generate these for you
+ ->  iterators\AbstractEmptyMapIterator.java:31:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  iterators\BoundedIterator.java:92:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
+ ->  iterators\BoundedIterator.java:103:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition};`
+ ->  iterators\EmptyIterator.java:70:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  iterators\EmptyListIterator.java:71:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  iterators\EmptyMapIterator.java:52:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  iterators\EmptyOrderedIterator.java:50:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  iterators\EmptyOrderedMapIterator.java:52:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  iterators\FilterIterator.java:48:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  iterators\FilterListIterator.java:75:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  iterators\IteratorChain.java:78:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  iterators\IteratorEnumeration.java:38:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  iterators\LoopingListIterator.java:249:	MethodNamingConventions:	The instance method name '_reset' doesn't match '[a-z][a-zA-Z0-9]*'
+ ->  iterators\ObjectGraphIterator.java:175:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  iterators\TransformIterator.java:40:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  keyvalue\AbstractMapEntryDecorator.java:73:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition} || {elseBranch};`
+ ->  keyvalue\DefaultKeyValue.java:83:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  keyvalue\DefaultKeyValue.java:99:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  keyvalue\TiedMapEntry.java:86:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  list\AbstractLinkedList.java:79:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  list\AbstractLinkedList.java:136:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  list\AbstractLinkedList.java:148:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  list\AbstractLinkedList.java:174:	OptimizableToArrayCall:	This call to Collection.toArray() may be optimizable
+ ->  list\AbstractLinkedList.java:187:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  list\AbstractLinkedList.java:245:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  list\AbstractLinkedList.java:313:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  list\AbstractLinkedList.java:321:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  list\AbstractLinkedList.java:339:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  list\AbstractLinkedList.java:349:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  list\AbstractLinkedList.java:400:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  list\AbstractLinkedList.java:582:	LooseCoupling:	Avoid using implementation types like 'LinkedSubList'; use the interface instead
+ ->  list\AbstractLinkedList.java:593:	LooseCoupling:	Avoid using implementation types like 'LinkedSubList'; use the interface instead
+ ->  list\AbstractLinkedList.java:747:	LooseCoupling:	Avoid using implementation types like 'AbstractLinkedList'; use the interface instead
+ ->  list\AbstractLinkedList.java:785:	LooseCoupling:	Avoid using implementation types like 'AbstractLinkedList'; use the interface instead
+ ->  list\AbstractLinkedList.java:822:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  list\AbstractLinkedList.java:840:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  list\AbstractLinkedList.java:870:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  list\AbstractLinkedList.java:908:	LooseCoupling:	Avoid using implementation types like 'LinkedSubList'; use the interface instead
+ ->  list\AbstractLinkedList.java:910:	LooseCoupling:	Avoid using implementation types like 'LinkedSubList'; use the interface instead
+ ->  list\AbstractLinkedList.java:952:	LooseCoupling:	Avoid using implementation types like 'AbstractLinkedList'; use the interface instead
+ ->  list\AbstractLinkedList.java:960:	LooseCoupling:	Avoid using implementation types like 'AbstractLinkedList'; use the interface instead
+ ->  list\AbstractListDecorator.java:44:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  list\AbstractSerializableListDecorator.java:22:	UnnecessaryImport:	Unused import 'java.util.Collection'
+ ->  list\CursorableLinkedList.java:290:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  list\PredicatedList.java:69:	LooseCoupling:	Avoid using implementation types like 'PredicatedList'; use the interface instead
+ ->  list\TransformedList.java:60:	LooseCoupling:	Avoid using implementation types like 'TransformedList'; use the interface instead
+ ->  list\TransformedList.java:80:	LooseCoupling:	Avoid using implementation types like 'TransformedList'; use the interface instead
+ ->  list\TransformedList.java:82:	LooseCoupling:	Avoid using implementation types like 'TransformedList'; use the interface instead
+ ->  list\TreeList.java:79:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  list\TreeList.java:304:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+ ->  list\TreeList.java:980:	LooseCoupling:	Avoid using implementation types like 'TreeList'; use the interface instead
+ ->  list\TreeList.java:1012:	LooseCoupling:	Avoid using implementation types like 'TreeList'; use the interface instead
+ ->  map\AbstractHashedMap.java:92:	LooseCoupling:	Avoid using implementation types like 'EntrySet'; use the interface instead
+ ->  map\AbstractHashedMap.java:94:	LooseCoupling:	Avoid using implementation types like 'KeySet'; use the interface instead
+ ->  map\AbstractHashedMap.java:96:	LooseCoupling:	Avoid using implementation types like 'Values'; use the interface instead
+ ->  map\AbstractHashedMap.java:101:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  map\AbstractHashedMap.java:316:	MethodNamingConventions:	The instance method name '_putAll' doesn't match '[a-z][a-zA-Z0-9]*'
+ ->  map\AbstractHashedMap.java:408:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  map\AbstractHashedMap.java:421:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  map\AbstractHashedMap.java:759:	LooseCoupling:	Avoid using implementation types like 'AbstractHashedMap'; use the interface instead
+ ->  map\AbstractHashedMap.java:772:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'AbstractHashedMap': 'GETKEY_INVALID' is already in scope because it is declared in an enclosing type
+ ->  map\AbstractHashedMap.java:781:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'AbstractHashedMap': 'GETVALUE_INVALID' is already in scope because it is declared in an enclosing type
+ ->  map\AbstractHashedMap.java:790:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'AbstractHashedMap': 'SETVALUE_INVALID' is already in scope because it is declared in an enclosing type
+ ->  map\AbstractHashedMap.java:832:	LooseCoupling:	Avoid using implementation types like 'AbstractHashedMap'; use the interface instead
+ ->  map\AbstractHashedMap.java:834:	LooseCoupling:	Avoid using implementation types like 'AbstractHashedMap'; use the interface instead
+ ->  map\AbstractHashedMap.java:885:	LooseCoupling:	Avoid using implementation types like 'AbstractHashedMap'; use the interface instead
+ ->  map\AbstractHashedMap.java:930:	LooseCoupling:	Avoid using implementation types like 'AbstractHashedMap'; use the interface instead
+ ->  map\AbstractHashedMap.java:932:	LooseCoupling:	Avoid using implementation types like 'AbstractHashedMap'; use the interface instead
+ ->  map\AbstractHashedMap.java:972:	LooseCoupling:	Avoid using implementation types like 'AbstractHashedMap'; use the interface instead
+ ->  map\AbstractHashedMap.java:1017:	LooseCoupling:	Avoid using implementation types like 'AbstractHashedMap'; use the interface instead
+ ->  map\AbstractHashedMap.java:1019:	LooseCoupling:	Avoid using implementation types like 'AbstractHashedMap'; use the interface instead
+ ->  map\AbstractHashedMap.java:1052:	LooseCoupling:	Avoid using implementation types like 'AbstractHashedMap'; use the interface instead
+ ->  map\AbstractHashedMap.java:1148:	LooseCoupling:	Avoid using implementation types like 'AbstractHashedMap'; use the interface instead
+ ->  map\AbstractHashedMap.java:1158:	LooseCoupling:	Avoid using implementation types like 'AbstractHashedMap'; use the interface instead
+ ->  map\AbstractHashedMap.java:1181:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'AbstractHashedMap': 'NO_NEXT_ENTRY' is already in scope because it is declared in an enclosing type
+ ->  map\AbstractHashedMap.java:1201:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'AbstractHashedMap': 'REMOVE_INVALID' is already in scope because it is declared in an enclosing type
+ ->  map\AbstractHashedMap.java:1296:	CloneMethodMustBePublic:	clone() method must be public if the class implements Cloneable
+ ->  map\AbstractHashedMap.java:1296:	CloneMethodMustImplementCloneable:	clone() method should be implemented only if implementing Cloneable interface
+ ->  map\AbstractHashedMap.java:1298:	LooseCoupling:	Avoid using implementation types like 'AbstractHashedMap'; use the interface instead
+ ->  map\AbstractHashedMap.java:1385:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  map\AbstractHashedMap.java:1387:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  map\AbstractInputCheckedMapDecorator.java:53:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  map\AbstractLinkedMap.java:77:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  map\AbstractLinkedMap.java:147:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  map\AbstractLinkedMap.java:153:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  map\AbstractLinkedMap.java:208:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  map\AbstractLinkedMap.java:225:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  map\AbstractLinkedMap.java:554:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  map\AbstractLinkedMap.java:558:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  map\AbstractLinkedMap.java:565:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  map\AbstractLinkedMap.java:578:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  map\AbstractMapDecorator.java:52:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  map\AbstractMapDecorator.java:136:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition} || {elseBranch};`
+ ->  map\AbstractOrderedMapDecorator.java:47:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  map\AbstractReferenceMap.java:152:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  map\AbstractReferenceMap.java:221:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
+ ->  map\AbstractReferenceMap.java:236:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
+ ->  map\AbstractReferenceMap.java:459:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  map\AbstractReferenceMap.java:524:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+ ->  map\AbstractReferenceMap.java:782:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+ ->  map\AbstractReferenceMap.java:783:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+ ->  map\AbstractSortedMapDecorator.java:55:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  map\CompositeMap.java:171:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+ ->  map\Flat3Map.java:114:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  map\Flat3Map.java:139:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+ ->  map\Flat3Map.java:145:	ImplicitSwitchFallThrough:	This switch case may be reached by fallthrough from the previous case
+ ->  map\Flat3Map.java:149:	ImplicitSwitchFallThrough:	This switch case may be reached by fallthrough from the previous case
+ ->  map\Flat3Map.java:157:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+ ->  map\Flat3Map.java:163:	ImplicitSwitchFallThrough:	This switch case may be reached by fallthrough from the previous case
+ ->  map\Flat3Map.java:167:	ImplicitSwitchFallThrough:	This switch case may be reached by fallthrough from the previous case
+ ->  map\Flat3Map.java:212:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+ ->  map\Flat3Map.java:217:	ImplicitSwitchFallThrough:	This switch case may be reached by fallthrough from the previous case
+ ->  map\Flat3Map.java:221:	ImplicitSwitchFallThrough:	This switch case may be reached by fallthrough from the previous case
+ ->  map\Flat3Map.java:229:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+ ->  map\Flat3Map.java:234:	ImplicitSwitchFallThrough:	This switch case may be reached by fallthrough from the previous case
+ ->  map\Flat3Map.java:238:	ImplicitSwitchFallThrough:	This switch case may be reached by fallthrough from the previous case
+ ->  map\Flat3Map.java:260:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+ ->  map\Flat3Map.java:265:	ImplicitSwitchFallThrough:	This switch case may be reached by fallthrough from the previous case
+ ->  map\Flat3Map.java:269:	ImplicitSwitchFallThrough:	This switch case may be reached by fallthrough from the previous case
+ ->  map\Flat3Map.java:275:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+ ->  map\Flat3Map.java:280:	ImplicitSwitchFallThrough:	This switch case may be reached by fallthrough from the previous case
+ ->  map\Flat3Map.java:284:	ImplicitSwitchFallThrough:	This switch case may be reached by fallthrough from the previous case
+ ->  map\Flat3Map.java:307:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+ ->  map\Flat3Map.java:314:	ImplicitSwitchFallThrough:	This switch case may be reached by fallthrough from the previous case
+ ->  map\Flat3Map.java:320:	ImplicitSwitchFallThrough:	This switch case may be reached by fallthrough from the previous case
+ ->  map\Flat3Map.java:330:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+ ->  map\Flat3Map.java:337:	ImplicitSwitchFallThrough:	This switch case may be reached by fallthrough from the previous case
+ ->  map\Flat3Map.java:343:	ImplicitSwitchFallThrough:	This switch case may be reached by fallthrough from the previous case
+ ->  map\Flat3Map.java:355:	DefaultLabelNotLastInSwitchStmt:	The default label should be the last label in a switch statement
+ ->  map\Flat3Map.java:413:	ImplicitSwitchFallThrough:	This switch case may be reached by fallthrough from the previous case
+ ->  map\Flat3Map.java:415:	ImplicitSwitchFallThrough:	This switch case may be reached by fallthrough from the previous case
+ ->  map\Flat3Map.java:417:	ImplicitSwitchFallThrough:	This switch case may be reached by fallthrough from the previous case
+ ->  map\Flat3Map.java:458:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+ ->  map\Flat3Map.java:525:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+ ->  map\Flat3Map.java:675:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+ ->  map\Flat3Map.java:691:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+ ->  map\Flat3Map.java:804:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+ ->  map\Flat3Map.java:830:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+ ->  map\Flat3Map.java:846:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+ ->  map\Flat3Map.java:1185:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+ ->  map\Flat3Map.java:1194:	ImplicitSwitchFallThrough:	This switch case may be reached by fallthrough from the previous case
+ ->  map\Flat3Map.java:1202:	ImplicitSwitchFallThrough:	This switch case may be reached by fallthrough from the previous case
+ ->  map\Flat3Map.java:1229:	ImplicitSwitchFallThrough:	This switch case may be reached by fallthrough from the previous case
+ ->  map\Flat3Map.java:1231:	ImplicitSwitchFallThrough:	This switch case may be reached by fallthrough from the previous case
+ ->  map\Flat3Map.java:1233:	ImplicitSwitchFallThrough:	This switch case may be reached by fallthrough from the previous case
+ ->  map\Flat3Map.java:1258:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  map\Flat3Map.java:1260:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  map\Flat3Map.java:1262:	ImplicitSwitchFallThrough:	This switch case may be reached by fallthrough from the previous case
+ ->  map\Flat3Map.java:1263:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  map\Flat3Map.java:1265:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  map\Flat3Map.java:1267:	ImplicitSwitchFallThrough:	This switch case may be reached by fallthrough from the previous case
+ ->  map\Flat3Map.java:1268:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  map\Flat3Map.java:1270:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  map\LRUMap.java:394:	PreserveStackTrace:	Thrown exception does not preserve the stack trace of exception 'ex' on all code paths
+ ->  map\LazySortedMap.java:82:	LooseCoupling:	Avoid using implementation types like 'LazySortedMap'; use the interface instead
+ ->  map\LazySortedMap.java:98:	LooseCoupling:	Avoid using implementation types like 'LazySortedMap'; use the interface instead
+ ->  map\ListOrderedMap.java:376:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  map\ListOrderedMap.java:378:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  map\ListOrderedMap.java:643:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition} || {elseBranch};`
+ ->  map\MultiValueMap.java:94:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+ ->  map\MultiValueMap.java:342:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
+ ->  map\PredicatedSortedMap.java:76:	LooseCoupling:	Avoid using implementation types like 'PredicatedSortedMap'; use the interface instead
+ ->  map\ReferenceIdentityMap.java:213:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  map\ReferenceIdentityMap.java:227:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  map\SingletonMap.java:587:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  map\SingletonMap.java:589:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  map\StaticBucketMap.java:452:	AvoidProtectedFieldInFinalClass:	Avoid protected fields in a final class.  Change to private or package access.
+ ->  map\StaticBucketMap.java:453:	AvoidProtectedFieldInFinalClass:	Avoid protected fields in a final class.  Change to private or package access.
+ ->  map\StaticBucketMap.java:454:	AvoidProtectedFieldInFinalClass:	Avoid protected fields in a final class.  Change to private or package access.
+ ->  map\StaticBucketMap.java:502:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+ ->  map\TransformedSortedMap.java:70:	LooseCoupling:	Avoid using implementation types like 'TransformedSortedMap'; use the interface instead
+ ->  map\TransformedSortedMap.java:93:	LooseCoupling:	Avoid using implementation types like 'TransformedSortedMap'; use the interface instead
+ ->  map\TransformedSortedMap.java:97:	LooseCoupling:	Avoid using implementation types like 'TransformedSortedMap'; use the interface instead
+ ->  multimap\AbstractListValuedMap.java:46:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  multimap\AbstractMultiValuedMap.java:66:	LooseCoupling:	Avoid using implementation types like 'EntryValues'; use the interface instead
+ ->  multimap\AbstractMultiValuedMap.java:72:	LooseCoupling:	Avoid using implementation types like 'AsMap'; use the interface instead
+ ->  multimap\AbstractMultiValuedMap.java:80:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  multimap\AbstractMultiValuedMap.java:366:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition} && {thenBranch};`
+ ->  multimap\AbstractMultiValuedMap.java:781:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+ ->  multimap\AbstractMultiValuedMap.java:802:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+ ->  multimap\AbstractMultiValuedMapDecorator.java:168:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition} || {elseBranch};`
+ ->  multimap\AbstractSetValuedMap.java:44:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  multimap\ArrayListValuedHashMap.java:126:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+ ->  multiset\AbstractMapMultiSet.java:54:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  multiset\AbstractMapMultiSet.java:285:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
+ ->  multiset\AbstractMultiSet.java:50:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  multiset\AbstractMultiSet.java:126:	LooseCoupling:	Avoid using implementation types like 'AbstractMultiSet'; use the interface instead
+ ->  multiset\AbstractMultiSet.java:137:	LooseCoupling:	Avoid using implementation types like 'AbstractMultiSet'; use the interface instead
+ ->  multiset\AbstractMultiSet.java:297:	LooseCoupling:	Avoid using implementation types like 'AbstractMultiSet'; use the interface instead
+ ->  multiset\AbstractMultiSet.java:304:	LooseCoupling:	Avoid using implementation types like 'AbstractMultiSet'; use the interface instead
+ ->  multiset\AbstractMultiSet.java:344:	LooseCoupling:	Avoid using implementation types like 'AbstractMultiSet'; use the interface instead
+ ->  multiset\AbstractMultiSet.java:351:	LooseCoupling:	Avoid using implementation types like 'AbstractMultiSet'; use the interface instead
+ ->  multiset\AbstractMultiSetDecorator.java:42:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  properties\AbstractPropertiesFactory.java:118:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+ ->  properties\AbstractPropertiesFactory.java:137:	ReturnEmptyCollectionRatherThanNull:	Return an empty collection rather than null.
+ ->  properties\OrderedProperties.java:49:	LooseCoupling:	Avoid using implementation types like 'LinkedHashSet'; use the interface instead
+ ->  properties\OrderedProperties.java:164:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  properties\OrderedProperties.java:166:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  properties\OrderedPropertiesFactory.java:26:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+ ->  properties\PropertiesFactory.java:44:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+ ->  properties\PropertiesFactory.java:278:	UselessOverridingMethod:	Overriding method merely calls super
+ ->  properties\PropertiesFactory.java:284:	UselessOverridingMethod:	Overriding method merely calls super
+ ->  properties\PropertiesFactory.java:290:	UselessOverridingMethod:	Overriding method merely calls super
+ ->  properties\PropertiesFactory.java:296:	UselessOverridingMethod:	Overriding method merely calls super
+ ->  properties\SortedPropertiesFactory.java:26:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+ ->  queue\AbstractQueueDecorator.java:48:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  queue\PredicatedQueue.java:58:	LooseCoupling:	Avoid using implementation types like 'PredicatedQueue'; use the interface instead
+ ->  queue\PredicatedQueue.java:58:	FormalParameterNamingConventions:	The final method parameter name 'Queue' doesn't match '[a-z][a-zA-Z0-9]*'
+ ->  queue\SynchronizedQueue.java:49:	LooseCoupling:	Avoid using implementation types like 'SynchronizedQueue'; use the interface instead
+ ->  queue\TransformedQueue.java:54:	LooseCoupling:	Avoid using implementation types like 'TransformedQueue'; use the interface instead
+ ->  queue\TransformedQueue.java:74:	LooseCoupling:	Avoid using implementation types like 'TransformedQueue'; use the interface instead
+ ->  queue\TransformedQueue.java:77:	LooseCoupling:	Avoid using implementation types like 'TransformedQueue'; use the interface instead
+ ->  set\AbstractNavigableSetDecorator.java:41:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  set\AbstractSerializableSetDecorator.java:22:	UnnecessaryImport:	Unused import 'java.util.Collection'
+ ->  set\AbstractSetDecorator.java:42:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  set\AbstractSortedSetDecorator.java:43:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  set\CompositeSet.java:67:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  set\CompositeSet.java:168:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+ ->  set\CompositeSet.java:494:	LooseCoupling:	Avoid using implementation types like 'CompositeSet'; use the interface instead
+ ->  set\CompositeSet.java:508:	LooseCoupling:	Avoid using implementation types like 'CompositeSet'; use the interface instead
+ ->  set\CompositeSet.java:524:	LooseCoupling:	Avoid using implementation types like 'CompositeSet'; use the interface instead
+ ->  set\ListOrderedSet.java:370:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+ ->  set\MapBackedSet.java:64:	LooseCoupling:	Avoid using implementation types like 'MapBackedSet'; use the interface instead
+ ->  set\MapBackedSet.java:79:	LooseCoupling:	Avoid using implementation types like 'MapBackedSet'; use the interface instead
+ ->  set\PredicatedNavigableSet.java:63:	LooseCoupling:	Avoid using implementation types like 'PredicatedNavigableSet'; use the interface instead
+ ->  set\PredicatedSet.java:62:	LooseCoupling:	Avoid using implementation types like 'PredicatedSet'; use the interface instead
+ ->  set\PredicatedSortedSet.java:66:	LooseCoupling:	Avoid using implementation types like 'PredicatedSortedSet'; use the interface instead
+ ->  set\TransformedNavigableSet.java:54:	LooseCoupling:	Avoid using implementation types like 'TransformedNavigableSet'; use the interface instead
+ ->  set\TransformedNavigableSet.java:73:	LooseCoupling:	Avoid using implementation types like 'TransformedNavigableSet'; use the interface instead
+ ->  set\TransformedNavigableSet.java:76:	LooseCoupling:	Avoid using implementation types like 'TransformedNavigableSet'; use the interface instead
+ ->  set\TransformedSet.java:58:	LooseCoupling:	Avoid using implementation types like 'TransformedSet'; use the interface instead
+ ->  set\TransformedSet.java:79:	LooseCoupling:	Avoid using implementation types like 'TransformedSet'; use the interface instead
+ ->  set\TransformedSortedSet.java:58:	LooseCoupling:	Avoid using implementation types like 'TransformedSortedSet'; use the interface instead
+ ->  set\TransformedSortedSet.java:78:	LooseCoupling:	Avoid using implementation types like 'TransformedSortedSet'; use the interface instead
+ ->  set\TransformedSortedSet.java:81:	LooseCoupling:	Avoid using implementation types like 'TransformedSortedSet'; use the interface instead
+ ->  splitmap\AbstractIterableGetMapDecorator.java:53:	UncommentedEmptyConstructor:	Document empty constructor
+ ->  splitmap\AbstractIterableGetMapDecorator.java:121:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition} || {elseBranch};`
+ ->  trie\AbstractBitwiseTrie.java:108:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
+ ->  trie\AbstractBitwiseTrie.java:128:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
+ ->  trie\AbstractBitwiseTrie.java:203:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition};`
+ ->  trie\AbstractPatriciaTrie.java:59:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+ ->  trie\AbstractPatriciaTrie.java:60:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+ ->  trie\AbstractPatriciaTrie.java:61:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+ ->  trie\AbstractPatriciaTrie.java:222:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  trie\AbstractPatriciaTrie.java:478:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  trie\AbstractPatriciaTrie.java:497:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  trie\AbstractPatriciaTrie.java:505:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  trie\AbstractPatriciaTrie.java:507:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  trie\AbstractPatriciaTrie.java:530:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  trie\AbstractPatriciaTrie.java:545:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  trie\AbstractPatriciaTrie.java:553:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  trie\AbstractPatriciaTrie.java:553:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  trie\AbstractPatriciaTrie.java:557:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  trie\AbstractPatriciaTrie.java:572:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  trie\AbstractPatriciaTrie.java:576:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  trie\AbstractPatriciaTrie.java:581:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  trie\AbstractPatriciaTrie.java:657:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  trie\AbstractPatriciaTrie.java:661:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  trie\AbstractPatriciaTrie.java:692:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  trie\AbstractPatriciaTrie.java:704:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  trie\AbstractPatriciaTrie.java:706:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  trie\AbstractPatriciaTrie.java:714:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  trie\AbstractPatriciaTrie.java:724:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  trie\AbstractPatriciaTrie.java:730:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  trie\AbstractPatriciaTrie.java:1129:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  trie\AbstractPatriciaTrie.java:1202:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  trie\AbstractPatriciaTrie.java:1209:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  trie\AbstractPatriciaTrie.java:1218:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  trie\AbstractPatriciaTrie.java:1318:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  trie\AbstractPatriciaTrie.java:1318:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  trie\AbstractPatriciaTrie.java:1612:	AvoidProtectedFieldInFinalClass:	Avoid protected fields in a final class.  Change to private or package access.
+ ->  trie\AbstractPatriciaTrie.java:1685:	AvoidUsingVolatile:	Use of modifier volatile is not recommended.
+ ->  trie\AbstractPatriciaTrie.java:1719:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition} || {elseBranch};`
+ ->  trie\AbstractPatriciaTrie.java:1966:	LooseCoupling:	Avoid using implementation types like 'AbstractRangeMap'; use the interface instead
+ ->  trie\AbstractPatriciaTrie.java:1975:	LooseCoupling:	Avoid using implementation types like 'AbstractRangeMap'; use the interface instead
+ ->  trie\AbstractPatriciaTrie.java:2004:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+ ->  trie\AbstractPatriciaTrie.java:2276:	LooseCoupling:	Avoid using implementation types like 'PrefixRangeMap'; use the interface instead
+ ->  trie\AbstractPatriciaTrie.java:2285:	LooseCoupling:	Avoid using implementation types like 'PrefixRangeMap'; use the interface instead
+ ->  trie\AbstractPatriciaTrie.java:2397:	CompareObjectsWithEquals:	Use equals() to compare object references.
+ ->  trie\analyzer\StringKeyAnalyzer.java:76:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.

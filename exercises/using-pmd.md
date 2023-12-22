@@ -6,3 +6,8 @@ You can use the default [rule base](https://github.com/pmd/pmd/blob/master/pmd-j
 
 ## Answer
 
+Voici ce que j'ai obtenu après passage de PMD sur la bibliothèque Java Collections : [Rapport PMD](https://github.com/TheKingHydra/VV-ESIR-TP2/edit/main/exercises/Rapport%20PMD.txt)
+
+On peut prendre comme cas de faux positif le premier retour de PMD :  ->  ArrayStack.java:56:	UncommentedEmptyConstructor:	Document empty constructor
+
+En effet, ici PMD nous demande de commenter un constructeur vide, or cela n'est pas nécessaire (ou même utile). On ne commente pas du code vide.
