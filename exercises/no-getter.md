@@ -27,3 +27,41 @@ The program should take as input the path to the source code of the project. It 
 Include in this repository the code of your application. Remove all unnecessary files like compiled binaries. See the [instructions](../sujet.md) for suggestions on the projects to use.
 
 *Disclaimer* In a real project not all fields need to be accessed with a public getter.
+
+#Answers
+
+Voici ma classe de test : 
+
+```
+public class Foo {
+   private int a;
+   private int b;
+   private int c;
+
+
+   public Foo(int a, int b) {
+       this.a = a;
+       this.b = b;
+   }
+
+
+   public int sum() {
+       return a + b;
+   }
+
+
+   public int getC(){
+       return c;
+   }
+}
+```
+
+Voici le retour : 
+Field: a
+Class: Foo
+Package: fr.istic.vv
+
+Field: b
+Class: Foo
+Package: fr.istic.vv
+

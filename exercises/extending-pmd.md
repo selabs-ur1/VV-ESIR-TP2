@@ -23,3 +23,10 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+La règle cible les déclarations "if" excessivement imbriquées, cherchant à améliorer la lisibilité et la structure du code.
+
+Recommandations :
+Décomposer les structures complexes, utiliser des fonctions distinctes, et commenter judicieusement.
+
+J’ai trouvé 138 cas de triple imbrication de ifs dans le projet commons-math.
+
