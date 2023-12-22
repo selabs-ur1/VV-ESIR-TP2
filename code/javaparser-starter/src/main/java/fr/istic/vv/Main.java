@@ -33,6 +33,10 @@ public class Main {
             result.ifSuccessful(unit -> unit.accept(printer, null));
             return SourceRoot.Callback.Result.DONT_SAVE;
         });
+        //test of the non getter fonction
+        //here is the call for exercice 4
+        System.out.println("no getter");
+        printer.attributs_that_dont_get_getter();
     }
 
 

@@ -6,3 +6,4 @@ You can use the default [rule base](https://github.com/pmd/pmd/blob/master/pmd-j
 
 ## Answer
 
+On a pris le projet common-maths, avec ceci s'ajoutent nombre d'erreurs données par PMD. Un "false positive" pourrait être une erreur de type "Useless parentheses", qui relève vraiment du détail. Ce n'est pas une source de bug mais de forme. Un "true positive" pourrait être un "Useless import", en cas d'import important, cela pourrait poser des problème et alourdir significativement et inutilement le fichier. Une autre possiblitié de "true positive" est "Switch statements should be exhaustive" indiquant que l'intégralité des cas n'est pas considéré. Cela peut être un gros problème si un autre cas que ceux traité apparait (même dans le cas ou on gère completemnt l'entré de la fonction). Pour régler le problème on peut donc ajouter "un case default:", ainsi tout les cas seront traité évitant une erreur de matching.

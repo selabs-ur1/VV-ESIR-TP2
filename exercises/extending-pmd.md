@@ -23,3 +23,6 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+Dans PMD Rule Designer, nous avons mis la règle ```//IfStatement[count(ancestor::IfStatement) + 1 >= 3]```.
+Elle nous permet de détecter s'il y a 3 ou plus ```if```s, et semble fonctionner comme attendu. Avec AccurateMath, on remarque qu'il y a même différentes couleur en fonction du degré de violation de la règle. Pour AccurateMathCalc, tout passe, anéfé, c'est carré.
+
