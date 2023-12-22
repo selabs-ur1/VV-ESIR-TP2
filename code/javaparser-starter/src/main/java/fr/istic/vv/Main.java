@@ -27,13 +27,19 @@ public class Main {
             System.exit(2);
         }
 
+
+        File report = new File("report.txt");
+        if (report.createNewFile()) {
+            System.out.println("File created: " + report.getName());
+        } else {
+                System.out.println("File already exists.");
+        }
         SourceRoot root = new SourceRoot(file.toPath());
-        PublicElementsPrinter printer = new PublicElementsPrinter();
+        PublicElementsPrinter printer = new PublicElementsPrinter(report);
         root.parse("", (localPath, absolutePath, result) -> {
             result.ifSuccessful(unit -> unit.accept(printer, null));
             return SourceRoot.Callback.Result.DONT_SAVE;
         });
+
     }
-
-
 }

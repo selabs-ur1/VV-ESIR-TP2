@@ -1,0 +1,400 @@
+Complexité cyclomatique de chaque méthode 
+ 
+
+========================================
+Fichier : AlreadySelectedException.java
+========================================
+
+Classe : org.apache.commons.cli.AlreadySelectedException
+public Option getOption() : 1
+public OptionGroup getOptionGroup() : 1
+
+========================================
+Fichier : AmbiguousOptionException.java
+========================================
+
+Classe : org.apache.commons.cli.AmbiguousOptionException
+private static String createMessage(final String option, final Collection<String> matchingOptions) : 3
+public Collection<String> getMatchingOptions() : 1
+
+========================================
+Fichier : BasicParser.java
+========================================
+
+Classe : org.apache.commons.cli.BasicParser
+protected String[] flatten(@SuppressWarnings("unused") final Options options, final String[] arguments, @SuppressWarnings("unused") final boolean stopAtNonOption) : 1
+
+========================================
+Fichier : CommandLine.java
+========================================
+
+Classe : org.apache.commons.cli.CommandLine
+protected void addArg(final String arg) : 2
+protected void addOption(final Option opt) : 2
+public List<String> getArgList() : 1
+public String[] getArgs() : 1
+public Object getOptionObject(final char opt) : 1
+public Object getOptionObject(final String opt) : 1
+public Properties getOptionProperties(final Option option) : 4
+public Properties getOptionProperties(final String opt) : 4
+public Option[] getOptions() : 1
+public String getOptionValue(final char opt) : 1
+public String getOptionValue(final char opt, final String defaultValue) : 1
+public String getOptionValue(final Option option) : 2
+public String getOptionValue(final Option option, final String defaultValue) : 1
+public String getOptionValue(final String opt) : 1
+public String getOptionValue(final String opt, final String defaultValue) : 1
+public String[] getOptionValues(final char opt) : 1
+public String[] getOptionValues(final Option option) : 3
+public String[] getOptionValues(final String opt) : 1
+public Object getParsedOptionValue(final char opt) throws ParseException : 1
+public Object getParsedOptionValue(final Option option) throws ParseException : 3
+public Object getParsedOptionValue(final String opt) throws ParseException : 1
+public boolean hasOption(final char opt) : 1
+public boolean hasOption(final Option opt) : 1
+public boolean hasOption(final String opt) : 1
+public Iterator<Option> iterator() : 1
+private Option resolveOption(final String opt) : 4
+
+Classe : org.apache.commons.cli.CommandLine.Builder
+public Builder addArg(final String arg) : 1
+public Builder addOption(final Option opt) : 1
+public CommandLine build() : 1
+
+========================================
+Fichier : CommandLineParser.java
+========================================
+
+Classe : org.apache.commons.cli.CommandLineParser
+ CommandLine parse(Options options, String[] arguments) throws ParseException : 1
+ CommandLine parse(Options options, String[] arguments, boolean stopAtNonOption) throws ParseException : 1
+
+========================================
+Fichier : DefaultParser.java
+========================================
+
+Classe : org.apache.commons.cli.DefaultParser
+public static Builder builder() : 1
+private void checkRequiredArgs() throws ParseException : 2
+protected void checkRequiredOptions() throws MissingOptionException : 2
+private String getLongPrefix(final String token) : 3
+private List<String> getMatchingLongOptions(final String token) : 3
+protected void handleConcatenatedOptions(final String token) throws ParseException : 4
+private void handleLongOption(final String token) throws ParseException : 2
+private void handleLongOptionWithEqual(final String token) throws ParseException : 2
+private void handleLongOptionWithoutEqual(final String token) throws ParseException : 2
+private void handleOption(Option option) throws ParseException : 2
+private void handleProperties(final Properties properties) throws ParseException : 7
+private void handleShortAndLongOption(final String token) throws ParseException : 3
+private void handleToken(final String token) throws ParseException : 3
+private void handleUnknownToken(final String token) throws ParseException : 3
+private boolean isArgument(final String token) : 1
+private boolean isJavaProperty(final String token) : 1
+private boolean isLongOption(final String token) : 4
+private boolean isNegativeNumber(final String token) : 1
+private boolean isOption(final String token) : 1
+private boolean isShortOption(final String token) : 3
+public CommandLine parse(final Options options, final String[] arguments) throws ParseException : 1
+public CommandLine parse(final Options options, final String[] arguments, final boolean stopAtNonOption) throws ParseException : 1
+public CommandLine parse(final Options options, final String[] arguments, final Properties properties) throws ParseException : 1
+public CommandLine parse(final Options options, final String[] arguments, final Properties properties, final boolean stopAtNonOption) throws ParseException : 4
+private String stripLeadingAndTrailingQuotesDefaultOff(final String token) : 2
+private String stripLeadingAndTrailingQuotesDefaultOn(final String token) : 2
+private void updateRequiredOptions(final Option option) throws AlreadySelectedException : 4
+
+Classe : org.apache.commons.cli.DefaultParser.Builder
+public DefaultParser build() : 1
+public Builder setAllowPartialMatching(final boolean allowPartialMatching) : 1
+public Builder setStripLeadingAndTrailingQuotes(final Boolean stripLeadingAndTrailingQuotes) : 1
+
+========================================
+Fichier : GnuParser.java
+========================================
+
+Classe : org.apache.commons.cli.GnuParser
+protected String[] flatten(final Options options, final String[] arguments, final boolean stopAtNonOption) : 5
+
+========================================
+Fichier : HelpFormatter.java
+========================================
+
+Classe : org.apache.commons.cli.HelpFormatter
+private void appendOption(final StringBuffer buff, final Option option, final boolean required) : 5
+private void appendOptionGroup(final StringBuffer buff, final OptionGroup group) : 6
+protected String createPadding(final int len) : 1
+protected int findWrapPos(final String text, final int width, final int startPos) : 7
+public String getArgName() : 1
+public int getDescPadding() : 1
+public int getLeftPadding() : 1
+public String getLongOptPrefix() : 1
+public String getLongOptSeparator() : 1
+public String getNewLine() : 1
+public Comparator<Option> getOptionComparator() : 1
+public String getOptPrefix() : 1
+public String getSyntaxPrefix() : 1
+public int getWidth() : 1
+public void printHelp(final int width, final String cmdLineSyntax, final String header, final Options options, final String footer) : 1
+public void printHelp(final int width, final String cmdLineSyntax, final String header, final Options options, final String footer, final boolean autoUsage) : 1
+public void printHelp(final PrintWriter pw, final int width, final String cmdLineSyntax, final String header, final Options options, final int leftPad, final int descPad, final String footer) : 1
+public void printHelp(final PrintWriter pw, final int width, final String cmdLineSyntax, final String header, final Options options, final int leftPad, final int descPad, final String footer, final boolean autoUsage) : 5
+public void printHelp(final String cmdLineSyntax, final Options options) : 1
+public void printHelp(final String cmdLineSyntax, final Options options, final boolean autoUsage) : 1
+public void printHelp(final String cmdLineSyntax, final String header, final Options options, final String footer) : 1
+public void printHelp(final String cmdLineSyntax, final String header, final Options options, final String footer, final boolean autoUsage) : 1
+public void printOptions(final PrintWriter pw, final int width, final Options options, final int leftPad, final int descPad) : 1
+public void printUsage(final PrintWriter pw, final int width, final String cmdLineSyntax) : 1
+public void printUsage(final PrintWriter pw, final int width, final String app, final Options options) : 6
+public void printWrapped(final PrintWriter pw, final int width, final int nextLineTabStop, final String text) : 1
+public void printWrapped(final PrintWriter pw, final int width, final String text) : 1
+protected StringBuffer renderOptions(final StringBuffer sb, final int width, final Options options, final int leftPad, final int descPad) : 11
+protected StringBuffer renderWrappedText(final StringBuffer sb, final int width, int nextLineTabStop, String text) : 6
+private Appendable renderWrappedTextBlock(final StringBuffer sb, final int width, final int nextLineTabStop, final String text) : 1
+protected String rtrim(final String s) : 3
+public void setArgName(final String name) : 1
+public void setDescPadding(final int padding) : 1
+public void setLeftPadding(final int padding) : 1
+public void setLongOptPrefix(final String prefix) : 1
+public void setLongOptSeparator(final String longOptSeparator) : 1
+public void setNewLine(final String newline) : 1
+public void setOptionComparator(final Comparator<Option> comparator) : 1
+public void setOptPrefix(final String prefix) : 1
+public void setSyntaxPrefix(final String prefix) : 1
+public void setWidth(final int width) : 1
+
+Classe : org.apache.commons.cli.HelpFormatter.OptionComparator
+public int compare(final Option opt1, final Option opt2) : 1
+
+========================================
+Fichier : MissingArgumentException.java
+========================================
+
+Classe : org.apache.commons.cli.MissingArgumentException
+public Option getOption() : 1
+
+========================================
+Fichier : MissingOptionException.java
+========================================
+
+Classe : org.apache.commons.cli.MissingOptionException
+private static String createMessage(final List<?> missingOptions) : 3
+public List getMissingOptions() : 1
+
+========================================
+Fichier : Option.java
+========================================
+
+Classe : org.apache.commons.cli.Option
+public static Builder builder() : 1
+public static Builder builder(final String option) : 1
+ boolean acceptsArg() : 1
+private void add(final String value) : 2
+public boolean addValue(final String value) : 1
+ void addValueForProcessing(final String value) : 2
+ void clearValues() : 1
+public Object clone() : 1
+public boolean equals(final Object obj) : 3
+public String getArgName() : 1
+public int getArgs() : 1
+public String getDescription() : 1
+public int getId() : 1
+ String getKey() : 1
+public String getLongOpt() : 1
+public String getOpt() : 1
+public Object getType() : 1
+public String getValue() : 1
+public String getValue(final int index) throws IndexOutOfBoundsException : 1
+public String getValue(final String defaultValue) : 1
+public String[] getValues() : 1
+public char getValueSeparator() : 1
+public List<String> getValuesList() : 1
+public boolean hasArg() : 1
+public boolean hasArgName() : 1
+public boolean hasArgs() : 1
+public int hashCode() : 1
+public boolean hasLongOpt() : 1
+private boolean hasNoValues() : 1
+public boolean hasOptionalArg() : 1
+public boolean hasValueSeparator() : 1
+public boolean isRequired() : 1
+private void processValue(String value) : 4
+ boolean requiresArg() : 3
+public void setArgName(final String argName) : 1
+public void setArgs(final int num) : 1
+public void setDescription(final String description) : 1
+public void setLongOpt(final String longOpt) : 1
+public void setOptionalArg(final boolean optionalArg) : 1
+public void setRequired(final boolean required) : 1
+public void setType(final Class<?> type) : 1
+public void setType(final Object type) : 1
+public void setValueSeparator(final char sep) : 1
+public String toString() : 4
+
+Classe : org.apache.commons.cli.Option.Builder
+public Builder argName(final String argName) : 1
+public Option build() : 2
+public Builder desc(final String description) : 1
+public Builder hasArg() : 1
+public Builder hasArg(final boolean hasArg) : 1
+public Builder hasArgs() : 1
+public Builder longOpt(final String longOpt) : 1
+public Builder numberOfArgs(final int argCount) : 1
+public Builder option(final String option) throws IllegalArgumentException : 1
+public Builder optionalArg(final boolean optionalArg) : 1
+public Builder required() : 1
+public Builder required(final boolean required) : 1
+public Builder type(final Class<?> type) : 1
+public Builder valueSeparator() : 1
+public Builder valueSeparator(final char valueSeparator) : 1
+
+========================================
+Fichier : OptionBuilder.java
+========================================
+
+Classe : org.apache.commons.cli.OptionBuilder
+public static Option create() throws IllegalArgumentException : 2
+public static Option create(final char opt) throws IllegalArgumentException : 1
+public static Option create(final String opt) throws IllegalArgumentException : 1
+public static OptionBuilder hasArg() : 1
+public static OptionBuilder hasArg(final boolean hasArg) : 1
+public static OptionBuilder hasArgs() : 1
+public static OptionBuilder hasArgs(final int num) : 1
+public static OptionBuilder hasOptionalArg() : 1
+public static OptionBuilder hasOptionalArgs() : 1
+public static OptionBuilder hasOptionalArgs(final int numArgs) : 1
+public static OptionBuilder isRequired() : 1
+public static OptionBuilder isRequired(final boolean newRequired) : 1
+private static void reset() : 1
+public static OptionBuilder withArgName(final String name) : 1
+public static OptionBuilder withDescription(final String newDescription) : 1
+public static OptionBuilder withLongOpt(final String newLongopt) : 1
+public static OptionBuilder withType(final Class<?> newType) : 1
+public static OptionBuilder withType(final Object newType) : 1
+public static OptionBuilder withValueSeparator() : 1
+public static OptionBuilder withValueSeparator(final char sep) : 1
+
+========================================
+Fichier : OptionGroup.java
+========================================
+
+Classe : org.apache.commons.cli.OptionGroup
+public OptionGroup addOption(final Option option) : 1
+public Collection<String> getNames() : 1
+public Collection<Option> getOptions() : 1
+public String getSelected() : 1
+public boolean isRequired() : 1
+public void setRequired(final boolean required) : 1
+public void setSelected(final Option option) throws AlreadySelectedException : 3
+public String toString() : 5
+
+========================================
+Fichier : Options.java
+========================================
+
+Classe : org.apache.commons.cli.Options
+public Options addOption(final Option opt) : 4
+public Options addOption(final String opt, final boolean hasArg, final String description) : 1
+public Options addOption(final String opt, final String description) : 1
+public Options addOption(final String opt, final String longOpt, final boolean hasArg, final String description) : 1
+public Options addOptionGroup(final OptionGroup group) : 3
+public Options addRequiredOption(final String opt, final String longOpt, final boolean hasArg, final String description) : 1
+public List<String> getMatchingOptions(String opt) : 4
+public Option getOption(String opt) : 1
+public OptionGroup getOptionGroup(final Option opt) : 1
+ Collection<OptionGroup> getOptionGroups() : 1
+public Collection<Option> getOptions() : 1
+public List getRequiredOptions() : 1
+public boolean hasLongOption(String opt) : 1
+public boolean hasOption(String opt) : 1
+public boolean hasShortOption(String opt) : 1
+ List<Option> helpOptions() : 1
+public String toString() : 1
+
+========================================
+Fichier : OptionValidator.java
+========================================
+
+Classe : org.apache.commons.cli.OptionValidator
+private static boolean isValidChar(final char c) : 1
+private static boolean isValidOpt(final char c) : 1
+ static String validate(final String option) throws IllegalArgumentException : 6
+
+========================================
+Fichier : package-info.java
+========================================
+
+========================================
+Fichier : ParseException.java
+========================================
+
+Classe : org.apache.commons.cli.ParseException
+
+========================================
+Fichier : Parser.java
+========================================
+
+Classe : org.apache.commons.cli.Parser
+protected void checkRequiredOptions() throws MissingOptionException : 2
+protected abstract String[] flatten(Options opts, String[] arguments, boolean stopAtNonOption) throws ParseException : 1
+protected Options getOptions() : 1
+protected List getRequiredOptions() : 1
+public CommandLine parse(final Options options, final String[] arguments) throws ParseException : 1
+public CommandLine parse(final Options options, final String[] arguments, final boolean stopAtNonOption) throws ParseException : 1
+public CommandLine parse(final Options options, final String[] arguments, final Properties properties) throws ParseException : 1
+public CommandLine parse(final Options options, String[] arguments, final Properties properties, final boolean stopAtNonOption) throws ParseException : 9
+public void processArgs(final Option opt, final ListIterator<String> iter) throws ParseException : 4
+protected void processOption(final String arg, final ListIterator<String> iter) throws ParseException : 3
+protected void processProperties(final Properties properties) throws ParseException : 7
+protected void setOptions(final Options options) : 1
+private void updateRequiredOptions(final Option opt) throws ParseException : 4
+
+========================================
+Fichier : PatternOptionBuilder.java
+========================================
+
+Classe : org.apache.commons.cli.PatternOptionBuilder
+public static Object getValueClass(final char ch) : 1
+public static boolean isValueCode(final char ch) : 1
+public static Options parsePattern(final String pattern) : 5
+
+========================================
+Fichier : PosixParser.java
+========================================
+
+Classe : org.apache.commons.cli.PosixParser
+protected void burstToken(final String token, final boolean stopAtNonOption) : 5
+protected String[] flatten(final Options options, final String[] arguments, final boolean stopAtNonOption) throws ParseException : 3
+private void gobble(final Iterator<String> iter) : 3
+private void init() : 1
+private void processNonOptionToken(final String value, final boolean stopAtNonOption) : 2
+private void processOptionToken(final String token, final boolean stopAtNonOption) : 3
+
+========================================
+Fichier : TypeHandler.java
+========================================
+
+Classe : org.apache.commons.cli.TypeHandler
+public static Class<?> createClass(final String className) throws ParseException : 1
+public static Date createDate(final String str) : 1
+public static File createFile(final String str) : 1
+public static File[] createFiles(final String str) : 1
+public static Number createNumber(final String str) throws ParseException : 1
+public static Object createObject(final String className) throws ParseException : 1
+public static URL createURL(final String str) throws ParseException : 1
+public static T createValue(final String str, final Class<T> clazz) throws ParseException : 10
+public static Object createValue(final String str, final Object obj) throws ParseException : 1
+public static FileInputStream openFile(final String str) throws ParseException : 1
+
+========================================
+Fichier : UnrecognizedOptionException.java
+========================================
+
+Classe : org.apache.commons.cli.UnrecognizedOptionException
+public String getOption() : 1
+
+========================================
+Fichier : Util.java
+========================================
+
+Classe : org.apache.commons.cli.Util
+ static String stripLeadingAndTrailingQuotes(String str) : 2
+ static String stripLeadingHyphens(final String str) : 4
