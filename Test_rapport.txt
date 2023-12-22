@@ -1,0 +1,4 @@
+this is the list of private fields[attribute1, attribute2, attribute3, attribute4],only:
+	Private Field: attribute1 in class: ExampleClass in package: [Default Package] has public getter
+	Private Field: attribute2 in class: ExampleClass in package: [Default Package] has public getter
+	

@@ -1,0 +1,5 @@
+Package	Class	Method				Parameters	Cyclomatic Complexity
+[Default Package]	ExampleClass	getAttribute1	[]	1
+[Default Package]	ExampleClass	getAttribute2	[]	1
+[Default Package]	ExampleClass	calculateSomething	[]	2
+[Default Package]	ExampleClass	isAttribute4True	[]	1
