@@ -23,3 +23,24 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+See `code/Exercise3/dummy.java` for tested code. The XML definition of our rule is:
+```xml
+<rule name=""
+      language="java"
+      message=""
+      class="net.sourceforge.pmd.lang.rule.xpath.XPathRule">
+   <description>
+
+   </description>
+   <priority>3</priority>
+   <properties>
+      <property name="xpath">
+         <value>
+<![CDATA[
+//IfStatement//IfStatement//IfStatement
+]]>
+         </value>
+      </property>
+   </properties>
+</rule>
+```

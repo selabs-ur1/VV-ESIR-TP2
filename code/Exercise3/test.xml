@@ -1,0 +1,18 @@
+<rule name=""
+      language="java"
+      message=""
+      class="net.sourceforge.pmd.lang.rule.xpath.XPathRule">
+   <description>
+
+   </description>
+   <priority>3</priority>
+   <properties>
+      <property name="xpath">
+         <value>
+<![CDATA[
+//IfStatement//IfStatement//IfStatement
+]]>
+         </value>
+      </property>
+   </properties>
+</rule>
