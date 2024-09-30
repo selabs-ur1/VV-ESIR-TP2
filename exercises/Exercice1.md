@@ -6,3 +6,41 @@ A refresher on TCC and LCC is available in the [course notes](https://oscarlvp.g
 
 ## Answer
 
+Une classe qui produit les mêmes valeurs pour TCC et LCC serait une classe implémentant des méthodes qui utilisent chacunes tous les attributs de la classe.
+
+Exemple:
+public class Example {
+    private int A;
+    private int B;
+
+    public void increment() {
+      A++;
+      B++;
+    }
+
+    public void decrement() {
+      A--;
+      B--;
+    }
+
+    public multiply() {
+      A = A*B;
+    }
+
+    public division() {
+      A = A/B;
+    }
+}
+
+increment --- decrement  
+  |       X     |
+multiply --- division          --- : liaison A et B
+
+TCC = 6/6 = 1 
+LCC = 6/6 = 1 = TCC
+
+
+On ne peut pas avoir un LCC plus petit qu'un TCC car les connexions entre les méthodes prisent en compte pour le calcul du TCC sont aussi prisent en compte dans le calcul du LCC.
+LCC = TCC + nombreLienParTransitivité / nombreLienTotal
+
+
