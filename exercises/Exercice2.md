@@ -6,6 +6,7 @@ Pick a Java project from Github (see the [instructions](../sujet.md) for suggest
 
 
 ## Answer
+we choose the java project Apache Commons CLI from github
 
 __ISSUE FIND BY PMD THAT SHOULD BE SOLVED ( true positive)__
 
@@ -40,4 +41,5 @@ __ISSUE FIND BY PMD THAT IS NOT WORTH SOLVED ( false positive)__
 
 **Description**: PMD recommends simplifying an if statement into a direct return of the condition, e.g., return condition;.
 
-It's a False Positive and it should not eb solve because There is no functional issue here; the simplification will only slightly improve the readability of the code.
+It's a False Positive and it should not be solve because There is no functional issue here; the simplification will only slightly improve the readability of the code.
+g
