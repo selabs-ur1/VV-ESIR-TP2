@@ -7,3 +7,37 @@ Pick a Java project from Github (see the [instructions](../sujet.md) for suggest
 
 ## Answer
 
+__ISSUE FIND BY PMD THAT SHOULD BE SOLVED ( true positive)__
+
+**File**: src/main/java/org/apache/commons/cli/HelpFormatter.java
+
+**PMD Rule Violated**: CloseResource
+
+**Description**:  PMD recommends explicitly closing resources like PrintWriter objects after use to avoid resource leaks.
+
+this is revelant because failing to close resources like output streams can lead to memory leaks, which is critical in long-term environments like servers.
+
+**Proposition of correction**
+```java
+
+PrintWriter writer = null;
+try {
+    writer = new PrintWriter(new FileWriter("output.txt"));
+    // Utilisation du writer
+} finally {
+    if (writer != null) {
+        writer.close(); // Fermeture explicite du PrintWriter
+    }
+}
+
+```
+
+__ISSUE FIND BY PMD THAT IS NOT WORTH SOLVED ( false positive)__
+
+**File**: src/main/java/org/apache/commons/cli/DefaultParser.java:615
+
+**Violated Rule**: SimplifyBooleanReturns
+
+**Description**: PMD recommends simplifying an if statement into a direct return of the condition, e.g., return condition;.
+
+It's a False Positive and it should not eb solve because There is no functional issue here; the simplification will only slightly improve the readability of the code.
