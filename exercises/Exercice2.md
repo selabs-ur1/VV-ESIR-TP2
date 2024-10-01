@@ -20,5 +20,5 @@ PMD has detected many problems that could be source of bugs, often due to poor c
 
 For example
 
-[!WARNING]
+[!WARNING]  
 ./src/userguide/java/org/apache/commons/math4/userguide/genetics/PolygonChromosome.java:106:	UselessParentheses:	Useless parentheses.
