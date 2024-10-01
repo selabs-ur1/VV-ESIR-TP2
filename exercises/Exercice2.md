@@ -7,4 +7,10 @@ Pick a Java project from Github (see the [instructions](../sujet.md) for suggest
 
 ## Answer
 
-We have chosen <a href="https://github.com/apache/commons-math" target="_blank">commons-math</a>
+We have chosen <a href="https://github.com/apache/commons-math" target="_blank">commons-math</a> source code for this exercise.  
+
+After running 
+
+```
+pmd check -f text -R rulesets/java/quickstart.xml -d ./src
+```
