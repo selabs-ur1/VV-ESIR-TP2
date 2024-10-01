@@ -22,3 +22,11 @@ For example
 
 > [!WARNING]
 > ./src/userguide/java/org/apache/commons/math4/userguide/genetics/PolygonChromosome.java:106:	UselessParentheses:	Useless parentheses.
+
+was identifying the following block code
+
+```codeblock
+return (1.0 - diff / (width * height * 3.0 * 256));
+```
+
+Since here, it is true that the outer parathesis are not useful in this context, they can be removed, so this warning can be identified as true positive.
