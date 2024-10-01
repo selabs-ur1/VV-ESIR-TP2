@@ -23,10 +23,29 @@ For example
 > [!WARNING]
 > ./src/userguide/java/org/apache/commons/math4/userguide/genetics/PolygonChromosome.java:106:	UselessParentheses:	Useless parentheses.
 
-was identifying the following block code
+was identifying the following block of code
 
 ```codeblock
 return (1.0 - diff / (width * height * 3.0 * 256));
 ```
 
 Since here, it is true that the outer parathesis are not useful in this context, they can be removed, so this warning can be identified as true positive.
+
+
+Here are other true positives that were identified by PMD
+
+> [!WARNING]
+> ./src/userguide/java/org/apache/commons/math4/userguide/genetics/ImageEvolutionExample.java:160:	MissingOverride:	The method 'run()' is missing an @Override annotation.
+
+was identifying the following block of code
+
+```codeblock
+public void startEvolution() {
+            noStopRequested = true;
+            Runnable r = new Runnable() {
+                public void run() {
+                    int evolution = 0;
+                    while (noStopRequested) {
+                        currentPopulation = ga.nextGeneration(currentPopulation);
+```
+
