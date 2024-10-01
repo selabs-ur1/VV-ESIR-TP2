@@ -41,9 +41,5 @@ __ISSUE FIND BY PMD THAT IS NOT WORTH SOLVED ( false positive)__
 
 **Description**: PMD recommends simplifying an if statement into a direct return of the condition, e.g., return condition;.
 
-<<<<<<< HEAD
 It's a False Positive and it should not be solve because There is no functional issue here; the simplification will only slightly improve the readability of the code.
 g
-=======
-It's a False Positive and it should not be solve because there is no functional issue here; the simplification will only slightly improve the readability of the code.
->>>>>>> 5ce0399da5db3c3ad71c968586f81ef41ee484f2
