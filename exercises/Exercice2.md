@@ -25,7 +25,7 @@ For example
 
 was identifying the following block of code
 
-```codeblock
+```java
 return (1.0 - diff / (width * height * 3.0 * 256));
 ```
 
@@ -39,7 +39,7 @@ Here are other true positives that were identified by PMD
 
 was identifying the following block of code
 
-```codeblock
+```java
 public void startEvolution() {
             noStopRequested = true;
             Runnable r = new Runnable() {
