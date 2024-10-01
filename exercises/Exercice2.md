@@ -14,3 +14,11 @@ After running
 ```
 pmd check -f text -R rulesets/java/quickstart.xml -d ./src
 ```
+with src is the source code of commons-math library.
+
+PMD has detected many problems that could be source of bugs, often due to poor coding practice.
+
+For example
+
+[!WARNING]
+./src/userguide/java/org/apache/commons/math4/userguide/genetics/PolygonChromosome.java:106:	UselessParentheses:	Useless parentheses.
