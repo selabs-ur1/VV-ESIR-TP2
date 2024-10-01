@@ -23,3 +23,7 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+XPath: //IfStatement[.//IfStatement[.//IfStatement]]
+
+Cela reconnait bien trois "if" imbriqués (même dans le cas où il y a une boucle "for" entre deux "if").
+Sur le premier projet nous detectons une dizaine de cas.
