@@ -23,7 +23,7 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
-After adding the following expression in XPath expressions 
+After adding the following expression in XPath expressions on pmd designer
 ```code
 //IfStatement[descendant::IfStatement[descendant::IfStatement]]
 ```
@@ -31,7 +31,35 @@ We tested the rule inside of pmd designer to prove that it works, even for loops
 
 Then we created a file called rulesets in which we defined a ruleset xml code <a href="https://github.com/salahbdg/VV-ESIR-TP2/blob/xxx/code/Exercise3/README.md">HERE</a> 
 
-**sdf
+To check our rule commons-math library, we executed the following command
+```code
+pmd check -f text -R /private/student/e/ue/sboudguigue/Téléchargements/pmd-bin-7.5.0/rulesets/test_ifs.xml -d ./src
+
+```
 
 > [!WARNING]
 ./src/userguide/java/org/apache/commons/math4/userguide/genetics/Polygon.java:92:	DontUseThreeNestedIfs:	Avoid using three or more nested if statements.
+
+which refers to the following code block
+
+```java
+    public Polygon mutate(float mutationRate, float mutationAmount) {
+        Polygon mutated = new Polygon();
+        int size = data.length;
+        mutated.data = new float[size];
+        for (int i = 0; i < size; i++) {
+            float val = this.data[i];
+            if (GeneticAlgorithm.getRandomGenerator().nextFloat() < mutationRate) {
+                val += GeneticAlgorithm.getRandomGenerator().nextFloat() * mutationAmount * 2 - mutationAmount;
+
+                if (val < 0f) {
+                    val = 0f;
+                } else if (val > 1f) {
+                    val = 1f;
+                }
+            }
+            mutated.data[i] = val;
+        }
+        return mutated;
+
+```
