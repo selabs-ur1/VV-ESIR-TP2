@@ -23,7 +23,10 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+After adding the following expression in XPath expressions 
+```xpath
+//IfStatement[descendant::IfStatement[descendant::IfStatement]]
+```
 
 > [!WARNING]
-> [WARN] This analysis could be faster, please consider using Incremental Analysis: https://docs.pmd-code.org/pmd-doc-7.5.0/pmd_userdocs_incremental_analysis.html
 ./src/userguide/java/org/apache/commons/math4/userguide/genetics/Polygon.java:92:	DontUseThreeNestedIfs:	Avoid using three or more nested if statements.
