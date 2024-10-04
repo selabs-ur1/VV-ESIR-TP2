@@ -47,6 +47,7 @@ public void startEvolution() {
                     int evolution = 0;
                     while (noStopRequested) {
                         currentPopulation = ga.nextGeneration(currentPopulation);
+                        ...
 ```
 
 Here we can see an example of a false positive where PMD detected that the class HelloWorldExample need to be final since it has only private constructors which is not the case, since this class has no constructors and
