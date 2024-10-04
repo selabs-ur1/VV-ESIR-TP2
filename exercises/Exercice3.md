@@ -29,7 +29,9 @@ After adding the following expression in XPath expressions
 ```
 We tested the rule inside of pmd designer to prove that it works, even for loops between the ifs.
 
-Then we created
+Then we created a file called rulesets in which we defined a ruleset xml code <a href="https://github.com/salahbdg/VV-ESIR-TP2/blob/xxx/code/Exercise3/README.md">HERE</a> 
+
+**sdf
 
 > [!WARNING]
 ./src/userguide/java/org/apache/commons/math4/userguide/genetics/Polygon.java:92:	DontUseThreeNestedIfs:	Avoid using three or more nested if statements.
