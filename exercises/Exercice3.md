@@ -24,9 +24,12 @@ Use your rule with different projects and describe you findings below. See the [
 ## Answer
 
 After adding the following expression in XPath expressions 
-```xpath
+```code
 //IfStatement[descendant::IfStatement[descendant::IfStatement]]
 ```
+We tested the rule inside of pmd designer to prove that it works, even for loops between the ifs.
+
+Then we created
 
 > [!WARNING]
 ./src/userguide/java/org/apache/commons/math4/userguide/genetics/Polygon.java:92:	DontUseThreeNestedIfs:	Avoid using three or more nested if statements.
