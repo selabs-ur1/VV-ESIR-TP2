@@ -27,3 +27,15 @@ The program should take as input the path to the source code of the project. It 
 Include in this repository the code of your application. Remove all unnecessary files like compiled binaries. See the [instructions](../sujet.md) for suggestions on the projects to use.
 
 *Disclaimer* In a real project not all fields need to be accessed with a public getter.
+
+## Answer
+
+TODO : commentaires dans code
+
+You can find the code (with comments) to answer to this exercise in the code repertory.
+
+We obtained the reports (present in code/exercise5/reports) by executing the commands :
+```mvn install```
+```java -jar <path to javaparser-starter-1.0-jar-with-dependencies.jar> <path to the java project>```
+
+You can also view the associated histograms in code/exercise5/histograms. DO COMMENTS!!!!

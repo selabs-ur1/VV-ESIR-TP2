@@ -25,7 +25,7 @@ class Example {
     private int y;
     private int z;
 
-    public Example(int x, int x, int x) {
+    public Example(int x, int y, int z) {
         this.x = x;
         this.y = y;
         this.z = z;
