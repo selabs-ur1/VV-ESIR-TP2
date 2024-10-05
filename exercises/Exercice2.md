@@ -13,28 +13,31 @@
 
 ### 1. Chosen Java Project
 
-[Here](https://github.com/Astri2/IdleBot) is the Java Project we have chosen.
+[Here](https://github.com/Astri2/IdleBot) is the Java Project we have chosen. It is one of our classmates' project.
+
+We executed the command below to run PMD on it and obtain a report named `pmd-report.txt` :
+
+`pmd check -f text -R rulesets/java/quickstart.xml -d ./IdleBot/ -r ./pmd-report.txt`
+
+You can fin this report in the code repository.
 
 ### 2. True Positive
 
-Here is an issue found by PMD that could be solved. 
+Here is an issue found by PMD that could be solved. (line 83 in the report)
 
 ```java
     // .\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\__debug\DebugCommands.java:31:    
     // SwitchStmtsShouldHaveDefault: Switch statements should be exhaustive, add a default case (or missing enum branches)
 ```
 
-The problem reported by PMD is in the file DebugCommands.java. It concerns the absence of a default case in a switch instruction, which is therefore not exhaustive. This means that if none of the specific cases are encountered, the program will not know how to handle the situation.
+The problem reported by PMD is in the file ``DebugCommands.java``. It concerns the absence of a default case in a switch instruction, which is therefore not exhaustive. This means that if none of the specific cases are encountered, the program will not know how to handle the situation.
 
-We can easily correct this mistake and it is important to make the code more robust, maintainable and conform to good practices.
-
-In fact, we have to add a default case at this place of the code.
+We can easily correct this mistake and it is important to make the code more robust, maintainable and conform to good practices. In fact, we have to add a default case at this place of the code.
 
 ```java
     public void onGuildMessageReceived(@NotNull GuildMessageReceivedEvent event) {
         String[] args = event.getMessage().getContentRaw().toLowerCase().split("\\s+");
         if(!event.getAuthor().getId().equals(Config.get("BOT_OWNER_ID"))) return;
-
 
         if(!event.getMessage().getMentionedUsers().contains(event.getJDA().getSelfUser())) return;
         switch (args[0]) {
@@ -50,6 +53,6 @@ In fact, we have to add a default case at this place of the code.
     }
 ```
 
-### True Negative
+### 3. False positive
 
 FIND ONE 
