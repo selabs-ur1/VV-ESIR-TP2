@@ -1,4 +1,4 @@
-package example.EX5;
+package example.EX6;
 
 public class Point {
 

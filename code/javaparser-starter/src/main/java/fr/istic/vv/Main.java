@@ -28,7 +28,7 @@ public class Main {
         }
 
         SourceRoot root = new SourceRoot(file.toPath());
-        TightClassCohesionCalculator printer = new TightClassCohesionCalculator();
+        CyclomaticComplexityPrinter printer = new CyclomaticComplexityPrinter();
         root.parse("", (localPath, absolutePath, result) -> {
             result.ifSuccessful(unit -> unit.accept(printer, null));
             return SourceRoot.Callback.Result.DONT_SAVE;

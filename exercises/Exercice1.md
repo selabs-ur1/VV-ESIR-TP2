@@ -81,6 +81,6 @@ Therefore, we have in this example : $TCC = LCC = 0$
 
 ### Can LCC Be Lower Than TCC ?
 
-According to the formula above, we can deduce from this that LCC will always have be greater than TCC. In fact, as these numbers are always positive, we necessarily have $NDC + NIC >= NDC$.
+According to the formula above, we can deduce that LCC will always have be greater than TCC. In fact, as these numbers are always positive, we necessarily have $NDC + NIC >= NDC$.
 
 So LCC can never be less than TCC for a given class.

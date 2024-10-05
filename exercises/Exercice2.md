@@ -53,6 +53,6 @@ We can easily correct this mistake and it is important to make the code more rob
     }
 ```
 
-### 3. False positive
+### 3. False Positive
 
 FIND ONE 
