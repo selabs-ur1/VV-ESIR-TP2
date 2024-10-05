@@ -30,12 +30,21 @@ Include in this repository the code of your application. Remove all unnecessary 
 
 ## Answer
 
-TODO : commentaires dans code
+You can find the code (with comments) to answer to this exercise in the code folder.
 
-You can find the code (with comments) to answer to this exercise in the code repertory.
-
-We obtained the reports (present in code/exercise5/reports) by executing the commands :
+We obtained the reports (present in code/exercise4/reports) by executing the commands :
 ```mvn install```
 ```java -jar <path to javaparser-starter-1.0-jar-with-dependencies.jar> <path to the java project>```
 
-You can also view the associated histograms in code/exercise5/histograms. DO COMMENTS!!!!
+
+The report will have this layout.
+<Class> <Attribute> : <Is there a getter for it?> 
+```
+Optional[me.astri.idleBot.GameBot.entities.equipment.Equipment] currentWeight : false
+Optional[me.astri.idleBot.GameBot.entities.equipment.Equipment] booster : true
+```
+
+If we count, Malo has :
+56 where no getter is associated to an attribute out of 105 attributes.
+
+But as mentioned, not every attribute needs a getter in the real world, so this metric is kind of useless in order to find bugs. However, it is useful to find all the attributes that can be tested with unit tests.

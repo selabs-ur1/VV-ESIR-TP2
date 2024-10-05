@@ -46,9 +46,9 @@ class Example {
 }
 ```
 
-This code shows three levels of if condition nesting, which can make the code harder to read and maintain. This type of structure is exactly what our PMD rule should detect once written.
+This code shows three levels of if condition nesting, which can make the code harder to read and to maintain. This type of structure is exactly what our PMD rule should detect once written.
 
-Here is the rule definition we made in the form of a ruleset file. We used this [website](https://www.w3schools.com/xml/xpath_syntax.asp) as a guide:
+Here is the rule definition we have made in the form of a ruleset file. We have used this [website](https://www.w3schools.com/xml/xpath_syntax.asp) as a guide:
 
 ```xml
 <?xml version="1.0"?>
@@ -92,14 +92,14 @@ Here are the main XPath elements used in our rule :
 - ``IfStatement``: Selects all if statements in the syntax tree.
 - Block: Selects a block of code (a set of statements enclosed in {}).
 
-So our ``//IfStatement/Block//IfStatement`` rule can be broken down as follows:
+So our ``//IfStatement/Block//IfStatement/Block//IfStatement`` rule can be broken down as follows:
 
 - ``//IfStatement``: Selects all if statements in the source code. This can include if statements at different nesting levels.
 
-- ``Block``: Selects the block of code that follows the if statement. A block may contain several other statements, including loops, assignments and even other if statements.
+- ``/Block``: Selects the block of code that follows the if statement. A block may contain several other statements, including loops, assignments and even other if statements.
 
-- ``IfStatement/Block``: Selects a second level of if statements nested within the first block. This means we're looking for an if inside another if.
+- ``//IfStatement``: Selects a second level of if statements nested in the first block, i.e. if an "if" is a descendant/child of another "if".
 
-- ``//IfStatement/Block//IfStatement``: Selects a third level of if statements nested in the second block, i.e. an if inside another if, and inside another if.
+and we repeat it for the third one.
 
 We have therefore written an XPath rule that identifies cases where three or more if statements are nested in Java code, and alerts the developer to improve the readability of the code. 

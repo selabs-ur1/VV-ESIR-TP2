@@ -41,8 +41,8 @@ Number of classes with a CC value equal to 3: 27 (= 3.8 %)
 
 - In MaloProject, the majority of the methods (over 71%) have a CC of 1, indicating that most methods are simple and straightforward. However, the presence of methods with higher CC values (up to 14) there are certain areas that may need refactoring for better complexity management.
 
-- In CommonsCollections project, it is similar to MaloProject. In fact, CommonsCollections has a around 70% of its methods with a CC of 1, indicating good design practices. However, with a greater total number of methods, the sheer volume of methods with CC values of 2 and 3 shows a more complex structure overall. This suggests that the project may contain more diverse functionalities, which might require more thorough testing.
+- In CommonsCollections project, it is similar to MaloProject. In fact, CommonsCollections has around 70% of its methods with a CC of 1, indicating good design practices. However, with a greater total number of methods, the sheer volume of methods with CC values of 2 and 3 shows a more complex structure overall. This suggests that the project may contain more diverse functionalities, which might require more thorough testing.
 
 - CommonsCli has the highest percentage of methods with a CC of 1 with 82.9%. So it suggests a very well-structured and maintainable codebase. It also has a lower occurrence of methods with higher CC values so complexity is well-managed. It is probable that this project is the easiest to understand and maintain.
 
-    - In conclusion, all the projects have a significant majority of methods with CC = 1, which is a positive indicator of code maintainability. However, the presence of higher CC values points to specific areas where complexity could be improved.
+In conclusion, all the projects have a significant majority of methods with CC = 1, which is a positive indicator of code maintainability. However, the presence of higher CC values points to specific areas where complexity could be improved.

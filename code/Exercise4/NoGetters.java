@@ -21,6 +21,7 @@ public class NoGetters extends VoidVisitorWithDefaults<Void> {
     }
 
     public void visitTypeDeclaration(TypeDeclaration<?> declaration, Void arg) {
+        // FileWriter Init
         PrintWriter writer = null;
         try {
             FileWriter filewriter = new FileWriter("report.txt",true);
@@ -29,20 +30,25 @@ public class NoGetters extends VoidVisitorWithDefaults<Void> {
             throw new RuntimeException(e);
         }
 
+        // for each attribute
         for(FieldDeclaration attribut:declaration.getFields()) {
-            String varName = attribut.getVariable(0).getName().toString();
-            String getterVarName = "get" + varName.substring(0,1).toUpperCase() + varName.substring(1);
+            for (VariableDeclaration variable : attribut.getVariables() ) {
+                String varName = variable.getName().toString(); // get the name of the attribute
+                String getterVarName = "get" + varName.substring(0,1).toUpperCase() + varName.substring(1); // generate the name of the getter
 
-            boolean getting = false;
+                boolean getting = false;
 
-            for(MethodDeclaration methode:declaration.getMethods()) {
-                if (getterVarName.equals(methode.getName().toString())) {
-                    getting = true;
+                // for each method
+                for(MethodDeclaration methode:declaration.getMethods()) {
+                    if (getterVarName.equals(methode.getName().toString())) {
+                        // if the name of the method matchs
+                        getting = true; // set the return to true
+                        break;
+                    }
                 }
+
+                writer.println(declaration.getFullyQualifiedName().toString() + " " + varName + " : " + getting); // write the result for the attribute
             }
-
-            writer.println(declaration.getFullyQualifiedName().toString() + " " + varName + " : " + getting);
-
         }
         writer.close();
     }
