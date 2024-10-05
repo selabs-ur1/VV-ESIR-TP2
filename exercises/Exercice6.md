@@ -72,4 +72,5 @@ Number of classes with a TCC value equal to 0: 170
 Number of classes with a TCC value equal to 1: 0
 ```
 
-blabla
+
+In the results, we can notice that some classes may have a TCC value of NaN. It is related to the fact that classes may not have 0 or 1 method, so the calculation will be divided by 0.
