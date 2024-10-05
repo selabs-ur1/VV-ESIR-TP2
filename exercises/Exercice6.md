@@ -16,11 +16,60 @@ You can find the code (with comments) to answer to this exercise in the code rep
 
 We tested our code by using the two examples in the [textbook by Oscar Luis Vera-Pérez](https://oscarlvp.github.io/vandv-classes/) (Listing 16 and 18). The three examples return the right result. You can also find the code in the code/example/EX5 repository.
 
-We obtained the reports (present in code/exercise6/reports) from the examples and ... projects (..., ..., ...).
+We obtained the reports (present in code/exercise6/reports) from the examples and 4 projects (commons-collections, commons-cli, commons-lang and malo-project) by executing the same commands as before.
 
-You can also view the associated histograms (made thanks to Python and its matplotlib.pyplot module) in code/exercise6/histograms for the (...) projects. Let's compare them by observing the histograms and the output of this program :
+You can also view the associated histograms (made thanks to the same way as before) in code/exercise6/histograms for the four projects. Let's compare them by observing the histograms and the output of this program :
 
 ``` text
+=== MaloProject ===
+Number of classes with a TCC value of NaN: 14 (= 22.6%)
+
+Number of classes with TCC between 0.0 and 0.05: 41 (= 85.4%)
+Number of classes with TCC between 0.05 and 0.1: 3 (= 6.2%)
+Number of classes with TCC between 0.1 and 0.2: 3 (= 6.2%)
+Number of classes with TCC between 0.2 and 0.5: 1 (= 2.1%)
+Number of classes with TCC between 0.5 and 1.0: 0 (= 0.0%)
+
+Number of classes with a TCC value equal to 0: 37
+Number of classes with a TCC value equal to 1: 0
+
+
+=== CommonsCollections ===
+Number of classes with a TCC value of NaN: 40 (= 11.6%)
+
+Number of classes with TCC between 0.0 and 0.05: 306 (= 100.0%)
+Number of classes with TCC between 0.05 and 0.1: 0 (= 0.0%)
+Number of classes with TCC between 0.1 and 0.2: 0 (= 0.0%)
+Number of classes with TCC between 0.2 and 0.5: 0 (= 0.0%)
+Number of classes with TCC between 0.5 and 1.0: 0 (= 0.0%)
+
+Number of classes with a TCC value equal to 0: 303
+Number of classes with a TCC value equal to 1: 0
+
+=== CommonsCli ===
+Number of classes with a TCC value of NaN: 6 (= 22.2%)
+
+Number of classes with TCC between 0.0 and 0.05: 21 (= 100.0%)
+Number of classes with TCC between 0.05 and 0.1: 0 (= 0.0%)
+Number of classes with TCC between 0.1 and 0.2: 0 (= 0.0%)
+Number of classes with TCC between 0.2 and 0.5: 0 (= 0.0%)
+Number of classes with TCC between 0.5 and 1.0: 0 (= 0.0%)
+
+Number of classes with a TCC value equal to 0: 20
+Number of classes with a TCC value equal to 1: 0
+
+
+=== CommonsLang ===
+Number of classes with a TCC value of NaN: 63 (= 24.6%)
+
+Number of classes with TCC between 0.0 and 0.05: 180 (= 93.3%)
+Number of classes with TCC between 0.05 and 0.1: 4 (= 2.1%)
+Number of classes with TCC between 0.1 and 0.2: 4 (= 2.1%)
+Number of classes with TCC between 0.2 and 0.5: 5 (= 2.6%)
+Number of classes with TCC between 0.5 and 1.0: 0 (= 0.0%)
+
+Number of classes with a TCC value equal to 0: 170
+Number of classes with a TCC value equal to 1: 0
 ```
 
 blabla

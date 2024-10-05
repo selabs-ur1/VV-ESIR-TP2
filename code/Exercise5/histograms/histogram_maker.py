@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-filename = '../reports/report_CommonsCli.txt'
+filename = '../reports/report_MaloProject.txt'
 simple_filename = filename.split('_')[-1].split('.')[0]
 
 method_names = []
