@@ -47,7 +47,6 @@ public class CyclomaticComplexityPrinter extends VoidVisitorWithDefaults<Void> {
             writer.println(declaration.getFullyQualifiedName().toString() + " " + method.getName() + " : " + val);
 
         }
-        // Printing nested types in the top level
         for(BodyDeclaration<?> member : declaration.getMembers()) {
             if (member instanceof TypeDeclaration)
                 member.accept(this, arg);

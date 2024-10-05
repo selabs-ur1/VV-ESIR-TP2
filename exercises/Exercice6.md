@@ -9,3 +9,18 @@ Ignore inherited members to compute TCC of a class.
 Include in this repository the code of your application. Remove all unnecessary files like compiled binaries. Do include the reports and plots you obtained from different projects. See the [instructions](../sujet.md) for suggestions on the projects to use.
 
 You may use [javaparser-starter](../code/javaparser-starter) as a starting point.
+
+## Answer
+
+You can find the code (with comments) to answer to this exercise in the code repertory.
+
+We tested our code by using the two examples in the [textbook by Oscar Luis Vera-Pérez](https://oscarlvp.github.io/vandv-classes/) (Listing 16 and 18). The three examples return the right result. You can also find the code in the code/example/EX5 repository.
+
+We obtained the reports (present in code/exercise6/reports) from the examples and ... projects (..., ..., ...).
+
+You can also view the associated histograms (made thanks to Python and its matplotlib.pyplot module) in code/exercise6/histograms for the (...) projects. Let's compare them by observing the histograms and the output of this program :
+
+``` text
+```
+
+blabla
