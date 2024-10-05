@@ -20,9 +20,6 @@ import java.util.stream.Collectors;
 import static com.github.javaparser.ast.expr.BinaryExpr.Operator.AND;
 import static com.github.javaparser.ast.expr.BinaryExpr.Operator.OR;
 
-
-// This class visits a compilation unit and
-// prints all public enum, classes or interfaces along with their public methods
 public class CyclomaticComplexityPrinter extends VoidVisitorWithDefaults<Void> {
 
     @Override

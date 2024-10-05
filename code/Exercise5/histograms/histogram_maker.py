@@ -35,8 +35,6 @@ def count_occurences_total(lst):
             occurrences[element] = 1
     return occurrences, sum(occurrences.values())
 
-
-
 dic, total_nb_of_classes = count_occurences_total(CC_values)
 print("===", simple_filename, "===")
 print("Number of classes with a given CC value", dic)
