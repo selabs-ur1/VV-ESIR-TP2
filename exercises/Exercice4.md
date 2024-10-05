@@ -30,12 +30,8 @@ Include in this repository the code of your application. Remove all unnecessary 
 
 ## Answer
 
-TODO : commentaires dans code
-
 You can find the code (with comments) to answer to this exercise in the code repertory.
 
-We obtained the reports (present in code/exercise5/reports) by executing the commands :
+We obtained the report (present in code/exercise4/reports) for the Commons Collections java project by executing the commands :
 ```mvn install```
 ```java -jar <path to javaparser-starter-1.0-jar-with-dependencies.jar> <path to the java project>```
-
-You can also view the associated histograms in code/exercise5/histograms. DO COMMENTS!!!!

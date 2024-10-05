@@ -13,9 +13,7 @@ You can find the code (with comments) to answer to this exercise in the code rep
 
 We tested our code by using the three examples in the [textbook by Oscar Luis Vera-Pérez](https://oscarlvp.github.io/vandv-classes/) (Listing 12, 13 and 15). The three examples return the right result. You can also find the code in the code/example/EX5 repository.
 
-We obtained the reports (present in code/exercise5/reports) from the examples and the 3 projects (commons-collection, commons-cli and malo-project) by executing the commands :
-```mvn install```
-```java -jar <path to javaparser-starter-1.0-jar-with-dependencies.jar> <path to the java project>```
+We obtained the reports (present in code/exercise5/reports) from the examples and the 3 projects (commons-collection, commons-cli and malo-project) by executing the commands as before.
 
 You can also view the associated histograms (made thanks to Python and its matplotlib.pyplot module) in code/exercise5/histograms for the 3 projects. Let's compare them by observing the histograms and the output of this program :
 

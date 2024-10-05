@@ -79,9 +79,8 @@ public class TightClassCohesionCalculator extends VoidVisitorWithDefaults<Void> 
      * declarations within the type, compares them to count how many 
      * share attributes, and writes the TCC value to a report file. 
      *
-     * @param declaration The type declaration (class or interface) 
-     *                    being visited.
-     * @param arg A generic argument that is not used in this implementation.
+     * @param declaration The type class or interface declaration being visited.
+     * @param arg A generic argument.
      */
     public void visitTypeDeclaration(TypeDeclaration<?> declaration, Void arg) {
         if (!declaration.isPublic()) return;
