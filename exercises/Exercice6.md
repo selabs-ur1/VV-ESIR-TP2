@@ -74,3 +74,18 @@ Number of classes with a TCC value equal to 1: 0
 
 
 In the results, we can notice that some classes may have a TCC value of NaN. It is related to the fact that classes may not have 0 or 1 method, so the calculation will be divided by 0.
+
+After that, we just fixed it by setting the maximum number of possible connections value to 1.
+
+Then we added the Graphviz implementation.
+
+So under the TCC score, you will find in the report the graph visualization.
+```
+Optional[me.astri.idleBot.GameBot.entities.BigNumber] : 0.33684212
+strict graph {add;add -- subtract;add -- multiply;add -- divide;add -- pow;add -- negate;add -- getUnitNotation;add -- getScientificNotation;add -- getNotation;add -- toScientificNotation;add -- toDouble;add -- compareTo;subtract;subtract -- multiply;subtract -- divide;subtract -- pow;subtract -- negate;subtract -- getUnitNotation;subtract -- getScientificNotation;subtract -- toScientificNotation;subtract -- toDouble;subtract -- compareTo;multiply;multiply -- divide;multiply -- pow;multiply -- negate;multiply -- getUnitNotation;multiply -- getScientificNotation;multiply -- getNotation;multiply -- toScientificNotation;multiply -- toDouble;multiply -- compareTo;divide;divide -- pow;divide -- negate;divide -- getUnitNotation;divide -- getScientificNotation;divide -- getNotation;divide -- toScientificNotation;divide -- toDouble;divide -- compareTo;pow;pow -- negate;pow -- getUnitNotation;pow -- getScientificNotation;pow -- getNotation;pow -- toScientificNotation;pow -- toDouble;pow -- compareTo;negate;negate -- getUnitNotation;negate -- getScientificNotation;negate -- toScientificNotation;negate -- toDouble;negate -- compareTo;add;subtract;multiply;divide;pow;negate;getRoundVal;getUnitNotation;getUnitNotation -- getScientificNotation;getUnitNotation -- getNotation;getUnitNotation -- toScientificNotation;getUnitNotation -- toDouble;getUnitNotation -- compareTo;getScientificNotation;getScientificNotation -- getNotation;getScientificNotation -- toScientificNotation;getScientificNotation -- toDouble;getScientificNotation -- compareTo;toString;getNotation;getNotation -- toScientificNotation;getNotation -- toDouble;getNotation -- compareTo;toScientificNotation;toScientificNotation -- toDouble;toScientificNotation -- compareTo;toDouble;toDouble -- compareTo;compareTo;}
+```
+With Dot engine
+![img.png](img.png)
+
+With circo engine
+![img_1.png](img_1.png)
