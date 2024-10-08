@@ -55,4 +55,29 @@ We can easily correct this mistake and it is important to make the code more rob
 
 ### 3. False Positive
 
-FIND ONE 
+PMD has reported an warning called UnusedPrivateMethod ( Avoid unused private methods such as 'add(int, int)' ).
+
+The file is .\commons-collections\src\main\java\org\apache\commons\collections4\bloomfilter\ArrayCountingBloomFilter.java:121.
+
+So when we look at the code, we see that add is called but weirdly. When we look at the public version of add, we see this::add. In this case, it will be the private method that will be provided, because processCells is asking for a Runnable with two int arguments. It is really tricky, even for us. I don't know why Java accepts that in the language.  
+``` java
+    @Override
+    public boolean add(final CellExtractor other) {
+        Objects.requireNonNull(other, "other");
+        other.processCells(this::add);
+        return isValid();
+    }
+
+    private boolean add(final int idx, final int addend) {
+        try {
+            final int updated = cells[idx] + addend;
+            state |= updated;
+            cells[idx] = updated;
+            return true;
+        } catch (final IndexOutOfBoundsException e) {
+            throw new IllegalArgumentException(
+                    String.format("Filter only accepts values in the [0,%d) range", getShape().getNumberOfBits()), e);
+        }
+    }
+```
+
