@@ -18,7 +18,7 @@ $LCC = \frac{NDC + NIC}{NP}$
 
 with :
 - N = number of methods
-- NP = maximum number of possible connections = $\frac{N * (N − 1)}{2}$ 
+- NP = maximum number of possible connections = $\frac{N (N − 1)}{2}$ 
 - NDC = number of direct connections (number of edges in the connection graph)
 - NIC = number of indirect connections
 

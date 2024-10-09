@@ -23,7 +23,9 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
-We have created the following example to illustrate how the rule works.
+This [website](https://docs.pmd-code.org/pmd-doc-7.3.0/pmd_userdocs_extending_your_first_rule.html) helps us to answer to the question.
+
+We have created the following example to illustrate how the rule works. It is the code we wrote in the main editor zone.
 
 ```java
 class Example {
@@ -46,9 +48,9 @@ class Example {
 }
 ```
 
-This code shows three levels of if condition nesting, which can make the code harder to read and to maintain. This type of structure is exactly what our PMD rule should detect once written.
+The code above shows three levels of if condition nesting, which can make the code harder to read and to maintain. This type of structure is exactly what our PMD rule should detect once written.
 
-Here is the rule definition we have made in the form of a ruleset file. We have used this [website](https://www.w3schools.com/xml/xpath_syntax.asp) as a guide:
+You can find below the rule definition we made in the form of a ruleset file. We wrote it in the XPath editor zone. We have used this [website](https://www.w3schools.com/xml/xpath_syntax.asp) as a guide:
 
 ```xml
 <?xml version="1.0"?>

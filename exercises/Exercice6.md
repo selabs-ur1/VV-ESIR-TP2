@@ -14,11 +14,11 @@ You may use [javaparser-starter](../code/javaparser-starter) as a starting point
 
 You can find the code (with comments) to answer to this exercise in the code repertory.
 
-We tested our code by using the two examples in the [textbook by Oscar Luis Vera-Pérez](https://oscarlvp.github.io/vandv-classes/) (Listing 16 and 18). The three examples return the right result. You can also find the code in the code/example/EX5 repository.
+We tested our code by using the two examples in the [textbook by Oscar Luis Vera-Pérez](https://oscarlvp.github.io/vandv-classes/) (Listing 16 and 18). The three examples return the right result. You can also find the code in the ``code/example/EX6`` repository.
 
-We obtained the reports (present in code/exercise6/reports) from the examples and 4 projects (commons-collections, commons-cli, commons-lang and malo-project) by executing the same commands as before.
+We obtained the reports (present in ``code/exercise6/reports``) from the examples and 4 projects (``commons-collections``, ``commons-cli``, ``commons-lang`` and ``malo-project``) by executing the same commands as before.
 
-You can also view the associated histograms (made thanks to the same way as before) in code/exercise6/histograms for the four projects. Let's compare them by observing the histograms and the output of this program :
+You can also view the associated histograms (made thanks to the same way as before) in ``code/exercise6/histograms`` for the four projects. Let us compare them by observing the histograms and the output of this program :
 
 ``` text
 === MaloProject ===
@@ -72,20 +72,119 @@ Number of classes with a TCC value equal to 0: 170
 Number of classes with a TCC value equal to 1: 0
 ```
 
-
 In the results, we can notice that some classes may have a TCC value of NaN. It is related to the fact that classes may not have 0 or 1 method, so the calculation will be divided by 0.
 
-After that, we just fixed it by setting the maximum number of possible connections value to 1.
+To address this, we handled the division by 0 case by capping the possible number of connections at 1, to ensure that classes with very few methods (or no cohesive interaction) still receive a valid TCC value, though it will likely be 0 in these cases.
 
-Then we added the Graphviz implementation.
+Afterward, we implemented the dependency graph using Graphviz to provide a visual representation of method interactions within the class. Each node represents a method, and edges between nodes represent method-to-method cohesion based on shared attributes.
 
 So under the TCC score, you will find in the report the graph visualization.
+
 ```
 Optional[me.astri.idleBot.GameBot.entities.BigNumber] : 0.33684212
-strict graph {add;add -- subtract;add -- multiply;add -- divide;add -- pow;add -- negate;add -- getUnitNotation;add -- getScientificNotation;add -- getNotation;add -- toScientificNotation;add -- toDouble;add -- compareTo;subtract;subtract -- multiply;subtract -- divide;subtract -- pow;subtract -- negate;subtract -- getUnitNotation;subtract -- getScientificNotation;subtract -- toScientificNotation;subtract -- toDouble;subtract -- compareTo;multiply;multiply -- divide;multiply -- pow;multiply -- negate;multiply -- getUnitNotation;multiply -- getScientificNotation;multiply -- getNotation;multiply -- toScientificNotation;multiply -- toDouble;multiply -- compareTo;divide;divide -- pow;divide -- negate;divide -- getUnitNotation;divide -- getScientificNotation;divide -- getNotation;divide -- toScientificNotation;divide -- toDouble;divide -- compareTo;pow;pow -- negate;pow -- getUnitNotation;pow -- getScientificNotation;pow -- getNotation;pow -- toScientificNotation;pow -- toDouble;pow -- compareTo;negate;negate -- getUnitNotation;negate -- getScientificNotation;negate -- toScientificNotation;negate -- toDouble;negate -- compareTo;add;subtract;multiply;divide;pow;negate;getRoundVal;getUnitNotation;getUnitNotation -- getScientificNotation;getUnitNotation -- getNotation;getUnitNotation -- toScientificNotation;getUnitNotation -- toDouble;getUnitNotation -- compareTo;getScientificNotation;getScientificNotation -- getNotation;getScientificNotation -- toScientificNotation;getScientificNotation -- toDouble;getScientificNotation -- compareTo;toString;getNotation;getNotation -- toScientificNotation;getNotation -- toDouble;getNotation -- compareTo;toScientificNotation;toScientificNotation -- toDouble;toScientificNotation -- compareTo;toDouble;toDouble -- compareTo;compareTo;}
+
+strict graph {
+    add;
+    add -- subtract;
+    add -- multiply;
+    add -- divide;
+    add -- pow;
+    add -- negate;
+    add -- getUnitNotation;
+    add -- getScientificNotation;
+    add -- getNotation;
+    add -- toScientificNotation;
+    add -- toDouble;
+    add -- compareTo;
+
+    subtract;
+    subtract -- multiply;
+    subtract -- divide;
+    subtract -- pow;
+    subtract -- negate;
+    subtract -- getUnitNotation;
+    subtract -- getScientificNotation;
+    subtract -- toScientificNotation;
+    subtract -- toDouble;
+    subtract -- compareTo;
+
+    multiply;
+    multiply -- divide;
+    multiply -- pow;
+    multiply -- negate;
+    multiply -- getUnitNotation;
+    multiply -- getScientificNotation;
+    multiply -- getNotation;
+    multiply -- toScientificNotation;
+    multiply -- toDouble;
+    multiply -- compareTo;
+
+    divide;
+    divide -- pow;
+    divide -- negate;
+    divide -- getUnitNotation;
+    divide -- getScientificNotation;
+    divide -- getNotation;
+    divide -- toScientificNotation;
+    divide -- toDouble;
+    divide -- compareTo;
+
+    pow;
+    pow -- negate;
+    pow -- getUnitNotation;
+    pow -- getScientificNotation;
+    pow -- getNotation;
+    pow -- toScientificNotation;
+    pow -- toDouble;
+    pow -- compareTo;
+
+    negate;
+    negate -- getUnitNotation;
+    negate -- getScientificNotation;
+    negate -- toScientificNotation;
+    negate -- toDouble;
+    negate -- compareTo;
+
+    add;
+    subtract;
+    multiply;
+    divide;
+    pow;
+    negate;
+    
+    getRoundVal;
+    getUnitNotation;
+    getUnitNotation -- getScientificNotation;
+    getUnitNotation -- getNotation;
+    getUnitNotation -- toScientificNotation;
+    getUnitNotation -- toDouble;
+    getUnitNotation -- compareTo;
+
+    getScientificNotation;
+    getScientificNotation -- getNotation;
+    getScientificNotation -- toScientificNotation;
+    getScientificNotation -- toDouble;
+    getScientificNotation -- compareTo;
+
+    toString;
+    getNotation;
+    getNotation -- toScientificNotation;
+    getNotation -- toDouble;
+    getNotation -- compareTo;
+
+    toScientificNotation;
+    toScientificNotation -- toDouble;
+    toScientificNotation -- compareTo;
+
+    toDouble;
+    toDouble -- compareTo;
+
+    compareTo;
+}
 ```
-With Dot engine
+
+With Dot engine, the graph is structured in layers, where the relationships between methods are displayed in a hierarchical format.
 ![img.png](img.png)
 
-With circo engine
+With circo engine, it creates a circular layout. It a more compact and visually appealing representation of the cohesion between methods.
 ![img_1.png](img_1.png)

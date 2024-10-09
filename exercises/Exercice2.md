@@ -17,7 +17,9 @@
 
 We executed the command below to run PMD on it and obtain a report named `pmd-report.txt` :
 
-`pmd check -f text -R rulesets/java/quickstart.xml -d ./IdleBot/ -r ./pmd-report.txt`
+```
+pmd check -f text -R rulesets/java/quickstart.xml -d ./IdleBot/ -r ./pmd-report.txt
+```
 
 You can fin this report in the code repository.
 
@@ -25,9 +27,20 @@ You can fin this report in the code repository.
 
 Here is an issue found by PMD that could be solved. (line 83 in the report)
 
-```java
-    // .\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\__debug\DebugCommands.java:31:    
-    // SwitchStmtsShouldHaveDefault: Switch statements should be exhaustive, add a default case (or missing enum branches)
+``` text
+.\IdleBot
+    \app
+        \src
+            \main
+                \java
+                    \me
+                        \astri
+                            \idleBot
+                                \GameBot
+                                    \commands
+                                        \__debug
+                                            \DebugCommands.java:31:    
+SwitchStmtsShouldHaveDefault: Switch statements should be exhaustive, add a default case (or missing enum branches)
 ```
 
 The problem reported by PMD is in the file ``DebugCommands.java``. It concerns the absence of a default case in a switch instruction, which is therefore not exhaustive. This means that if none of the specific cases are encountered, the program will not know how to handle the situation.
@@ -55,29 +68,43 @@ We can easily correct this mistake and it is important to make the code more rob
 
 ### 3. False Positive
 
-PMD has reported an warning called UnusedPrivateMethod ( Avoid unused private methods such as 'add(int, int)' ).
+PMD has reported an warning called `UnusedPrivateMethod`, it means avoid unused private methods such as `add(int, int)`.
 
-The file is .\commons-collections\src\main\java\org\apache\commons\collections4\bloomfilter\ArrayCountingBloomFilter.java:121.
+The file and associated line are : 
 
-So when we look at the code, we see that add is called but weirdly. When we look at the public version of add, we see this::add. In this case, it will be the private method that will be provided, because processCells is asking for a Runnable with two int arguments. It is really tricky, even for us. I don't know why Java accepts that in the language.  
-``` java
-    @Override
-    public boolean add(final CellExtractor other) {
-        Objects.requireNonNull(other, "other");
-        other.processCells(this::add);
-        return isValid();
-    }
-
-    private boolean add(final int idx, final int addend) {
-        try {
-            final int updated = cells[idx] + addend;
-            state |= updated;
-            cells[idx] = updated;
-            return true;
-        } catch (final IndexOutOfBoundsException e) {
-            throw new IllegalArgumentException(
-                    String.format("Filter only accepts values in the [0,%d) range", getShape().getNumberOfBits()), e);
-        }
-    }
+```
+.\commons-collections
+    \src
+        \main
+            \java
+                \org
+                    \apache
+                        \commons
+                            \collections4
+                                \bloomfilter
+                                    \ArrayCountingBloomFilter.java:121
 ```
 
+
+So when we look at the code, we see that add is called but weirdly. When we look at the public version of ``add``, we see ``this::add``. In this case, it will be the private method that will be provided, because ``processCells`` is asking for a ``Runnable`` with two int arguments. It is really tricky, even for us. We do not know why Java accepts that in the language.  
+
+``` java
+@Override
+public boolean add(final CellExtractor other) {
+    Objects.requireNonNull(other, "other");
+    other.processCells(this::add);
+    return isValid();
+}
+
+private boolean add(final int idx, final int addend) {
+    try {
+        final int updated = cells[idx] + addend;
+        state |= updated;
+        cells[idx] = updated;
+        return true;
+    } catch (final IndexOutOfBoundsException e) {
+        throw new IllegalArgumentException(
+            String.format("Filter only accepts values in the [0,%d) range", getShape().getNumberOfBits()), e);
+    }
+}
+```
