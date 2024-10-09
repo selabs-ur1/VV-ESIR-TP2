@@ -1,0 +1,2 @@
+Optional[example.Group] : 0.0
+Optional[example.Point] : 0.8333333

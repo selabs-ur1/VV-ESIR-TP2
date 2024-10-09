@@ -1,0 +1,3 @@
+Optional[example.EX5.GetMonthName] getMonthName : 13
+Optional[example.EX5.Max] max : 4
+Optional[example.EX5.SumOfNonPrimes] sumOfNonPrimes : 5

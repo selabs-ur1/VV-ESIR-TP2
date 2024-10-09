@@ -1,0 +1,354 @@
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\BotGame.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\BotGame.java:11:	UnnecessaryImport:	Unused import 'me.astri.idleBot.GameBot.commands.noCategory.*'
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\BotGame.java:12:	UnnecessaryImport:	Unused import 'me.astri.idleBot.GameBot.commands.settings.*'
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\BigNumber.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\BigNumber.java:124:	LocalVariableNamingConventions:	The local variable name 'tweaked_value' doesn't match '[a-z][a-zA-Z0-9]*'
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\BigNumber.java:125:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\BigNumber.java:129:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\BigNumber.java:135:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\BigNumber.java:147:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\BigNumber.java:148:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\BigNumber.java:179:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\BigNumber.java:180:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\ColorEnum.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\Cookie.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\PlayerChestHunt.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\equipment\Equipment.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\equipment\Equipment.java:44:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\equipment\Equipment.java:45:	LocalVariableNamingConventions:	The local variable name 'str_upgrade' doesn't match '[a-z][a-zA-Z0-9]*'
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\equipment\Equipment.java:75:	LocalVariableNamingConventions:	The local variable name 'tmp_price' doesn't match '[a-z][a-zA-Z0-9]*'
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\minions\Minion.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\minions\Minion.java:25:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\minions\MinionTypes.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\minions\PlayerMinions.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\minions\PlayerMinions.java:9:	LooseCoupling:	Avoid using implementation types like 'LinkedHashMap'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\minions\PlayerMinions.java:25:	LooseCoupling:	Avoid using implementation types like 'LinkedHashMap'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\minions\PlayerMinions.java:26:	LooseCoupling:	Avoid using implementation types like 'LinkedHashMap'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\minions\PlayerMinions.java:27:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\minions\PlayerMinions.java:32:	LooseCoupling:	Avoid using implementation types like 'LinkedHashMap'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\minions\PlayerMinions.java:60:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\player\BotUser.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\player\BotUser.java:25:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\player\Player.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\player\Player.java:21:	UnusedPrivateField:	Avoid unused private fields such as 'sp'.
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\player\Player.java:22:	UnusedPrivateField:	Avoid unused private fields such as 'souls'.
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\player\Player.java:23:	UnusedPrivateField:	Avoid unused private fields such as 'spPrice'.
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\player\Player.java:26:	LooseCoupling:	Avoid using implementation types like 'LinkedHashMap'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\player\Player.java:43:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\player\Player.java:45:	LocalVariableNamingConventions:	The local variable name 'JsonEquipment' doesn't match '[a-z][a-zA-Z0-9]*'
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\player\Player.java:50:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\upgrade\Upgrade.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\upgrade\conditional\ConditionalUpgrade.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\upgrade\conditional\EquipmentUpgrade.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\upgrade\conditional\EquipmentUpgrade.java:83:	FormalParameterNamingConventions:	The method parameter name 'JSONEqUpgrades' doesn't match '[a-z][a-zA-Z0-9]*'
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\upgrade\conditional\EquipmentUpgrade.java:83:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\upgrade\conditional\EquipmentUpgrade.java:83:	LooseCoupling:	Avoid using implementation types like 'LinkedHashMap'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\upgrade\conditional\EquipmentUpgrade.java:83:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\upgrade\conditional\EquipmentUpgrade.java:84:	LocalVariableNamingConventions:	The local variable name 'JSONEqList' doesn't match '[a-z][a-zA-Z0-9]*'
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\upgrade\conditional\EquipmentUpgrade.java:87:	LooseCoupling:	Avoid using implementation types like 'LinkedHashMap'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\upgrade\conditional\EquipmentUpgrade.java:89:	LocalVariableNamingConventions:	The local variable name 'JSONUpgrades' doesn't match '[a-z][a-zA-Z0-9]*'
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\upgrade\management\PlayerUpgrades.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\upgrade\management\PlayerUpgrades.java:59:	UseCollectionIsEmpty:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\upgrade\management\UpgradeBundle.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\upgrade\management\UpgradeBundle.java:12:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\upgrade\management\UpgradeBundle.java:18:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\upgrade\management\UpgradeBundle.java:18:	LooseCoupling:	Avoid using implementation types like 'LinkedHashMap'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\upgrade\management\UpgradeBundle.java:20:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\upgrade\management\UpgradeBundle.java:31:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\upgrade\management\UpgradeBundle.java:36:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\upgrade\management\UpgradeManager.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\upgrade\management\UpgradeManager.java:14:	UseUtilityClass:	This utility class has a non-private constructor
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\upgrade\management\UpgradeManager.java:15:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\upgrade\management\UpgradeManager.java:16:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\upgrade\management\UpgradeManager.java:16:	LooseCoupling:	Avoid using implementation types like 'LinkedHashMap'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\upgrade\management\UpgradeManager.java:17:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\upgrade\management\UpgradeManager.java:20:	LocalVariableNamingConventions:	The local variable name 'JSONUpgrades' doesn't match '[a-z][a-zA-Z0-9]*'
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\upgrade\management\UpgradeManager.java:25:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\upgrade\management\UpgradeManager.java:25:	LooseCoupling:	Avoid using implementation types like 'LinkedHashMap'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\upgrade\management\UpgradeManager.java:29:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\upgrade\management\UpgradeManager.java:33:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\upgrade\unconditional\MinionUpgrade.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\upgrade\unconditional\UnconditionalUpgrade.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\upgrade\unconditional\UnconditionalUpgrade.java:18:	FormalParameterNamingConventions:	The method parameter name 'JSONUcondUpgrades' doesn't match '[a-z][a-zA-Z0-9]*'
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\upgrade\unconditional\UnconditionalUpgrade.java:18:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\Entities\upgrade\unconditional\UnconditionalUpgrade.java:18:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\__debug\DebugCommands.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\__debug\DebugCommands.java:5:	UnnecessaryImport:	Unused import 'me.astri.idleBot.GameBot.entities.equipment.Equipment'
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\__debug\DebugCommands.java:6:	UnnecessaryImport:	Unused import 'me.astri.idleBot.GameBot.entities.minions.Minion'
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\__debug\DebugCommands.java:7:	UnnecessaryImport:	Unused import 'me.astri.idleBot.GameBot.entities.minions.PlayerMinions'
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\__debug\DebugCommands.java:11:	UnnecessaryImport:	Unused import 'net.dv8tion.jda.api.EmbedBuilder'
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\__debug\DebugCommands.java:18:	UnnecessaryImport:	Unused import 'java.awt.*'
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\__debug\DebugCommands.java:27:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\__debug\DebugCommands.java:30:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\__debug\DebugCommands.java:31:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\__debug\DebugCommands.java:45:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\__debug\DebugCommands.java:47:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\__debug\DebugCommands.java:67:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\__debug\DebugCommands.java:68:	DoubleBraceInitialization:	Double-brace initialization should be avoided
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\__debug\DebugCommands.java:95:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\__debug\DebugCommands.java:97:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\cookie\Cookie.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\cookie\Cookie_display.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\cookie\Cookie_display.java:12:	ClassNamingConventions:	The class name 'Cookie_display' doesn't match '[A-Z][a-zA-Z0-9]*'
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\cookie\Cookie_display.java:21:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\cookie\Cookie_give.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\cookie\Cookie_give.java:17:	ClassNamingConventions:	The class name 'Cookie_give' doesn't match '[A-Z][a-zA-Z0-9]*'
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\cookie\Cookie_give.java:27:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\cookie\Cookie_give.java:30:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_display.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_display.java:20:	ClassNamingConventions:	The class name 'Equipment_display' doesn't match '[A-Z][a-zA-Z0-9]*'
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_display.java:34:	FormalParameterNamingConventions:	The method parameter name 'event_author' doesn't match '[a-z][a-zA-Z0-9]*'
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_display.java:35:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_display.java:36:	AssignmentInOperand:	Avoid assignments in operands
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_display.java:36:	AssignmentInOperand:	Avoid assignments in operands
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_display.java:37:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_display.java:43:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_display.java:47:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_display.java:49:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_display.java:53:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_image.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_image.java:12:	UnnecessaryImport:	Unused import 'net.dv8tion.jda.api.entities.User'
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_image.java:35:	ClassNamingConventions:	The class name 'Equipment_image' doesn't match '[A-Z][a-zA-Z0-9]*'
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_image.java:36:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_image.java:37:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_image.java:57:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_image.java:74:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_image.java:76:	CloseResource:	Ensure that resources like this ImageInputStream object are closed after use
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_image.java:92:	LocalVariableNamingConventions:	The local variable name 'JSONUpgrades' doesn't match '[a-z][a-zA-Z0-9]*'
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_image.java:113:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_image.java:118:	UselessParentheses:	Useless parentheses.
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_image.java:169:	UselessParentheses:	Useless parentheses.
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_image.java:171:	UselessParentheses:	Useless parentheses.
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_upgrade.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_upgrade.java:29:	ClassNamingConventions:	The class name 'Equipment_upgrade' doesn't match '[A-Z][a-zA-Z0-9]*'
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_upgrade.java:60:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_upgrade.java:65:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_upgrade.java:67:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_upgrade.java:70:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_upgrade.java:72:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_upgrade.java:73:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_upgrade.java:74:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_upgrade.java:76:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_upgrade.java:100:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_upgrade.java:108:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_upgrade.java:109:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_upgrade.java:110:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_upgrade.java:112:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_upgrade.java:155:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_upgrade.java:162:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_upgrade.java:163:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_upgrade.java:165:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_upgrade.java:183:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_upgrade.java:186:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_upgrade.java:208:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\equipment\Equipment_upgrade.java:214:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\ChestHunt.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\ChestHunt.java:29:	UnnecessaryImport:	Unused import 'java.util.Arrays'
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\ChestHunt.java:43:	UselessParentheses:	Useless parentheses.
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\ChestHunt.java:46:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\ChestHunt.java:54:	LocalVariableNamingConventions:	The local variable name 'streak_msg' doesn't match '[a-z][a-zA-Z0-9]*'
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\ChestHunt.java:57:	UselessParentheses:	Useless parentheses.
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\ChestHunt.java:80:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\ChestHunt.java:88:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\ChestHunt.java:89:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\ChestHunt.java:91:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\ChestHunt.java:101:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\ChestHunt.java:102:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\ChestHunt.java:113:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\ChestHunt.java:113:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\ChestHunt.java:114:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\ChestHunt.java:115:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\ChestHunt.java:133:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\ChestHunt.java:135:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\ChestHunt.java:145:	LocalVariableNamingConventions:	The final local variable name 'CPS' doesn't match '[a-z][a-zA-Z0-9]*'
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\ChestHunt.java:158:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\ChestHunt.java:167:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\ChestHunt.java:175:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\ChestHunt.java:219:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\Minions.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\Minions.java:37:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\Minions.java:55:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\Minions.java:70:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\Minions.java:77:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\Minions.java:82:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\Minions.java:85:	UselessParentheses:	Useless parentheses.
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\Minions.java:93:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\Minions.java:98:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\Minions.java:100:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\Minions.java:103:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\Minions.java:104:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\Minions.java:108:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\Minions.java:118:	UnconditionalIfStatement:	Do not use if statements that are always true or always false
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\Minions.java:118:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\Minions.java:119:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\Minions.java:121:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\Minions.java:122:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\Minions.java:125:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\Minions.java:155:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\Minions.java:156:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\Minions.java:165:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\Minions.java:183:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\Profile.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\Profile.java:29:	FormalParameterNamingConventions:	The method parameter name 'event_author' doesn't match '[a-z][a-zA-Z0-9]*'
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\Profile.java:30:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\Profile.java:31:	AssignmentInOperand:	Avoid assignments in operands
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\Profile.java:31:	AssignmentInOperand:	Avoid assignments in operands
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\Profile.java:32:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\Profile.java:44:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\Register.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\Register.java:44:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\Register.java:44:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\Register.java:47:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\Reset.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\noCategory\Reset.java:26:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\settings\Settings.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\settings\Settings_setColor.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\settings\Settings_setColor.java:16:	ClassNamingConventions:	The class name 'Settings_setColor' doesn't match '[A-Z][a-zA-Z0-9]*'
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\settings\Settings_setColor.java:43:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\settings\Settings_setColor.java:50:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\settings\Settings_setEphemeral.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\settings\Settings_setEphemeral.java:12:	ClassNamingConventions:	The class name 'Settings_setEphemeral' doesn't match '[A-Z][a-zA-Z0-9]*'
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\settings\Settings_setEphemeral.java:27:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\settings\Settings_setEphemeral.java:29:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\settings\Settings_setLang.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\settings\Settings_setLang.java:13:	ClassNamingConventions:	The class name 'Settings_setLang' doesn't match '[A-Z][a-zA-Z0-9]*'
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\settings\Settings_setLang.java:25:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\settings\Settings_setNotation.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\settings\Settings_setNotation.java:12:	ClassNamingConventions:	The class name 'Settings_setNotation' doesn't match '[A-Z][a-zA-Z0-9]*'
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\settings\Settings_setNotation.java:27:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\settings\Settings_setNotation.java:28:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\upgrades\Upgrades.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\upgrades\Upgrades_buy.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\upgrades\Upgrades_buy.java:25:	ClassNamingConventions:	The class name 'Upgrades_buy' doesn't match '[A-Z][a-zA-Z0-9]*'
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\upgrades\Upgrades_buy.java:31:	FinalFieldCouldBeStatic:	This final field could be made static
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\upgrades\Upgrades_buy.java:36:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\upgrades\Upgrades_buy.java:52:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\upgrades\Upgrades_buy.java:63:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\upgrades\Upgrades_buy.java:114:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\upgrades\Upgrades_buy.java:115:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\upgrades\Upgrades_buy.java:121:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\utils\Say.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\utils\Say.java:6:	UnnecessaryImport:	Unused import 'net.dv8tion.jda.api.entities.TextChannel'
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\commands\utils\Say.java:45:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\dataBase\DataBase.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\dataBase\DataBase.java:8:	UnnecessaryImport:	Unused import 'me.astri.idleBot.GameBot.entities.BigNumber'
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\dataBase\DataBase.java:10:	UnnecessaryImport:	Unused import 'me.astri.idleBot.GameBot.entities.equipment.Equipment'
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\dataBase\DataBase.java:15:	UnnecessaryImport:	Unused import 'me.astri.idleBot.GameBot.utils.Emotes'
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\dataBase\DataBase.java:39:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\dataBase\DataBase.java:41:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\dataBase\DataBase.java:45:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\dataBase\DataBase.java:59:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\dataBase\DataBase.java:59:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'DataBase': 'getUsers' is already in scope
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\dataBase\DataBase.java:65:	CloseResource:	Ensure that resources like this FileWriter object are closed after use
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\dataBase\DataBase.java:70:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\dataBase\DataBase.java:85:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\dataBase\DataBase.java:89:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\dataBase\DataBase.java:96:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\dataBase\DataBase.java:100:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\dataBase\DataBase.java:110:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\dataBase\DataBase.java:156:	EmptyCatchBlock:	Avoid empty catch blocks
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\dataBase\DataBase.java:173:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\dataBase\Gson\GsonIgnoreStrategy.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\dataBase\Gson\GsonIgnored.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\eventWaiter\EventWaiter.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\eventWaiter\EventWaiter.java:15:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\eventWaiter\EventWaiter.java:15:	LooseCoupling:	Avoid using implementation types like 'CopyOnWriteArrayList'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\eventWaiter\EventWaiter.java:25:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\eventWaiter\EventWaiter.java:28:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\eventWaiter\EventWaiter.java:41:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\eventWaiter\EventWaiter.java:41:	DoubleBraceInitialization:	Double-brace initialization should be avoided
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\eventWaiter\Waiter.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\eventWaiter\WaiterAction.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\eventWaiter\WaiterTemplates.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\eventWaiter\WaiterTemplates.java:44:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\eventWaiter\WaiterTemplates.java:50:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\eventWaiter\WaiterTemplates.java:58:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\eventWaiter\WaiterTemplates.java:63:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\game\GameUtils.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\game\PermaActionComponent.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\game\PermaActionComponent.java:18:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\slashCommandHandler\ISlashCommand.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\slashCommandHandler\ISlashCommand.java:16:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\slashCommandHandler\ISlashCommand.java:23:	UncommentedEmptyMethodBody:	Document empty method body
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\slashCommandHandler\ISlashCommand.java:38:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\slashCommandHandler\ISlashCommand.java:40:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\slashCommandHandler\ISlashGenericCommand.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\slashCommandHandler\ISlashGenericCommand.java:21:	UselessParentheses:	Useless parentheses.
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\slashCommandHandler\ISlashSubcommand.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\slashCommandHandler\ISlashSubcommand.java:3:	AbstractClassWithoutAnyMethod:	No abstract method which means that the keyword is most likely used to prevent instantiation. Use a private or protected constructor instead.
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\slashCommandHandler\SlashCommandManager.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\slashCommandHandler\SlashCommandManager.java:20:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\slashCommandHandler\SlashCommandManager.java:21:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\slashCommandHandler\SlashCommandManager.java:21:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\slashCommandHandler\SlashCommandManager.java:29:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\slashCommandHandler\SlashCommandManager.java:35:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\slashCommandHandler\SlashCommandManager.java:37:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\slashCommandHandler\SlashCommandManager.java:45:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\slashCommandHandler\SlashCommandManager.java:70:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\slashCommandHandler\SlashCommandManager.java:71:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\slashCommandHandler\SlashCommandManager.java:73:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\slashCommandHandler\SlashCommandManager.java:84:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\slashCommandHandler\SlashCommandManager.java:85:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\slashCommandHandler\SlashCommandManager.java:104:	UselessParentheses:	Useless parentheses.
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\Config.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\Config.java:3:	UseUtilityClass:	This utility class has a non-private constructor
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\Config.java:5:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\ControlPanel.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\ControlPanel.java:33:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\ControlPanel.java:58:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\ControlPanel.java:62:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\ControlPanel.java:189:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\Emotes.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\Emotes.java:5:	UseUtilityClass:	This utility class has a non-private constructor
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\Emotes.java:6:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\Emotes.java:8:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\Emotes.java:14:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\Font.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\Font.java:28:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\Font.java:29:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\Font.java:29:	DoubleBraceInitialization:	Double-brace initialization should be avoided
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\Font.java:55:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\Font.java:55:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\Font.java:56:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\Font.java:57:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\Font.java:76:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Font': 'ERROR' is already in scope because it is declared in an enclosing type
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\Font.java:105:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\Font.java:106:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\Font.java:132:	CloseResource:	Ensure that resources like this ImageInputStream object are closed after use
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\Lang.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\Lang.java:33:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\Lang.java:33:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\Lang.java:35:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\Lang.java:36:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\Lang.java:37:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Lang': 'values' is already in scope
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\Lang.java:43:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\Lang.java:44:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\Lang.java:46:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\Lang.java:67:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\Lang.java:67:	LocalVariableNamingConventions:	The local variable name 'CSV_lang' doesn't match '[a-z][a-zA-Z0-9]*'
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\Lang.java:68:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\Lang.java:70:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\Utils.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\Utils.java:16:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\Utils.java:17:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\Utils.java:20:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\Utils.java:51:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\Utils.java:52:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\Utils.java:53:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\GameBot\utils\Utils.java:54:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\Main.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\Main.java:9:	UseUtilityClass:	This utility class has a non-private constructor
+.\IdleBot\app\src\main\java\me\astri\idleBot\modBot\commands\Wiki.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\modBot\commands\Wiki.java:11:	UseUtilityClass:	This utility class has a non-private constructor
+.\IdleBot\app\src\main\java\me\astri\idleBot\modBot\commands\Wiki.java:16:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\modBot\commands\Wiki.java:36:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+.\IdleBot\app\src\main\java\me\astri\idleBot\modBot\commands\Wiki.java:47:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\modBot\listeners\Commands.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\modBot\listeners\VoiceRole.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\modBot\listeners\VoiceRole.java:12:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+.\IdleBot\app\src\main\java\me\astri\idleBot\modBot\listeners\VoiceRole.java:13:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\modBot\listeners\VoiceRole.java:19:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+.\IdleBot\app\src\main\java\me\astri\idleBot\modBot\listeners\VoiceRole.java:20:	ControlStatementBraces:	This statement should have braces
+.\IdleBot\app\src\main\java\me\astri\idleBot\modBot\main\BotMod.java:1:	PackageCase:	Package name contains upper case characters
+.\IdleBot\app\src\main\java\me\astri\idleBot\modBot\main\BotMod.java:10:	UseUtilityClass:	This utility class has a non-private constructor

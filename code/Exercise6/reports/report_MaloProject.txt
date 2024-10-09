@@ -1,0 +1,124 @@
+Optional[me.astri.idleBot.GameBot.BotGame] : 0.0
+strict graph {startBot;onReady;}
+Optional[me.astri.idleBot.GameBot.commands.cookie.Cookie] : 0.0
+strict graph {getData;}
+Optional[me.astri.idleBot.GameBot.commands.cookie.Cookie_display] : 0.0
+strict graph {getData;handle;}
+Optional[me.astri.idleBot.GameBot.commands.cookie.Cookie_give] : 0.0
+strict graph {getData;handle;getCooldown;}
+Optional[me.astri.idleBot.GameBot.commands.equipment.Equipment] : 0.0
+strict graph {getData;}
+Optional[me.astri.idleBot.GameBot.commands.equipment.Equipment_display] : 0.0
+strict graph {getData;handle;display;getCooldown;}
+Optional[me.astri.idleBot.GameBot.commands.equipment.Equipment_image] : 0.0
+strict graph {getData;handle;init;getImage;sendImage;getCooldown;}
+Optional[me.astri.idleBot.GameBot.commands.equipment.Equipment_upgrade] : 0.0
+strict graph {getData;handle;askEquipment;askLevel;askCustomLevel;levelUp;getMaxLevel;redoLevelUp;getCooldown;}
+Optional[me.astri.idleBot.GameBot.commands.noCategory.Minions] : 0.0
+strict graph {getData;handle;getEmbed;getProgressionState;getTime;getActionRows;buttonClick;}
+Optional[me.astri.idleBot.GameBot.commands.noCategory.Profile] : 0.0
+strict graph {getData;handle;display;getCooldown;}
+Optional[me.astri.idleBot.GameBot.commands.noCategory.Register] : 0.0
+strict graph {getData;handle;getCooldown;}
+Optional[me.astri.idleBot.GameBot.commands.noCategory.Reset] : 0.0
+strict graph {getData;handle;}
+Optional[me.astri.idleBot.GameBot.commands.settings.Settings] : 0.0
+strict graph {getData;}
+Optional[me.astri.idleBot.GameBot.commands.settings.Settings_setColor] : 0.0
+strict graph {getData;handle;getCooldown;}
+Optional[me.astri.idleBot.GameBot.commands.settings.Settings_setEphemeral] : 0.0
+strict graph {getData;handle;getCooldown;}
+Optional[me.astri.idleBot.GameBot.commands.settings.Settings_setLang] : 0.0
+strict graph {getData;handle;getCooldown;}
+Optional[me.astri.idleBot.GameBot.commands.settings.Settings_setNotation] : 0.0
+strict graph {getData;handle;setNot;getCooldown;}
+Optional[me.astri.idleBot.GameBot.commands.upgrades.Upgrades] : 0.0
+strict graph {getData;}
+Optional[me.astri.idleBot.GameBot.commands.upgrades.Upgrades_buy] : 0.0
+strict graph {getData;handle;getUpgradeDisplay;getButtons;}
+Optional[me.astri.idleBot.GameBot.commands.utils.Say] : 0.0
+strict graph {getData;handle;sendImage;}
+Optional[me.astri.idleBot.GameBot.commands.__debug.DebugCommands] : 0.0
+strict graph {onGuildMessageReceived;give;load;save;prices;ping;emote;shutdown;}
+Optional[me.astri.idleBot.GameBot.dataBase.DataBase] : 0.0
+strict graph {setUsers;getUsers;registerPlayer;getUser;save;load;initNulls;download;upload;onReady;onShutdown;}
+Optional[me.astri.idleBot.GameBot.dataBase.Gson.GsonIgnoreStrategy] : 0.0
+strict graph {shouldSkipClass;shouldSkipField;}
+Optional[me.astri.idleBot.GameBot.entities.BigNumber] : 0.33684212
+strict graph {add;add -- subtract;add -- multiply;add -- divide;add -- pow;add -- negate;add -- getUnitNotation;add -- getScientificNotation;add -- getNotation;add -- toScientificNotation;add -- toDouble;add -- compareTo;subtract;subtract -- multiply;subtract -- divide;subtract -- pow;subtract -- negate;subtract -- getUnitNotation;subtract -- getScientificNotation;subtract -- toScientificNotation;subtract -- toDouble;subtract -- compareTo;multiply;multiply -- divide;multiply -- pow;multiply -- negate;multiply -- getUnitNotation;multiply -- getScientificNotation;multiply -- getNotation;multiply -- toScientificNotation;multiply -- toDouble;multiply -- compareTo;divide;divide -- pow;divide -- negate;divide -- getUnitNotation;divide -- getScientificNotation;divide -- getNotation;divide -- toScientificNotation;divide -- toDouble;divide -- compareTo;pow;pow -- negate;pow -- getUnitNotation;pow -- getScientificNotation;pow -- getNotation;pow -- toScientificNotation;pow -- toDouble;pow -- compareTo;negate;negate -- getUnitNotation;negate -- getScientificNotation;negate -- toScientificNotation;negate -- toDouble;negate -- compareTo;add;subtract;multiply;divide;pow;negate;getRoundVal;getUnitNotation;getUnitNotation -- getScientificNotation;getUnitNotation -- getNotation;getUnitNotation -- toScientificNotation;getUnitNotation -- toDouble;getUnitNotation -- compareTo;getScientificNotation;getScientificNotation -- getNotation;getScientificNotation -- toScientificNotation;getScientificNotation -- toDouble;getScientificNotation -- compareTo;toString;getNotation;getNotation -- toScientificNotation;getNotation -- toDouble;getNotation -- compareTo;toScientificNotation;toScientificNotation -- toDouble;toScientificNotation -- compareTo;toDouble;toDouble -- compareTo;compareTo;}
+Optional[me.astri.idleBot.GameBot.entities.ColorEnum] : 0.0
+strict graph {getColor;}
+Optional[me.astri.idleBot.GameBot.entities.Cookie] : 0.0
+strict graph {giveCookie;getNumber;setCookies;setLastCookie;getLastCookie;}
+Optional[me.astri.idleBot.GameBot.entities.equipment.Equipment] : 0.043956045
+strict graph {levelUp;queryLevelUpgrades;queryLevelUpgrades -- getId;updateCurrentUpgrade;isUnlocked;getLevel;getName;getEmote;getPrice;getPrice -- getPrice;getPrice -- updatePrices;getPrice;getPrice -- updatePrices;getProduction;getBooster;increaseBooster;updatePrices;getId;}
+Optional[me.astri.idleBot.GameBot.entities.minions.Minion] : 0.16483517
+strict graph {endMission;endMission -- getType;endMission -- getLevel;endMission -- isIdle;endMission -- getCPSBonusPerLevel;endMission -- getCPSBonus;endMission -- toString;startMission;startMission -- getEndTime;getType;getType -- getCPSBonusPerLevel;getType -- getCPSBonus;getType -- toString;getLevel;getLevel -- getCPSBonus;isIdle;getEndTime;getCPSBonusPerLevel;getCPSBonusPerLevel -- getCPSBonus;getCPSBonusPerLevel -- toString;getCPSBonus;getCPSBonus -- toString;getDuration;getPrice;getReward;isBought;isBought -- setBought;setBought;toString;}
+Optional[me.astri.idleBot.GameBot.entities.minions.PlayerMinions] : 0.035714287
+strict graph {initMinions;get;getTimeFactor;getPriceFactor;getRewardFactor;getLastMessageid;getLastMessageid -- setLastMessageid;setLastMessageid;getBoost;}
+Optional[me.astri.idleBot.GameBot.entities.player.BotUser] : 0.08888889
+strict graph {getId;getLang;getLang -- setLang;getColor;getColor -- setColor;usesScNotation;usesScNotation -- setUseScNotation;isEphemeral;isEphemeral -- setEphemeral;setLang;setColor;setUseScNotation;setEphemeral;getCookies;}
+Optional[me.astri.idleBot.GameBot.entities.player.Player] : 0.022222223
+strict graph {initEquipments;getEquipment;getUpgrades;getMinions;getChestHunt;getProduction;getCoins;getCoins -- editCoins;editCoins;update;getBoost;}
+Optional[me.astri.idleBot.GameBot.entities.PlayerChestHunt] : 0.0
+strict graph {isUnlocked;setUnlocked;getLastTime;updateLastTime;getStreak;setStreak;}
+Optional[me.astri.idleBot.GameBot.entities.upgrade.conditional.ConditionalUpgrade] : 0.0
+strict graph {getCondition;meetUnlockCondition;}
+Optional[me.astri.idleBot.GameBot.entities.upgrade.conditional.EquipmentUpgrade] : 0.022222223
+strict graph {getMinLvl;getEq;getWeight;getBoost;getCondition;getAction;getAction -- getDescArgs;getTitleId;getDescId;getDescArgs;init;}
+Optional[me.astri.idleBot.GameBot.entities.upgrade.management.UpgradeBundle] : 0.0
+strict graph {getEq;getUncond;}
+Optional[me.astri.idleBot.GameBot.entities.upgrade.management.UpgradeManager.PriceComparator] : 0.0
+strict graph {compare;}
+Optional[me.astri.idleBot.GameBot.entities.upgrade.management.UpgradeManager] : 0.0
+strict graph {initUpgrades;getEqUpgrades;getUnConditionalUpgrades;getUpgrades;}
+Optional[me.astri.idleBot.GameBot.entities.upgrade.unconditional.MinionUpgrade] : 0.0
+strict graph {getTitleId;getDescId;getDescArgs;getAction;}
+Optional[me.astri.idleBot.GameBot.entities.upgrade.unconditional.UnconditionalUpgrade] : 0.0
+strict graph {init;}
+Optional[me.astri.idleBot.GameBot.entities.upgrade.Upgrade] : 0.054545455
+strict graph {getName;getName -- getUpgradeTitle;getIcon;getIcon -- getUpgradeTitle;getPrice;getPrice -- getUpgradeDesc;action;getUpgradeField;getUpgradeTitle;getTitleId;getUpgradeDesc;getDescId;getDescArgs;getAction;}
+Optional[me.astri.idleBot.GameBot.eventWaiter.EventWaiter] : 0.0
+strict graph {onEvent;register;setAutoUnregister;unregister;unregister;resetTimer;}
+Optional[me.astri.idleBot.GameBot.eventWaiter.Waiter] : 0.058479533
+strict graph {getEventType;getEventType -- setEventType;getAction;getAction -- setAction;getAction -- appendAction;getFailureAction;getFailureAction -- setFailureAction;getConditions;getConditions -- setConditions;getAutoRemove;getAutoRemove -- setAutoRemove;getExpirationTime;getExpirationTime -- setExpirationTime;getTimeUnit;getTimeUnit -- setExpirationTime;getTimeoutAction;getTimeoutAction -- setTimeoutAction;getId;setEventType;setAction;setAction -- appendAction;setFailureAction;setConditions;setAutoRemove;setExpirationTime;setTimeoutAction;setId;appendAction;register;}
+Optional[me.astri.idleBot.GameBot.eventWaiter.WaiterAction] : 0.0
+strict graph {getEvent;unregister;resetTimer;}
+Optional[me.astri.idleBot.GameBot.eventWaiter.WaiterTemplates] : 0.0
+strict graph {getKP;numPadEvent;}
+Optional[me.astri.idleBot.GameBot.game.GameUtils] : 0.0
+strict graph {getUser;getUser;}
+Optional[me.astri.idleBot.GameBot.game.PermaActionComponent] : 0.0
+strict graph {onButtonClick;}
+Optional[me.astri.idleBot.GameBot.slashCommandHandler.ISlashCommand] : 0.16666667
+strict graph {getSubCommandDatas;getSubCommandDatas -- getSubcommands;handle;getSubcommands;getCommandPrivileges;}
+Optional[me.astri.idleBot.GameBot.slashCommandHandler.ISlashGenericCommand] : 0.0
+strict graph {getData;handle;hasPermission;guildOnly;isEphemeral;getCooldown;}
+Optional[me.astri.idleBot.GameBot.slashCommandHandler.ISlashSubcommand] : 0.0
+strict graph {}
+Optional[me.astri.idleBot.GameBot.slashCommandHandler.SlashCommandManager] : 0.0
+strict graph {getISlashCommand;onSlashCommand;getAllCommandData;getCooldown;updateJDACommands;clearJDACommands;updateGuildCommands;clearGuildCommands;}
+Optional[me.astri.idleBot.GameBot.utils.Config] : 0.0
+strict graph {get;}
+Optional[me.astri.idleBot.GameBot.utils.ControlPanel] : 0.0
+strict graph {onReady;onButtonClick;askForTogglePermissionsWaiter;askForGuildsWaiter;shutdown;}
+Optional[me.astri.idleBot.GameBot.utils.Emotes] : 0.0
+strict graph {get;init;}
+Optional[me.astri.idleBot.GameBot.utils.Font.Align] : 0.0
+strict graph {}
+Optional[me.astri.idleBot.GameBot.utils.Font] : 0.0
+strict graph {getImage;getImage;init;}
+Optional[me.astri.idleBot.GameBot.utils.Lang] : 0.1
+strict graph {getName;getChoices;get;get -- loadLang;fixString;loadLang;}
+Optional[me.astri.idleBot.GameBot.utils.Utils] : 0.0
+strict graph {readCSV;readFile;addReactions;hasBotReacted;timeParser;}
+Optional[me.astri.idleBot.Main] : 0.0
+strict graph {main;}
+Optional[me.astri.idleBot.modBot.commands.Wiki] : 0.0
+strict graph {handle;readOnlineFile;}
+Optional[me.astri.idleBot.modBot.listeners.Commands] : 0.0
+strict graph {onGuildMessageReceived;}
+Optional[me.astri.idleBot.modBot.listeners.VoiceRole] : 0.0
+strict graph {onGuildVoiceJoin;onGuildVoiceLeave;}
+Optional[me.astri.idleBot.modBot.main.BotMod] : 0.0
+strict graph {startBot;}
