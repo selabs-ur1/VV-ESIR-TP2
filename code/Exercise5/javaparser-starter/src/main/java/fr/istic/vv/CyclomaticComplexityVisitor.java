@@ -15,22 +15,29 @@ public class CyclomaticComplexityVisitor extends VoidVisitorAdapter<Void> {
         super.visit(method, arg);
         
         String methodName = method.getNameAsString();
-        String className = method.findAncestor(ClassOrInterfaceDeclaration.class).map(ClassOrInterfaceDeclaration::getNameAsString).orElse("Unknown");
+        String className = method.findAncestor(ClassOrInterfaceDeclaration.class)
+            .map(ClassOrInterfaceDeclaration::getNameAsString)
+            .orElse("Unknown");
+        
+        // Obtenir les types de paramètres sous forme de chaîne séparée par des virgules
+        String parameterTypes = method.getParameters().stream()
+            .map(param -> param.getType().toString())
+            .reduce((a, b) -> a + ", " + b)
+            .orElse("");
         
         int cyclomaticComplexity = calculateCyclomaticComplexity(method);
         
-        methodComplexityMap.put(methodName, new MethodInfo(className, methodName, cyclomaticComplexity));
+        methodComplexityMap.put(methodName, new MethodInfo(className, methodName, parameterTypes, cyclomaticComplexity));
     }
 
     private int calculateCyclomaticComplexity(MethodDeclaration method) {
-        // Simple implementation to count control flow statements
-        int complexity = 1; // Start with 1 for the method itself
+        int complexity = 1; // Démarre avec 1 pour la méthode elle-même
         complexity += method.findAll(com.github.javaparser.ast.expr.BinaryExpr.class).size();
         complexity += method.findAll(com.github.javaparser.ast.stmt.IfStmt.class).size();
         complexity += method.findAll(com.github.javaparser.ast.stmt.WhileStmt.class).size();
         complexity += method.findAll(com.github.javaparser.ast.stmt.ForStmt.class).size();
         complexity += method.findAll(com.github.javaparser.ast.stmt.SwitchStmt.class).size();
-        complexity += method.findAll(com.github.javaparser.ast.stmt.TryStmt.class).size(); // Handle try-catch blocks if needed
+        complexity += method.findAll(com.github.javaparser.ast.stmt.TryStmt.class).size(); // Prendre en compte les blocs try-catch
         return complexity;
     }
 
@@ -41,17 +48,19 @@ public class CyclomaticComplexityVisitor extends VoidVisitorAdapter<Void> {
     public static class MethodInfo {
         String className;
         String methodName;
+        String parameterTypes; // Champ pour les types de paramètres
         int cyclomaticComplexity;
 
-        public MethodInfo(String className, String methodName, int cyclomaticComplexity) {
+        public MethodInfo(String className, String methodName, String parameterTypes, int cyclomaticComplexity) {
             this.className = className;
             this.methodName = methodName;
+            this.parameterTypes = parameterTypes;
             this.cyclomaticComplexity = cyclomaticComplexity;
         }
 
         @Override
         public String toString() {
-            return className + "." + methodName + ": CC = " + cyclomaticComplexity;
+            return className + "." + methodName + " (" + parameterTypes + "): CC = " + cyclomaticComplexity;
         }
     }
 }
